@@ -1,5 +1,6 @@
 // dbConnect.js
 const { Sequelize } = require("sequelize");
+const logger = require('./logger'); // Importar Winston
 
 const sequelize = new Sequelize(
   process.env.DATABASE,
@@ -28,10 +29,10 @@ const sequelize = new Sequelize(
 sequelize
   .authenticate()
   .then(() => {
-    console.log("Base de datos conectada!!!");
+    logger.info("Base de datos conectada!!!"); // Reemplazar console.log con logger.info
   })
   .catch((error) => {
-    console.error("Error al conectar a la base de datos:", error);
+    logger.error("Error al conectar a la base de datos: " + error.message); // Reemplazar console.error con logger.error
     throw error;
   });
 

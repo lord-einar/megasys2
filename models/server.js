@@ -1,4 +1,5 @@
 const express = require('express');
+const logger = require('../config/logger'); // Importar Winston
 const initializeDatabase = require('../config/dbConnection');
 const initializeMiddlewares = require('../middlewares/middlewares');
 const initializeRoutes = require('../routes/routes');
@@ -12,11 +13,13 @@ class Server {
   async init() {
     try {
       await initializeDatabase();
+      logger.info('Conexión a la base de datos establecida correctamente.');
       this.initExpress();
       initializeMiddlewares(this.app);
       initializeRoutes(this.app);
+      logger.info('Inicialización del servidor completada correctamente.');
     } catch (error) {
-      console.error('Error durante la inicialización del servidor:', error);
+      logger.error('Error durante la inicialización del servidor: ' + error.message);
     }
   }
 
@@ -26,11 +29,12 @@ class Server {
 
   listen() {
     if (!this.app) {
+      logger.error('Express no ha sido inicializado correctamente.');
       throw new Error('Express no ha sido inicializado correctamente.');
     }
 
     this.app.listen(this.port, () => {
-      console.log(`Servidor escuchando en http://localhost:${this.port}`);
+      logger.info(`Servidor escuchando en http://localhost:${this.port}`);
     });
   }
 }

@@ -1,35 +1,37 @@
-const User = require("../models/User");
-const dbHelpers = require("../utils/dbHelpers");
+// controllers/users.js
+const BaseService = require('../services/baseService');
+const User = require('../models/User');
 
+const userService = new BaseService(User);
 
 const userGET = async (req, res) => {
   try {
-    const usuarios = await dbHelpers.findAllOrdered(User);
+    const usuarios = await userService.getAll();
     res.json(usuarios);
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
 };
-
 
 const userActiveGET = async (req, res) => {
   try {
-    const usuarios = await dbHelpers.findAllOrdered(User, 'nombre', { active: 1 });
+    const usuarios = await userService.getAll('nombre', { active: 1 });
     res.json(usuarios);
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
 };
 
-
 const userPOST = async (req, res) => {
-  const { nombre, user } = req.body;
-
-  await User.sync({ force: false });
-  const usuarios = await User.create({ nombre, user });
-
-  res.json(usuarios);
+  try {
+    const userData = req.body;
+    const newUser = await userService.create(userData);
+    res.status(201).json(newUser);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
 };
+
 
 
 module.exports = {
