@@ -1,21 +1,26 @@
 const User = require("../models/User");
+const dbHelpers = require("../utils/dbHelpers");
 
 
 const userGET = async (req, res) => {
-    res.status(200).send('okUser GET')
-//   const usuarios = await User.findAll({ order: [["nombre", "ASC"]] });
-
-//   res.json(usuarios);
+  try {
+    const usuarios = await dbHelpers.findAllOrdered(User);
+    res.json(usuarios);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
 };
+
 
 const userActiveGET = async (req, res) => {
-  const usuarios = await User.findAll({
-    where: { active: 1 },
-    order: [["nombre", "ASC"]],
-  });
-
-  res.json(usuarios);
+  try {
+    const usuarios = await dbHelpers.findAllOrdered(User, 'nombre', { active: 1 });
+    res.json(usuarios);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
 };
+
 
 const userPOST = async (req, res) => {
   const { nombre, user } = req.body;
