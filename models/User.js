@@ -1,30 +1,25 @@
-const { Sequelize, DataTypes, Model } = require("sequelize");
-
-const sequelize = new Sequelize(
-  process.env.DATABASE,
-  process.env.USER,
-  process.env.PASS,
-  {
-    host: "localhost",
-    dialect: "mysql",
-  }
-);
+const { DataTypes, Model } = require("sequelize");
+const sequelize = require("../config/dbConnect");
 
 class User extends Model {}
 
 User.init(
   {
-    id: {
+    id_user: {
       type: DataTypes.UUID,
       defaultValue: DataTypes.UUIDV4,
       primaryKey: true,
     },
-    user: {
-        type: DataTypes.STRING,
-        allowNull: false,
-    },
     nombre: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    email: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    telefono: {
+      type: DataTypes.STRING,
       allowNull: false,
     },
     active: {
