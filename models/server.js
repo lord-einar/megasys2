@@ -1,8 +1,9 @@
-const express = require('express');
-const logger = require('../config/logger'); // Importar Winston
-const initializeDatabase = require('../config/dbConnection');
-const initializeMiddlewares = require('../middlewares/middlewares');
-const initializeRoutes = require('../routes/routes');
+const express = require("express");
+const path = require("path");
+const logger = require("../config/logger"); // Importar Winston
+const initializeDatabase = require("../config/dbConnection");
+const initializeMiddlewares = require("../middlewares/middlewares");
+const initializeRoutes = require("../routes/routes");
 
 class Server {
   constructor() {
@@ -12,25 +13,29 @@ class Server {
 
   async init() {
     try {
-      await initializeDatabase();
-      logger.info('Conexión a la base de datos establecida correctamente.');
+      initializeDatabase();
+      logger.info("Conexión a la base de datos establecida correctamente.");
       this.initExpress();
       initializeMiddlewares(this.app);
       initializeRoutes(this.app);
-      logger.info('Inicialización del servidor completada correctamente.');
+      logger.info("Inicialización del servidor completada correctamente.");
     } catch (error) {
-      logger.error('Error durante la inicialización del servidor: ' + error.message);
+      logger.error(
+        "Error durante la inicialización del servidor: " + error.message
+      );
     }
   }
 
   initExpress() {
     this.app = express();
+    this.app.set("view engine", "ejs");
+    this.app.set("views", path.join(__dirname, "../views"));
   }
 
   listen() {
     if (!this.app) {
-      logger.error('Express no ha sido inicializado correctamente.');
-      throw new Error('Express no ha sido inicializado correctamente.');
+      logger.error("Express no ha sido inicializado correctamente.");
+      throw new Error("Express no ha sido inicializado correctamente.");
     }
 
     this.app.listen(this.port, () => {

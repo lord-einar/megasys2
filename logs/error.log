@@ -1,0 +1,16 @@
+2024-10-18T12:47:06.172Z [[31merror[39m]: Error al conectar a la base de datos: (conn:-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1011ms
+2024-10-18T12:48:31.703Z [[31merror[39m]: Error al conectar a la base de datos: (conn:302558, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1004ms
+2024-10-18T12:49:50.132Z [[31merror[39m]: Error al conectar a la base de datos: (conn:-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1014ms
+2024-10-18T13:02:22.106Z [[31merror[39m]: Error al conectar a la base de datos: (conn:-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1012ms
+2024-10-18T13:07:10.368Z [[31merror[39m]: Error al conectar a la base de datos: (conn:-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1007ms
+2024-10-18T13:07:32.756Z [[31merror[39m]: Error al conectar a la base de datos: (conn:302918, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1097ms
+2024-10-18T13:13:27.700Z [[31merror[39m]: Error al conectar a la base de datos: (conn:-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1005ms
+2024-10-18T13:13:55.929Z [[31merror[39m]: Error al conectar a la base de datos: (conn:-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1016ms
+2024-10-18T13:14:11.900Z [[31merror[39m]: Error al conectar a la base de datos: (conn:303962, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1014ms
+2024-10-18T13:23:26.979Z [[31merror[39m]: Error al conectar a la base de datos: (conn:-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1002ms
+2024-10-18T13:23:40.270Z [[31merror[39m]: Error al conectar a la base de datos: (conn:304980, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1012ms
+2024-10-18T14:02:57.728Z [[31merror[39m]: Error al conectar la base de datos: (conn:-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1004ms
+2024-10-18T14:03:19.123Z [[31merror[39m]: Error al conectar la base de datos: (conn:-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1003ms
+2024-10-18T14:03:19.126Z [[31merror[39m]: Error durante la inicialización del servidor: (conn:-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1003ms
+2024-10-18T14:03:19.126Z [[31merror[39m]: Express no ha sido inicializado correctamente.
+2024-10-18T14:03:59.683Z [[31merror[39m]: Error al conectar la base de datos: (conn:306300, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1011ms

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard</title>
+</head>
+<body>
+  <h1>Bienvenido, <%= displayName %></h1>
+  <p>Tu correo electrónico es: <%= email %></p>
+
+  <% if (groups && groups.length > 0) { %>
+    <h2>Tus grupos:</h2>
+    <ul>
+      <% groups.forEach(function(group) { %>
+        <li><%= group %></li>
+      <% }); %>
+    </ul>
+  <% } else { %>
+    <p>No se encontraron grupos.</p>
+  <% } %>
+</body>
+</html>

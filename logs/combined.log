@@ -25,3 +25,363 @@
 2024-10-17T16:58:36.794Z [[32minfo[39m]: Conexión a la base de datos establecida correctamente.
 2024-10-17T16:58:36.796Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
 2024-10-17T16:58:36.798Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-18T12:47:06.172Z [[31merror[39m]: Error al conectar a la base de datos: (conn:-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1011ms
+2024-10-18T12:48:31.703Z [[31merror[39m]: Error al conectar a la base de datos: (conn:302558, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1004ms
+2024-10-18T12:49:50.132Z [[31merror[39m]: Error al conectar a la base de datos: (conn:-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1014ms
+2024-10-18T13:02:22.106Z [[31merror[39m]: Error al conectar a la base de datos: (conn:-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1012ms
+2024-10-18T13:07:10.368Z [[31merror[39m]: Error al conectar a la base de datos: (conn:-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1007ms
+2024-10-18T13:07:32.756Z [[31merror[39m]: Error al conectar a la base de datos: (conn:302918, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1097ms
+2024-10-18T13:13:27.700Z [[31merror[39m]: Error al conectar a la base de datos: (conn:-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1005ms
+2024-10-18T13:13:54.903Z [[32minfo[39m]: Conexión a la base de datos establecida correctamente.
+2024-10-18T13:13:54.908Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-18T13:13:55.721Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-18T13:13:55.929Z [[31merror[39m]: Error al conectar a la base de datos: (conn:-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1016ms
+2024-10-18T13:14:10.874Z [[32minfo[39m]: Conexión a la base de datos establecida correctamente.
+2024-10-18T13:14:10.881Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-18T13:14:11.596Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-18T13:14:11.900Z [[31merror[39m]: Error al conectar a la base de datos: (conn:303962, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1014ms
+2024-10-18T13:23:25.966Z [[32minfo[39m]: Conexión a la base de datos establecida correctamente.
+2024-10-18T13:23:25.972Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-18T13:23:26.708Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-18T13:23:26.979Z [[31merror[39m]: Error al conectar a la base de datos: (conn:-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1002ms
+2024-10-18T13:23:39.246Z [[32minfo[39m]: Conexión a la base de datos establecida correctamente.
+2024-10-18T13:23:39.253Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-18T13:23:39.959Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-18T13:23:40.270Z [[31merror[39m]: Error al conectar a la base de datos: (conn:304980, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1012ms
+2024-10-18T13:58:19.891Z [[32minfo[39m]: Conexión a la base de datos establecida correctamente.
+2024-10-18T13:58:19.897Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-18T13:58:20.670Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-18T14:01:02.649Z [[32minfo[39m]: Conexión a la base de datos establecida correctamente.
+2024-10-18T14:01:02.655Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-18T14:01:03.375Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-18T14:01:41.145Z [[32minfo[39m]: Conexión a la base de datos establecida correctamente.
+2024-10-18T14:01:41.151Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-18T14:01:41.847Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-18T14:02:27.810Z [[32minfo[39m]: Conexión a la base de datos establecida correctamente.
+2024-10-18T14:02:27.816Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-18T14:02:28.549Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-18T14:02:57.728Z [[31merror[39m]: Error al conectar la base de datos: (conn:-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1004ms
+2024-10-18T14:03:19.123Z [[31merror[39m]: Error al conectar la base de datos: (conn:-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1003ms
+2024-10-18T14:03:19.126Z [[31merror[39m]: Error durante la inicialización del servidor: (conn:-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1003ms
+2024-10-18T14:03:19.126Z [[31merror[39m]: Express no ha sido inicializado correctamente.
+2024-10-18T14:03:39.347Z [[32minfo[39m]: Conexión a la base de datos establecida correctamente.
+2024-10-18T14:03:39.353Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-18T14:03:40.072Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-18T14:03:41.747Z [[32minfo[39m]: Base de datos sincronizada con éxito
+2024-10-18T14:03:58.659Z [[32minfo[39m]: Conexión a la base de datos establecida correctamente.
+2024-10-18T14:03:58.666Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-18T14:03:59.378Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-18T14:03:59.683Z [[31merror[39m]: Error al conectar la base de datos: (conn:306300, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1011ms
+2024-10-18T14:10:54.562Z [[32minfo[39m]: Conexión a la base de datos establecida correctamente.
+2024-10-18T14:10:54.568Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-18T14:10:55.279Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-18T14:10:56.957Z [[32minfo[39m]: Base de datos sincronizada con éxito
+2024-10-18T14:11:13.720Z [[32minfo[39m]: Conexión a la base de datos establecida correctamente.
+2024-10-18T14:11:13.725Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-18T14:11:14.443Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-18T14:11:16.179Z [[32minfo[39m]: Base de datos sincronizada con éxito
+2024-10-18T14:25:03.788Z [[32minfo[39m]: Conexión a la base de datos establecida correctamente.
+2024-10-18T14:25:03.796Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-18T14:25:04.626Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-18T14:25:06.438Z [[32minfo[39m]: Base de datos sincronizada con éxito
+2024-10-18T14:45:13.468Z [[32minfo[39m]: Conexión a la base de datos establecida correctamente.
+2024-10-18T14:45:13.475Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-18T14:45:14.196Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-18T14:45:15.956Z [[32minfo[39m]: Base de datos sincronizada con éxito
+2024-10-18T14:47:36.075Z [[32minfo[39m]: Conexión a la base de datos establecida correctamente.
+2024-10-18T14:47:36.081Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-18T14:47:36.796Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-18T14:47:38.503Z [[32minfo[39m]: Base de datos sincronizada con éxito
+2024-10-18T14:51:20.714Z [[32minfo[39m]: Conexión a la base de datos establecida correctamente.
+2024-10-18T14:51:20.720Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-18T14:51:21.586Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-18T14:51:23.277Z [[32minfo[39m]: Base de datos sincronizada con éxito
+2024-10-18T14:59:09.085Z [[32minfo[39m]: Conexión a la base de datos establecida correctamente.
+2024-10-18T14:59:09.092Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-18T14:59:09.820Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-18T14:59:11.532Z [[32minfo[39m]: Base de datos sincronizada con éxito
+2024-10-18T14:59:32.106Z [[32minfo[39m]: Conexión a la base de datos establecida correctamente.
+2024-10-18T14:59:32.113Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-18T14:59:32.862Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-18T14:59:34.572Z [[32minfo[39m]: Base de datos sincronizada con éxito
+2024-10-18T15:13:35.009Z [[32minfo[39m]: Conexión a la base de datos establecida correctamente.
+2024-10-18T15:13:35.014Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-18T15:13:35.754Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-18T15:13:37.463Z [[32minfo[39m]: Base de datos sincronizada con éxito
+2024-10-18T15:13:56.301Z [[32minfo[39m]: [0mGET /auth/login [33m404[0m 3.766 ms - 149[0m
+2024-10-18T15:14:23.814Z [[32minfo[39m]: Conexión a la base de datos establecida correctamente.
+2024-10-18T15:14:23.819Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-18T15:14:24.549Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-18T15:14:26.242Z [[32minfo[39m]: Base de datos sincronizada con éxito
+2024-10-18T15:14:30.957Z [[32minfo[39m]: [0mGET /auth/login [31m500[0m 4.724 ms - 16[0m
+2024-10-18T15:14:31.024Z [[32minfo[39m]: [0mGET /favicon.ico [33m404[0m 1.704 ms - 150[0m
+2024-10-18T15:15:08.052Z [[32minfo[39m]: Conexión a la base de datos establecida correctamente.
+2024-10-18T15:15:08.057Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-18T15:15:08.763Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-18T15:15:10.442Z [[32minfo[39m]: Base de datos sincronizada con éxito
+2024-10-18T15:15:17.955Z [[32minfo[39m]: [0mGET /auth/login [31m500[0m 4.854 ms - 16[0m
+2024-10-18T15:15:27.148Z [[32minfo[39m]: [0mGET /auth/login [31m500[0m 2.215 ms - 16[0m
+2024-10-18T15:15:55.915Z [[32minfo[39m]: Conexión a la base de datos establecida correctamente.
+2024-10-18T15:15:55.920Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-18T15:15:56.661Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-18T15:15:58.341Z [[32minfo[39m]: Base de datos sincronizada con éxito
+2024-10-18T15:16:01.501Z [[32minfo[39m]: [0mGET /auth/login [31m500[0m 4.991 ms - 16[0m
+2024-10-18T15:17:03.783Z [[32minfo[39m]: Conexión a la base de datos establecida correctamente.
+2024-10-18T15:17:03.788Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-18T15:17:04.524Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-18T15:17:06.211Z [[32minfo[39m]: Base de datos sincronizada con éxito
+2024-10-18T15:17:13.961Z [[32minfo[39m]: [0mGET /auth/login [36m302[0m 629.491 ms - 0[0m
+2024-10-18T15:17:55.531Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 2.233 ms - 0[0m
+2024-10-18T15:17:55.955Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.978 ms - 0[0m
+2024-10-18T15:17:56.366Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 2.033 ms - 0[0m
+2024-10-18T15:17:56.848Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.728 ms - 0[0m
+2024-10-18T15:17:57.199Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.251 ms - 0[0m
+2024-10-18T15:17:57.618Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.407 ms - 0[0m
+2024-10-18T15:17:58.034Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.672 ms - 0[0m
+2024-10-18T15:17:58.441Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.850 ms - 0[0m
+2024-10-18T15:17:58.789Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.815 ms - 0[0m
+2024-10-18T15:17:59.134Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.594 ms - 0[0m
+2024-10-18T15:17:59.565Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.320 ms - 0[0m
+2024-10-18T15:17:59.997Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.589 ms - 0[0m
+2024-10-18T15:18:00.406Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.621 ms - 0[0m
+2024-10-18T15:18:00.761Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 0.981 ms - 0[0m
+2024-10-18T15:18:01.185Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.510 ms - 0[0m
+2024-10-18T15:18:01.536Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.588 ms - 0[0m
+2024-10-18T15:18:01.930Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.375 ms - 0[0m
+2024-10-18T15:18:02.294Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.574 ms - 0[0m
+2024-10-18T15:18:02.663Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.620 ms - 0[0m
+2024-10-18T15:18:03.013Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.076 ms - 0[0m
+2024-10-18T15:18:03.560Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.331 ms - 0[0m
+2024-10-18T15:18:39.993Z [[32minfo[39m]: [0mGET /auth/login [36m302[0m 0.742 ms - 0[0m
+2024-10-18T15:18:55.739Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 0.838 ms - 0[0m
+2024-10-18T15:18:56.133Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.136 ms - 0[0m
+2024-10-18T15:18:56.435Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.101 ms - 0[0m
+2024-10-18T15:18:56.766Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 0.952 ms - 0[0m
+2024-10-18T15:18:57.129Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 0.870 ms - 0[0m
+2024-10-18T15:18:57.445Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.275 ms - 0[0m
+2024-10-18T15:18:57.779Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.036 ms - 0[0m
+2024-10-18T15:18:58.170Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 0.967 ms - 0[0m
+2024-10-18T15:18:58.501Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 0.940 ms - 0[0m
+2024-10-18T15:18:58.826Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 0.996 ms - 0[0m
+2024-10-18T15:18:59.170Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.060 ms - 0[0m
+2024-10-18T15:18:59.520Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.690 ms - 0[0m
+2024-10-18T15:18:59.934Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.414 ms - 0[0m
+2024-10-18T15:19:00.315Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.020 ms - 0[0m
+2024-10-18T15:19:00.642Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 0.814 ms - 0[0m
+2024-10-18T15:19:00.984Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.059 ms - 0[0m
+2024-10-18T15:19:01.368Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.041 ms - 0[0m
+2024-10-18T15:19:01.775Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 0.785 ms - 0[0m
+2024-10-18T15:19:02.131Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.460 ms - 0[0m
+2024-10-18T15:19:02.468Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.096 ms - 0[0m
+2024-10-18T15:19:02.873Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 2.762 ms - 0[0m
+2024-10-18T15:24:16.680Z [[32minfo[39m]: Conexión a la base de datos establecida correctamente.
+2024-10-18T15:24:16.685Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-18T15:24:17.418Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-18T15:24:19.127Z [[32minfo[39m]: Base de datos sincronizada con éxito
+2024-10-18T15:24:25.825Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 604.913 ms - 0[0m
+2024-10-18T15:24:26.167Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 2.770 ms - 0[0m
+2024-10-18T15:24:26.548Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.189 ms - 0[0m
+2024-10-18T15:24:26.957Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.699 ms - 0[0m
+2024-10-18T15:24:27.323Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.397 ms - 0[0m
+2024-10-18T15:24:48.554Z [[32minfo[39m]: [0mGET /auth/login [36m302[0m 1.088 ms - 0[0m
+2024-10-18T15:24:49.246Z [[32minfo[39m]: [0mGET /auth/login [36m302[0m 0.875 ms - 0[0m
+2024-10-18T15:25:15.748Z [[32minfo[39m]: [0mGET /auth/login [36m302[0m 0.972 ms - 0[0m
+2024-10-18T15:25:16.967Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 4.434 ms - 0[0m
+2024-10-18T15:25:17.354Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.545 ms - 0[0m
+2024-10-18T15:25:17.733Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.475 ms - 0[0m
+2024-10-18T15:25:18.111Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.296 ms - 0[0m
+2024-10-18T15:25:18.498Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.316 ms - 0[0m
+2024-10-18T15:25:18.928Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.576 ms - 0[0m
+2024-10-18T15:25:19.327Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.368 ms - 0[0m
+2024-10-18T15:25:19.676Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.292 ms - 0[0m
+2024-10-18T15:25:20.053Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.018 ms - 0[0m
+2024-10-18T15:25:20.409Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.352 ms - 0[0m
+2024-10-18T15:25:20.786Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.417 ms - 0[0m
+2024-10-18T15:25:21.166Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.415 ms - 0[0m
+2024-10-18T15:25:21.592Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.449 ms - 0[0m
+2024-10-18T15:25:21.964Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.144 ms - 0[0m
+2024-10-18T15:25:22.342Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.599 ms - 0[0m
+2024-10-18T15:25:22.806Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.384 ms - 0[0m
+2024-10-18T15:25:23.213Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.127 ms - 0[0m
+2024-10-18T15:25:23.573Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.587 ms - 0[0m
+2024-10-18T15:25:23.998Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.046 ms - 0[0m
+2024-10-18T15:25:24.381Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.277 ms - 0[0m
+2024-10-18T15:27:11.022Z [[32minfo[39m]: Conexión a la base de datos establecida correctamente.
+2024-10-18T15:27:11.026Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-18T15:27:11.756Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-18T15:27:13.464Z [[32minfo[39m]: Base de datos sincronizada con éxito
+2024-10-18T15:27:16.256Z [[32minfo[39m]: [0mPOST /auth/openid/return [33m404[0m 5.925 ms - 158[0m
+2024-10-18T15:27:32.528Z [[32minfo[39m]: Conexión a la base de datos establecida correctamente.
+2024-10-18T15:27:32.534Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-18T15:27:33.330Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-18T15:27:34.679Z [[32minfo[39m]: [0mGET /auth/openid/return [33m404[0m 3.752 ms - 157[0m
+2024-10-18T15:27:35.164Z [[32minfo[39m]: Base de datos sincronizada con éxito
+2024-10-18T15:27:41.558Z [[32minfo[39m]: [0mGET /auth/login [36m302[0m 590.310 ms - 0[0m
+2024-10-18T15:27:42.117Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 3.222 ms - 0[0m
+2024-10-18T15:27:42.714Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 3.257 ms - 0[0m
+2024-10-18T15:27:43.133Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.761 ms - 0[0m
+2024-10-18T15:27:43.642Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 2.423 ms - 0[0m
+2024-10-18T15:27:44.045Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 2.139 ms - 0[0m
+2024-10-18T15:27:44.470Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 2.117 ms - 0[0m
+2024-10-18T15:27:44.915Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 2.678 ms - 0[0m
+2024-10-18T15:27:45.311Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 2.981 ms - 0[0m
+2024-10-18T15:27:45.781Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 3.083 ms - 0[0m
+2024-10-18T15:27:46.170Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.843 ms - 0[0m
+2024-10-18T15:27:46.620Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.811 ms - 0[0m
+2024-10-18T15:27:47.043Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 2.242 ms - 0[0m
+2024-10-18T15:27:47.432Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.859 ms - 0[0m
+2024-10-18T15:27:47.882Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 2.556 ms - 0[0m
+2024-10-18T15:27:48.302Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 2.671 ms - 0[0m
+2024-10-18T15:27:48.681Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 2.389 ms - 0[0m
+2024-10-18T15:27:49.082Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.528 ms - 0[0m
+2024-10-18T15:27:49.461Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.700 ms - 0[0m
+2024-10-18T15:27:49.857Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 2.001 ms - 0[0m
+2024-10-18T15:27:50.545Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.613 ms - 0[0m
+2024-10-18T15:29:30.131Z [[32minfo[39m]: Conexión a la base de datos establecida correctamente.
+2024-10-18T15:29:30.136Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-18T15:29:30.868Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-18T15:29:32.545Z [[32minfo[39m]: Base de datos sincronizada con éxito
+2024-10-18T15:29:52.054Z [[32minfo[39m]: Conexión a la base de datos establecida correctamente.
+2024-10-18T15:29:52.058Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-18T15:29:52.792Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-18T15:29:54.481Z [[32minfo[39m]: Base de datos sincronizada con éxito
+2024-10-18T15:30:15.223Z [[32minfo[39m]: Conexión a la base de datos establecida correctamente.
+2024-10-18T15:30:15.229Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-18T15:30:15.961Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-18T15:30:17.654Z [[32minfo[39m]: Base de datos sincronizada con éxito
+2024-10-18T15:31:01.719Z [[32minfo[39m]: [0mGET /auth/login [36m302[0m 623.862 ms - 0[0m
+2024-10-18T15:31:22.079Z [[32minfo[39m]: [0mGET /auth/login [36m302[0m 2.347 ms - 0[0m
+2024-10-18T15:31:31.237Z [[32minfo[39m]: [0mGET /auth/login [36m302[0m 1.874 ms - 0[0m
+2024-10-18T15:31:38.495Z [[32minfo[39m]: [0mGET /auth/login [36m302[0m 1.992 ms - 0[0m
+2024-10-18T15:31:39.244Z [[32minfo[39m]: [0mGET /auth/login [36m302[0m 1.472 ms - 0[0m
+2024-10-18T15:32:45.174Z [[32minfo[39m]: Conexión a la base de datos establecida correctamente.
+2024-10-18T15:32:45.180Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-18T15:32:45.915Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-18T15:32:47.608Z [[32minfo[39m]: Base de datos sincronizada con éxito
+2024-10-18T15:32:53.069Z [[32minfo[39m]: [0mGET /auth/login [36m302[0m 638.281 ms - 0[0m
+2024-10-18T15:32:57.259Z [[32minfo[39m]: [0mGET /auth/login [36m302[0m 3.492 ms - 0[0m
+2024-10-18T15:35:25.181Z [[32minfo[39m]: [0mGET /auth/login [36m302[0m 2.490 ms - 0[0m
+2024-10-18T15:36:30.246Z [[32minfo[39m]: Conexión a la base de datos establecida correctamente.
+2024-10-18T15:36:30.250Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-18T15:36:30.973Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-18T15:36:32.663Z [[32minfo[39m]: Base de datos sincronizada con éxito
+2024-10-18T15:36:40.846Z [[32minfo[39m]: [0mGET /auth/login [36m302[0m 623.628 ms - 0[0m
+2024-10-18T15:36:42.244Z [[32minfo[39m]: [0mGET /auth/login [36m302[0m 2.605 ms - 0[0m
+2024-10-18T15:36:42.641Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.824 ms - 0[0m
+2024-10-18T15:36:42.960Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.984 ms - 0[0m
+2024-10-18T15:36:43.278Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.874 ms - 0[0m
+2024-10-18T15:36:43.715Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.892 ms - 0[0m
+2024-10-18T15:36:44.051Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 2.143 ms - 0[0m
+2024-10-18T15:36:44.422Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.513 ms - 0[0m
+2024-10-18T15:36:44.734Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 2.513 ms - 0[0m
+2024-10-18T15:36:45.046Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 2.307 ms - 0[0m
+2024-10-18T15:36:45.362Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 2.044 ms - 0[0m
+2024-10-18T15:36:45.685Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 2.227 ms - 0[0m
+2024-10-18T15:36:46.022Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.687 ms - 0[0m
+2024-10-18T15:36:46.391Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.659 ms - 0[0m
+2024-10-18T15:36:46.737Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.853 ms - 0[0m
+2024-10-18T15:36:47.120Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 2.225 ms - 0[0m
+2024-10-18T15:36:47.471Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.679 ms - 0[0m
+2024-10-18T15:36:47.760Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.337 ms - 0[0m
+2024-10-18T15:36:48.067Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.135 ms - 0[0m
+2024-10-18T15:36:48.387Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.631 ms - 0[0m
+2024-10-18T15:39:25.262Z [[32minfo[39m]: Conexión a la base de datos establecida correctamente.
+2024-10-18T15:39:25.266Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-18T15:39:26.015Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-18T15:39:27.710Z [[32minfo[39m]: Base de datos sincronizada con éxito
+2024-10-18T15:39:39.520Z [[32minfo[39m]: [0mGET /auth/login [36m302[0m 675.152 ms - 0[0m
+2024-10-18T15:39:39.617Z [[32minfo[39m]: [0mGET /auth/login [36m302[0m 2.337 ms - 0[0m
+2024-10-18T15:39:40.086Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.988 ms - 0[0m
+2024-10-18T15:39:40.459Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 2.366 ms - 0[0m
+2024-10-18T15:39:40.917Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 2.008 ms - 0[0m
+2024-10-18T15:39:41.285Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 2.349 ms - 0[0m
+2024-10-18T15:39:41.624Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 2.036 ms - 0[0m
+2024-10-18T15:39:59.590Z [[32minfo[39m]: [0mGET /auth/login [36m302[0m 1.965 ms - 0[0m
+2024-10-18T15:40:12.347Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 2.587 ms - 0[0m
+2024-10-18T15:40:12.690Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 2.710 ms - 0[0m
+2024-10-18T15:40:13.087Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 2.053 ms - 0[0m
+2024-10-18T15:40:13.494Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 2.395 ms - 0[0m
+2024-10-18T15:40:13.950Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 2.236 ms - 0[0m
+2024-10-18T15:40:14.282Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 2.283 ms - 0[0m
+2024-10-18T15:40:14.594Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 2.426 ms - 0[0m
+2024-10-18T15:40:15.219Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 2.492 ms - 0[0m
+2024-10-18T15:40:15.569Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.911 ms - 0[0m
+2024-10-18T15:40:15.910Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 2.085 ms - 0[0m
+2024-10-18T15:40:16.238Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.961 ms - 0[0m
+2024-10-18T15:40:16.632Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 2.190 ms - 0[0m
+2024-10-18T15:40:16.952Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 2.023 ms - 0[0m
+2024-10-18T15:40:17.293Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 2.477 ms - 0[0m
+2024-10-18T15:40:17.634Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 2.168 ms - 0[0m
+2024-10-18T15:40:17.964Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.694 ms - 0[0m
+2024-10-18T15:40:18.379Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.807 ms - 0[0m
+2024-10-18T15:40:18.767Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 2.329 ms - 0[0m
+2024-10-18T15:40:19.107Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.947 ms - 0[0m
+2024-10-18T15:40:19.426Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 2.178 ms - 0[0m
+2024-10-18T15:40:19.764Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 1.804 ms - 0[0m
+2024-10-18T16:11:57.270Z [[32minfo[39m]: Conexión a la base de datos establecida correctamente.
+2024-10-18T16:11:57.276Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-18T16:11:58.006Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-18T16:11:59.734Z [[32minfo[39m]: Base de datos sincronizada con éxito
+2024-10-18T16:13:05.323Z [[32minfo[39m]: Conexión a la base de datos establecida correctamente.
+2024-10-18T16:13:05.328Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-18T16:13:06.069Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-18T16:13:07.767Z [[32minfo[39m]: Base de datos sincronizada con éxito
+2024-10-18T16:13:46.289Z [[32minfo[39m]: [0mGET /auth/login [36m302[0m 633.927 ms - 0[0m
+2024-10-18T16:13:47.620Z [[32minfo[39m]: [0mGET /auth/login [36m302[0m 3.081 ms - 0[0m
+2024-10-18T16:14:01.119Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 389.339 ms - 74[0m
+2024-10-18T16:14:01.168Z [[32minfo[39m]: [0mGET /favicon.ico [33m404[0m 1.026 ms - 150[0m
+2024-10-18T16:16:29.622Z [[32minfo[39m]: Conexión a la base de datos establecida correctamente.
+2024-10-18T16:16:29.627Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-18T16:16:30.347Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-18T16:16:32.032Z [[32minfo[39m]: Base de datos sincronizada con éxito
+2024-10-18T16:16:44.463Z [[32minfo[39m]: [0mGET /auth/login [36m302[0m 597.769 ms - 0[0m
+2024-10-18T16:16:45.464Z [[32minfo[39m]: [0mGET /auth/login [36m302[0m 2.319 ms - 0[0m
+2024-10-18T16:16:46.356Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 322.273 ms - 64[0m
+2024-10-18T16:16:46.363Z [[32minfo[39m]: [0mGET /dashboard [33m404[0m 2.857 ms - 148[0m
+2024-10-18T16:24:18.960Z [[32minfo[39m]: Conexión a la base de datos establecida correctamente.
+2024-10-18T16:24:18.967Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-18T16:24:19.694Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-18T16:24:21.376Z [[32minfo[39m]: Base de datos sincronizada con éxito
+2024-10-18T16:24:28.609Z [[32minfo[39m]: [0mGET /auth/login [36m302[0m 683.135 ms - 0[0m
+2024-10-18T16:24:28.620Z [[32minfo[39m]: [0mGET /auth/login [36m302[0m 1.833 ms - 0[0m
+2024-10-18T16:24:29.408Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 310.593 ms - 74[0m
+2024-10-18T16:24:29.415Z [[32minfo[39m]: [0mGET /auth/dashboard [32m200[0m 2.622 ms - 113[0m
+2024-10-18T16:38:02.996Z [[32minfo[39m]: Conexión a la base de datos establecida correctamente.
+2024-10-18T16:38:03.001Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-18T16:38:03.719Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-18T16:38:05.416Z [[32minfo[39m]: Base de datos sincronizada con éxito
+2024-10-18T16:38:35.877Z [[32minfo[39m]: Conexión a la base de datos establecida correctamente.
+2024-10-18T16:38:35.883Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-18T16:38:36.597Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-18T16:38:38.283Z [[32minfo[39m]: Base de datos sincronizada con éxito
+2024-10-18T16:39:05.582Z [[32minfo[39m]: Conexión a la base de datos establecida correctamente.
+2024-10-18T16:39:05.588Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-18T16:39:06.339Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-18T16:39:08.018Z [[32minfo[39m]: Base de datos sincronizada con éxito
+2024-10-18T16:39:09.018Z [[32minfo[39m]: [0mGET /auth/dashboard [36m302[0m 7.134 ms - 56[0m
+2024-10-18T16:39:09.024Z [[32minfo[39m]: [0mGET /login [33m404[0m 1.846 ms - 144[0m
+2024-10-18T16:39:10.683Z [[32minfo[39m]: [0mGET /login [33m404[0m 1.330 ms - 144[0m
+2024-10-18T16:39:16.708Z [[32minfo[39m]: [0mGET /auth/login [36m302[0m 682.491 ms - 0[0m
+2024-10-18T16:39:17.028Z [[32minfo[39m]: [0mGET /auth/login [36m302[0m 1.703 ms - 0[0m
+2024-10-18T16:39:17.739Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 4.711 ms - 74[0m
+2024-10-18T16:39:36.485Z [[32minfo[39m]: [0mGET /auth/login [36m302[0m 1.705 ms - 0[0m
+2024-10-18T16:39:37.407Z [[32minfo[39m]: [0mGET /auth/login [36m302[0m 1.892 ms - 0[0m
+2024-10-18T16:39:37.904Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 2.981 ms - 74[0m
+2024-10-18T16:39:49.952Z [[32minfo[39m]: [0mGET /auth/login [36m302[0m 1.462 ms - 0[0m
+2024-10-18T16:40:06.930Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 3.373 ms - 74[0m
+2024-10-18T16:40:07.033Z [[32minfo[39m]: [0mGET /favicon.ico [33m404[0m 1.145 ms - 150[0m
+2024-10-18T16:41:49.887Z [[32minfo[39m]: Conexión a la base de datos establecida correctamente.
+2024-10-18T16:41:49.892Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-18T16:41:50.658Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-18T16:41:52.384Z [[32minfo[39m]: Base de datos sincronizada con éxito
+2024-10-18T16:43:20.259Z [[32minfo[39m]: [0mGET /auth/login [36m302[0m 627.551 ms - 0[0m
+2024-10-18T16:43:28.873Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 468.167 ms - 74[0m
+2024-10-18T16:43:28.881Z [[32minfo[39m]: [0mGET /auth/dashboard [31m500[0m 3.319 ms - 16[0m
+2024-10-18T16:46:13.173Z [[32minfo[39m]: Conexión a la base de datos establecida correctamente.
+2024-10-18T16:46:13.178Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-18T16:46:14.180Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-18T16:46:15.950Z [[32minfo[39m]: Base de datos sincronizada con éxito
+2024-10-18T16:47:08.199Z [[32minfo[39m]: Conexión a la base de datos establecida correctamente.
+2024-10-18T16:47:08.206Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-18T16:47:08.938Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-18T16:47:10.657Z [[32minfo[39m]: Base de datos sincronizada con éxito
