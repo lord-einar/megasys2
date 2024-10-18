@@ -385,3 +385,10 @@
 2024-10-18T16:47:08.206Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
 2024-10-18T16:47:08.938Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
 2024-10-18T16:47:10.657Z [[32minfo[39m]: Base de datos sincronizada con éxito
+2024-10-18T16:48:35.598Z [[32minfo[39m]: Conexión a la base de datos establecida correctamente.
+2024-10-18T16:48:35.604Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-18T16:48:36.347Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-18T16:48:38.035Z [[32minfo[39m]: Base de datos sincronizada con éxito
+2024-10-18T16:48:57.293Z [[32minfo[39m]: [0mGET /auth/login [36m302[0m 594.843 ms - 0[0m
+2024-10-18T16:48:58.287Z [[32minfo[39m]: [0mPOST /auth/openid/return [36m302[0m 464.387 ms - 74[0m
+2024-10-18T16:48:58.300Z [[32minfo[39m]: [0mGET /auth/dashboard [32m200[0m 9.374 ms - 2746[0m
