@@ -14,3 +14,4 @@
 2024-10-18T14:03:19.126Z [[31merror[39m]: Error durante la inicialización del servidor: (conn:-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1003ms
 2024-10-18T14:03:19.126Z [[31merror[39m]: Express no ha sido inicializado correctamente.
 2024-10-18T14:03:59.683Z [[31merror[39m]: Error al conectar la base de datos: (conn:306300, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1011ms
+2024-10-21T00:55:59.506Z [[31merror[39m]: Error al conectar la base de datos: (conn:400359, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1001ms

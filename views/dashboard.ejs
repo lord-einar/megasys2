@@ -1,22 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Dashboard</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-  <h1>Bienvenido, <%= displayName %></h1>
-  <p>Tu correo electrónico es: <%= email %></p>
+    <div class="container">
+        <header>
+            <h1>Bienvenido, <span id="user-name"><%= displayName %></span></h1>
+            <p>Email: <%= email %></p>
+        </header>
+        
+        <% if (infraUser) { %>
+            <section class="infra-info">
+                <h2>Departamento de Infraestructura</h2>
+                <p>Acceso otorgado al Departamento de Infraestructura.</p>
+            </section>
+        <% } else if (helpdeskUser) { %>
+            <section class="helpdesk-info">
+                <h2>Mesa de Ayuda</h2>
+                <p>Acceso otorgado a la Mesa de Ayuda.</p>
+            </section>
+        <% } %>
 
-  <% if (groups && groups.length > 0) { %>
-    <h2>Tus grupos:</h2>
-    <ul>
-      <% groups.forEach(function(group) { %>
-        <li><%= group %></li>
-      <% }); %>
-    </ul>
-  <% } else { %>
-    <p>No se encontraron grupos.</p>
-  <% } %>
+        <section class="groups">
+            <h2>Grupos</h2>
+            <ul>
+                <% groups.forEach(function(group) { %>
+                    <li><%= group.displayName || group %></li>
+                <% }); %>
+            </ul>
+        </section>
+    </div>
 </body>
 </html>
