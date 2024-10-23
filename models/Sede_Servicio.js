@@ -31,6 +31,7 @@ SedeServicio.init(
   {
     sequelize,
     modelName: "sede_servicio",
+    tableName: "sede_servicio"
   }
 );
 

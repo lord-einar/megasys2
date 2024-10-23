@@ -18,6 +18,7 @@ TipoArticulo.init(
   {
     sequelize,
     modelName: "tipo_articulo",
+    tableName: "tipo_articulo"
   }
 );
 

@@ -52,7 +52,8 @@ Inventario.init({
   },
 }, {
   sequelize,
-  modelName: 'Inventario'
+  modelName: 'Inventario',
+  tableName:"inventarios"
 });
 
 module.exports = Inventario

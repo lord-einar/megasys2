@@ -23,7 +23,8 @@ Persona.init({
   }
 }, {
   sequelize,
-  modelName: 'Persona'
+  modelName: 'Persona',
+  tableName: "personas"
 });
 
 module.exports = Persona;

@@ -51,7 +51,8 @@ Sede.init({
   }
 }, {
   sequelize,
-  modelName: 'Sede'
+  modelName: 'Sede',
+  tableName: "sedes"
 });
 
 // Empresa.hasMany(Sede, { foreignKey: "id_empresa" });

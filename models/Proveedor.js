@@ -1,5 +1,6 @@
-const { DataTypes, Model } = require("sequelize");
-const sequelize = require("../config/dbConnect");
+const { DataTypes, Model } = require('sequelize');
+const sequelize = require('../config/dbConnect');
+const ContactoProveedor = require('./ContactoProveedor'); // Relación con ContactoProveedor
 
 class Proveedor extends Model {}
 
@@ -7,27 +8,27 @@ Proveedor.init({
   id_proveedor: {
     type: DataTypes.UUID,
     defaultValue: DataTypes.UUIDV4,
-    primaryKey: true
+    primaryKey: true,
   },
   nombre: {
     type: DataTypes.STRING,
-    allowNull: false
+    allowNull: false,
   },
   direccion: {
     type: DataTypes.STRING,
-    allowNull: false
+    allowNull: false,
   },
   localidad: {
     type: DataTypes.STRING,
-    allowNull: false
+    allowNull: false,
   },
   provincia: {
     type: DataTypes.STRING,
-    allowNull: false
+    allowNull: false,
   },
   pais: {
     type: DataTypes.STRING,
-    allowNull: false
+    allowNull: false,
   },
   nombre_ejecutivo: {
     type: DataTypes.STRING,
@@ -35,31 +36,25 @@ Proveedor.init({
   email_ejecutivo: {
     type: DataTypes.STRING,
   },
-  email_soporte_1: {
-    type: DataTypes.STRING,
-  },
-  email_soporte_2: {
-    type: DataTypes.STRING,
-  },
-  email_soporte_3: {
-    type: DataTypes.STRING,
-  },
-  telefono_soporte_1: {
-    type: DataTypes.STRING,
-  },
-  telefono_soporte_2: {
-    type: DataTypes.STRING,
-  },
-  telefono_soporte_3: {
-    type: DataTypes.STRING,
-  },
   observaciones: {
     type: DataTypes.STRING,
-  }
+  },
 }, {
   sequelize,
   modelName: 'Proveedor',
-  tableName: 'Proveedores'
+  tableName: 'proveedores',
+  timestamps: false,
 });
 
-module.exports = Proveedor
+// Asociación Proveedor -> ContactoProveedor
+Proveedor.hasMany(ContactoProveedor, {
+  foreignKey: 'id_proveedor',
+  as: 'contactos',
+});
+
+ContactoProveedor.belongsTo(Proveedor, {
+  foreignKey: 'id_proveedor',
+  as: 'proveedor',
+});
+
+module.exports = Proveedor;

@@ -15,7 +15,8 @@ Servicio.init({
   }
 }, {
   sequelize,
-  modelName: 'Servicio'
+  modelName: 'Servicio',
+  tableName: "servicios"
 });
 
 module.exports = Servicio

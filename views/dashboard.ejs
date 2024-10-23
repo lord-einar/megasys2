@@ -1,38 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
-    <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Bienvenido, <span id="user-name"><%= displayName %></span></h1>
-            <p>Email: <%= email %></p>
-        </header>
-        
-        <% if (infraUser) { %>
-            <section class="infra-info">
-                <h2>Departamento de Infraestructura</h2>
-                <p>Acceso otorgado al Departamento de Infraestructura.</p>
-            </section>
-        <% } else if (helpdeskUser) { %>
-            <section class="helpdesk-info">
-                <h2>Mesa de Ayuda</h2>
-                <p>Acceso otorgado a la Mesa de Ayuda.</p>
-            </section>
-        <% } %>
+    <header>
+        <h1>Bienvenido, <%= displayName %></h1>
+        <p>Email: <%= email %></p>
+    </header>
 
-        <section class="groups">
-            <h2>Grupos</h2>
-            <ul>
-                <% groups.forEach(function(group) { %>
-                    <li><%= group.displayName || group %></li>
-                <% }); %>
-            </ul>
+    <% if (infraUser) { %>
+        <section class="infra-info">
+            <h2>Departamento de Infraestructura</h2>
+            <p>Acceso otorgado al Departamento de Infraestructura.</p>
         </section>
-    </div>
+    <% } %>
+
+    <% if (helpdeskUser) { %>
+        <section class="helpdesk-info">
+            <h2>Mesa de Ayuda</h2>
+            <p>Acceso otorgado al equipo de soporte técnico.</p>
+        </section>
+    <% } %>
 </body>
 </html>

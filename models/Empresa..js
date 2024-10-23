@@ -12,10 +12,22 @@ Empresa.init({
   nombre: {
     type: DataTypes.STRING,
     allowNull: false
+  },
+  direccion: {
+    type: DataTypes.STRING,
+    allowNull: false,
+  },
+  cuit: {
+    type: DataTypes.STRING,
+    allowNull: false
+  },
+  telefono: {
+    type: DataTypes.STRING,
   }
 }, {
   sequelize,  // Usar la instancia obtenida.
-  modelName: 'Empresa'
+  modelName: 'Empresa',
+  tableName: "empresas"
 });
 
 

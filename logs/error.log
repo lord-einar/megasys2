@@ -15,3 +15,13 @@
 2024-10-18T14:03:19.126Z [[31merror[39m]: Express no ha sido inicializado correctamente.
 2024-10-18T14:03:59.683Z [[31merror[39m]: Error al conectar la base de datos: (conn:306300, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1011ms
 2024-10-21T00:55:59.506Z [[31merror[39m]: Error al conectar la base de datos: (conn:400359, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1001ms
+2024-10-22T21:14:39.587Z [[31merror[39m]: Error obteniendo registro por ID: Registro no encontrado
+2024-10-22T21:14:39.588Z [[31merror[39m]: Error eliminando registro: Registro no encontrado
+2024-10-22T21:14:39.597Z [[31merror[39m]: Error eliminando empresa: Registro no encontrado
+2024-10-22T21:29:15.126Z [[31merror[39m]: Error obteniendo registros: (conn:480146, no: 1146, SQLState: 42S02) Table 'megasys2.Empresas' doesn't exist
+sql: SELECT `id_empresa`, `nombre`, `createdAt`, `updatedAt` FROM `Empresas` AS `Empresa` ORDER BY `Empresa`.`nombre` ASC; - parameters:[]
+2024-10-22T21:29:15.127Z [[31merror[39m]: Error listando empresas: (conn:480146, no: 1146, SQLState: 42S02) Table 'megasys2.Empresas' doesn't exist
+sql: SELECT `id_empresa`, `nombre`, `createdAt`, `updatedAt` FROM `Empresas` AS `Empresa` ORDER BY `Empresa`.`nombre` ASC; - parameters:[]
+2024-10-23T10:34:26.732Z [[31merror[39m]: Error en la autenticación:
+2024-10-23T10:34:43.076Z [[31merror[39m]: Error en la autenticación:
+2024-10-23T10:35:07.275Z [[31merror[39m]: Error en la autenticación:

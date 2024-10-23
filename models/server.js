@@ -14,7 +14,6 @@ class Server {
   async init() {
     try {
       initializeDatabase();
-      logger.info("Conexión a la base de datos establecida correctamente.");
       this.initExpress();
       initializeMiddlewares(this.app);
       initializeRoutes(this.app);

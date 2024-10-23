@@ -3,7 +3,7 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    await queryInterface.createTable('HistoricoInventario', {
+    await queryInterface.createTable('historico_inventario', {
       id_historico: {
         type: Sequelize.UUID,
         defaultValue: Sequelize.UUIDV4,
@@ -38,7 +38,7 @@ module.exports = {
   },
 
   down: async (queryInterface, Sequelize) => {
-    await queryInterface.dropTable('HistoricoInventario');
+    await queryInterface.dropTable('historico_inventario');
   },
 };
 

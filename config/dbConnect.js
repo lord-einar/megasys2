@@ -1,6 +1,6 @@
 // dbConnect.js
-const { Sequelize } = require("sequelize");
-const logger = require("./logger"); // Importar Winston
+const { Sequelize } = require('sequelize');
+const logger = require('./logger'); // Importar Winston
 
 const sequelize = new Sequelize(
   process.env.DATABASE,
@@ -8,10 +8,10 @@ const sequelize = new Sequelize(
   process.env.PASS,
   {
     host: process.env.DB_HOST,
-    dialect: "mariadb",
+    dialect: 'mariadb',
     dialectOptions: {
-      charset: "utf8mb4",
-      collate: "utf8mb4_unicode_ci",
+      charset: 'utf8mb4',
+      collate: 'utf8mb4_unicode_ci',
     },
     pool: {
       max: 5,
@@ -20,19 +20,10 @@ const sequelize = new Sequelize(
       idle: 10000,
     },
     define: {
-      charset: "utf8mb4",
-      collate: "utf8mb4_unicode_ci",
+      charset: 'utf8mb4',
+      collate: 'utf8mb4_unicode_ci',
     },
   }
 );
 
-
-const originalAuthenticate = sequelize.authenticate;
-
-sequelize.authenticate = async function () {
-  console.log("Sequelize.authenticate() fue invocado desde:");
-  console.trace(); // Imprime el stack trace completo
-  return originalAuthenticate.apply(this, arguments);
-};
-
-module.exports = sequelize;
+module.exports = sequelize; // Exportar la instancia

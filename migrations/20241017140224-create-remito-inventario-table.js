@@ -3,7 +3,7 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    await queryInterface.createTable('RemitoInventario', {
+    await queryInterface.createTable('remito_inventario', {
       id_remito_inventario: {
         type: Sequelize.UUID,
         defaultValue: Sequelize.UUIDV4,
@@ -13,7 +13,7 @@ module.exports = {
         type: Sequelize.UUID,
         allowNull: false,
         references: {
-          model: 'Remito',
+          model: 'remitos',
           key: 'id_remito',
         },
         onUpdate: 'CASCADE',
@@ -23,7 +23,7 @@ module.exports = {
         type: Sequelize.UUID,
         allowNull: false,
         references: {
-          model: 'Inventario',
+          model: 'inventarios',
           key: 'id_inventario',
         },
         onUpdate: 'CASCADE',
@@ -45,6 +45,6 @@ module.exports = {
   },
 
   down: async (queryInterface, Sequelize) => {
-    await queryInterface.dropTable('RemitoInventario');
+    await queryInterface.dropTable('remito_inventario');
   },
 };

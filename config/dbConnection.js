@@ -1,10 +1,10 @@
-const dbConnect = require('./dbConnect');
+const sequelize = require('./dbConnect'); // Instancia de Sequelize
 const logger = require('./logger'); // Importar Winston
 
 async function initializeDatabase() {
   try {
-    await dbConnect.sync({ alter: false });
-    logger.info('Base de datos sincronizada con éxito');
+    await sequelize.authenticate(); // Solo autenticación, sin sync
+    logger.info('Conexión a la base de datos establecida con éxito');
   } catch (error) {
     logger.error('Error al conectar la base de datos: ' + error.message);
     throw error;

@@ -46,7 +46,7 @@ HistoricoInventario.init({
 }, {
   sequelize,
   modelName: 'HistoricoInventario',
-  tableName: 'historico_inventarios'
+  tableName: 'historico_inventario'
 });
 
 // Asociaciones HistoricoInventario

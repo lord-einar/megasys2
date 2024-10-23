@@ -15,7 +15,8 @@ Rol.init({
   }
 }, {
   sequelize,  // Usar la instancia obtenida.
-  modelName: 'Rol'
+  modelName: 'Rol',
+  tableName: "roles"
 });
 
 

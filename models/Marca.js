@@ -18,6 +18,7 @@ Marca.init(
   {
     sequelize,
     modelName: "Marca",
+    tableName: "marcas"
   }
 );
 

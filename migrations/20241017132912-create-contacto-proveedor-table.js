@@ -3,7 +3,7 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    await queryInterface.createTable('ContactoProveedor', {
+    await queryInterface.createTable('contactos_proveedores', {
       id_contacto: {
         type: Sequelize.UUID,
         defaultValue: Sequelize.UUIDV4,
@@ -13,7 +13,7 @@ module.exports = {
         type: Sequelize.UUID,
         allowNull: false,
         references: {
-          model: 'Proveedor',
+          model: 'proveedores',
           key: 'id_proveedor',
         },
         onUpdate: 'CASCADE',
@@ -48,7 +48,7 @@ module.exports = {
   },
 
   down: async (queryInterface, Sequelize) => {
-    await queryInterface.dropTable('ContactoProveedor');
+    await queryInterface.dropTable('contactos_proveedores');
   },
 };
 

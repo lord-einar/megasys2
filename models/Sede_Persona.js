@@ -36,7 +36,8 @@ SedePersona.init({
   }
 }, {
   sequelize,
-  modelName: 'sede_persona'
+  modelName: 'sede_persona',
+  tableName: 'sede_persona'
 });
 
 module.exports = SedePersona

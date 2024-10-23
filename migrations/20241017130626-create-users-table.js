@@ -4,7 +4,7 @@
 // migrations/YYYYMMDDHHMMSS-create-users-table.js
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    await queryInterface.createTable("Users", {
+    await queryInterface.createTable("users", {
       id_user: {
         type: Sequelize.UUID,
         defaultValue: Sequelize.UUIDV4,
@@ -43,7 +43,7 @@ module.exports = {
   },
 
   down: async (queryInterface, Sequelize) => {
-    await queryInterface.dropTable("Users");
+    await queryInterface.dropTable("users");
   },
 };
 
