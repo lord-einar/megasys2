@@ -49,9 +49,4 @@ HistoricoInventario.init({
   tableName: 'historico_inventario'
 });
 
-// Asociaciones HistoricoInventario
-HistoricoInventario.belongsTo(Inventario, { foreignKey: 'id_inventario' });
-HistoricoInventario.belongsTo(Sede, { foreignKey: 'id_sede' });
-HistoricoInventario.belongsTo(Remito, { foreignKey: 'id_remito' });
-
 module.exports = HistoricoInventario;

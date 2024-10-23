@@ -56,7 +56,4 @@ ServicioProveedor.init(
   }
 );
 
-ServicioProveedor.belongsTo(Servicio, { foreignKey: "id_servicio" });
-ServicioProveedor.belongsTo(Proveedor, { foreignKey: "id_proveedor" });
-
 module.exports = ServicioProveedor;

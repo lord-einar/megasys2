@@ -6,12 +6,13 @@ class BaseService {
     this.model = model;
   }
 
-  // Obtener todos los registros con soporte de condiciones y ordenación
-  async getAll(orderField = 'nombre', whereCondition = {}) {
+  // Obtener todos los registros con soporte de condiciones, ordenación y asociaciones
+  async getAll(orderField = 'nombre', whereCondition = {}, options = {}) {
     try {
       const records = await this.model.findAll({
         where: whereCondition,
         order: [[orderField, 'ASC']],
+        ...options, // Incluir opciones adicionales (como include)
       });
       logger.info(`Obtenidos ${records.length} registros de ${this.model.name}`);
       return records;
@@ -21,10 +22,10 @@ class BaseService {
     }
   }
 
-  // Obtener un registro por ID
-  async getById(id) {
+  // Obtener un registro por ID con soporte de asociaciones
+  async getById(id, options = {}) {
     try {
-      const record = await this.model.findByPk(id);
+      const record = await this.model.findByPk(id, options);
       if (!record) {
         logger.warn(`Registro no encontrado en ${this.model.name} con ID: ${id}`);
         throw new Error('Registro no encontrado');

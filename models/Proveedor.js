@@ -46,15 +46,4 @@ Proveedor.init({
   timestamps: false,
 });
 
-// Asociación Proveedor -> ContactoProveedor
-Proveedor.hasMany(ContactoProveedor, {
-  foreignKey: 'id_proveedor',
-  as: 'contactos',
-});
-
-ContactoProveedor.belongsTo(Proveedor, {
-  foreignKey: 'id_proveedor',
-  as: 'proveedor',
-});
-
 module.exports = Proveedor;

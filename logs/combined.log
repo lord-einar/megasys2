@@ -988,3 +988,487 @@ sql: SELECT `id_empresa`, `nombre`, `createdAt`, `updatedAt` FROM `Empresas` AS 
 2024-10-23T12:09:41.146Z [[32minfo[39m]: Obtenidos 2 registros de Empresa
 2024-10-23T12:09:41.146Z [[32minfo[39m]: Listado de 2 empresas obtenido por German Luis Ojeda
 2024-10-23T12:09:41.147Z [[32minfo[39m]: [0mGET /empresas [32m200[0m 227.287 ms - 455[0m
+2024-10-23T12:38:45.765Z [[32minfo[39m]: [0mPOST /sedes [33m404[0m 1.228 ms - 145[0m
+2024-10-23T12:39:27.608Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T12:39:27.618Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T12:39:27.893Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T12:39:29.998Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T12:39:30.010Z [[31merror[39m]: Error creando registro: notNull Violation: Sede.localidad cannot be null,
+notNull Violation: Sede.ip_asignada cannot be null
+2024-10-23T12:39:30.020Z [[31merror[39m]: Error creando sede: notNull Violation: Sede.localidad cannot be null,
+notNull Violation: Sede.ip_asignada cannot be null
+2024-10-23T12:39:30.023Z [[32minfo[39m]: [0mPOST /sedes [31m500[0m 28.069 ms - 33[0m
+2024-10-23T12:40:00.472Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T12:40:00.483Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T12:40:00.610Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T12:40:08.996Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T12:40:09.007Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T12:40:09.121Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T12:40:42.571Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T12:40:42.647Z [[31merror[39m]: Error creando registro: (conn:512776, no: 1054, SQLState: 42S22) Unknown column 'id_empresa' in 'field list'
+sql: INSERT INTO `sedes` (`id_sede`,`id_empresa`,`nombre`,`direccion`,`localidad`,`provincia`,`pais`,`telefono`,`email`,`ip_asignada`,`createdAt`,`updatedAt`) VALUES (?,?,?,?,?,?,?,?,?,?,?,?); - parameters:['e8a13b22-5361-4c1c-9c8b-58f3fa7df05c','1a9bf1ea-ecea-...
+2024-10-23T12:40:42.657Z [[31merror[39m]: Error creando sede: (conn:512776, no: 1054, SQLState: 42S22) Unknown column 'id_empresa' in 'field list'
+sql: INSERT INTO `sedes` (`id_sede`,`id_empresa`,`nombre`,`direccion`,`localidad`,`provincia`,`pais`,`telefono`,`email`,`ip_asignada`,`createdAt`,`updatedAt`) VALUES (?,?,?,?,?,?,?,?,?,?,?,?); - parameters:['e8a13b22-5361-4c1c-9c8b-58f3fa7df05c','1a9bf1ea-ecea-...
+2024-10-23T12:40:42.660Z [[32minfo[39m]: [0mPOST /sedes [31m500[0m 91.474 ms - 33[0m
+2024-10-23T13:04:28.214Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T13:04:28.224Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T13:04:28.561Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T13:05:20.185Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T13:05:20.195Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T13:05:20.346Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T13:06:12.170Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T13:06:12.180Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T13:06:12.359Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T13:15:40.181Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T13:15:40.191Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T13:15:40.364Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T13:16:47.203Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T13:16:47.213Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T13:16:47.355Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T13:17:40.490Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T13:17:40.499Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T13:17:40.633Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T13:17:48.790Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T13:17:48.801Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T13:17:48.955Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T13:18:03.812Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T13:18:03.905Z [[32minfo[39m]: Registro creado en Sede con ID: undefined
+2024-10-23T13:18:03.918Z [[32minfo[39m]: Acción registrada: CREAR en Sede por German Luis Ojeda
+2024-10-23T13:18:04.066Z [[32minfo[39m]: Sede creada con ID: 03af3b2c-567d-4b85-b480-73389f9a4d15 por German Luis Ojeda
+2024-10-23T13:18:04.069Z [[32minfo[39m]: [0mPOST /sedes [32m201[0m 258.942 ms - 386[0m
+2024-10-23T13:22:17.203Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T13:22:17.287Z [[32minfo[39m]: Registro creado en Sede con ID: undefined
+2024-10-23T13:22:17.300Z [[32minfo[39m]: Acción registrada: CREAR en Sede por German Luis Ojeda
+2024-10-23T13:22:17.369Z [[32minfo[39m]: Sede creada con ID: 274f9dd7-777a-45ab-a9a2-667ab9c9b4e6 por German Luis Ojeda
+2024-10-23T13:22:17.370Z [[32minfo[39m]: [0mPOST /sedes [32m201[0m 168.469 ms - 387[0m
+2024-10-23T13:34:22.223Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T13:34:22.303Z [[32minfo[39m]: Registro creado en Sede con ID: undefined
+2024-10-23T13:34:22.312Z [[32minfo[39m]: Acción registrada: CREAR en Sede por German Luis Ojeda
+2024-10-23T13:34:22.368Z [[32minfo[39m]: Sede creada con ID: 5bfba948-987a-44ab-bf10-19598eaec0a8 por German Luis Ojeda
+2024-10-23T13:34:22.369Z [[32minfo[39m]: [0mPOST /sedes [32m201[0m 147.309 ms - 390[0m
+2024-10-23T13:35:39.371Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T13:35:39.464Z [[32minfo[39m]: Registro creado en Sede con ID: undefined
+2024-10-23T13:35:39.474Z [[32minfo[39m]: Acción registrada: CREAR en Sede por German Luis Ojeda
+2024-10-23T13:35:39.513Z [[32minfo[39m]: Sede creada con ID: 0780f324-dde5-46f8-bf55-ce9af94cab1c por German Luis Ojeda
+2024-10-23T13:35:39.514Z [[32minfo[39m]: [0mPOST /sedes [32m201[0m 143.064 ms - 400[0m
+2024-10-23T13:35:46.705Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T13:35:46.720Z [[32minfo[39m]: Obtenidos 4 registros de Sede
+2024-10-23T13:35:46.720Z [[32minfo[39m]: Listado de 4 sedes obtenido por German Luis Ojeda
+2024-10-23T13:35:46.721Z [[32minfo[39m]: [0mGET /sedes [32m200[0m 16.678 ms - 1568[0m
+2024-10-23T13:36:27.499Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T13:36:27.653Z [[32minfo[39m]: Registro encontrado en Sede con ID: 5bfba948-987a-44ab-bf10-19598eaec0a8
+2024-10-23T13:36:27.664Z [[32minfo[39m]: Registro actualizado en Sede con ID: 5bfba948-987a-44ab-bf10-19598eaec0a8
+2024-10-23T13:36:27.674Z [[32minfo[39m]: Acción registrada: ACTUALIZAR en Sede por German Luis Ojeda
+2024-10-23T13:36:27.719Z [[32minfo[39m]: Sede actualizada con ID: 5bfba948-987a-44ab-bf10-19598eaec0a8 por German Luis Ojeda
+2024-10-23T13:36:27.720Z [[32minfo[39m]: [0mPUT /sedes/5bfba948-987a-44ab-bf10-19598eaec0a8 [32m200[0m 222.215 ms - 389[0m
+2024-10-23T13:36:38.070Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T13:36:38.080Z [[32minfo[39m]: Obtenidos 4 registros de Sede
+2024-10-23T13:36:38.080Z [[32minfo[39m]: Listado de 4 sedes obtenido por German Luis Ojeda
+2024-10-23T13:36:38.081Z [[32minfo[39m]: [0mGET /sedes [32m200[0m 11.641 ms - 1567[0m
+2024-10-23T13:43:07.120Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T13:43:07.132Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T13:43:07.243Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T13:43:09.929Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T13:43:09.939Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T13:43:10.049Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T13:43:44.148Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T13:43:44.159Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T13:43:44.281Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T13:49:37.882Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T13:49:37.892Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T13:49:38.044Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T13:49:48.878Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T13:49:48.888Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T13:49:49.035Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T13:54:34.561Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T13:54:34.571Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T13:54:34.898Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T14:01:45.066Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T14:01:45.075Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T14:01:45.363Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T14:02:28.146Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T14:02:28.156Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T14:02:28.275Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T14:02:35.126Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T14:02:35.136Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T14:02:35.246Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T14:02:51.231Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T14:02:51.241Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T14:02:51.360Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T14:03:10.020Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T14:03:10.030Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T14:03:10.143Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T14:03:22.662Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T14:03:22.672Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T14:03:22.806Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T14:03:35.435Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T14:03:35.446Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T14:03:35.561Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T14:03:47.639Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T14:03:47.649Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T14:03:47.807Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T14:04:18.675Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T14:04:18.685Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T14:04:18.867Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T14:07:21.105Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T14:07:21.120Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T14:07:21.236Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T14:07:30.932Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T14:07:30.961Z [[32minfo[39m]: Obtenidos 0 registros de Marca
+2024-10-23T14:07:30.962Z [[32minfo[39m]: Listado de 0 marcas obtenido por German Luis Ojeda
+2024-10-23T14:07:30.965Z [[32minfo[39m]: [0mGET /marcas [32m200[0m 35.085 ms - 2[0m
+2024-10-23T14:07:55.567Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T14:07:55.637Z [[32minfo[39m]: Registro creado en Marca con ID: undefined
+2024-10-23T14:07:55.647Z [[32minfo[39m]: Acción registrada: CREAR en Marca por German Luis Ojeda
+2024-10-23T14:07:55.705Z [[32minfo[39m]: Marca creado con ID: 04dbd60c-47c3-486e-9afc-9a359edcdfe4 por German Luis Ojeda
+2024-10-23T14:07:55.706Z [[32minfo[39m]: [0mPOST /marcas [32m201[0m 140.332 ms - 143[0m
+2024-10-23T14:08:02.204Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T14:08:02.255Z [[32minfo[39m]: Registro creado en Marca con ID: undefined
+2024-10-23T14:08:02.264Z [[32minfo[39m]: Acción registrada: CREAR en Marca por German Luis Ojeda
+2024-10-23T14:08:02.334Z [[32minfo[39m]: Marca creado con ID: b8c02209-7abf-4b04-af8b-503dd48de99f por German Luis Ojeda
+2024-10-23T14:08:02.335Z [[32minfo[39m]: [0mPOST /marcas [32m201[0m 131.896 ms - 148[0m
+2024-10-23T14:08:06.857Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T14:08:06.878Z [[32minfo[39m]: Registro creado en Marca con ID: undefined
+2024-10-23T14:08:06.888Z [[32minfo[39m]: Acción registrada: CREAR en Marca por German Luis Ojeda
+2024-10-23T14:08:06.953Z [[32minfo[39m]: Marca creado con ID: c53a9da8-0a22-42a6-8962-b3cb7a55d5d0 por German Luis Ojeda
+2024-10-23T14:08:06.953Z [[32minfo[39m]: [0mPOST /marcas [32m201[0m 97.143 ms - 147[0m
+2024-10-23T14:08:11.498Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T14:08:11.517Z [[32minfo[39m]: Registro creado en Marca con ID: undefined
+2024-10-23T14:08:11.526Z [[32minfo[39m]: Acción registrada: CREAR en Marca por German Luis Ojeda
+2024-10-23T14:08:11.613Z [[32minfo[39m]: Marca creado con ID: b1f063c5-634c-4b7c-b21a-99c00224c2c1 por German Luis Ojeda
+2024-10-23T14:08:11.614Z [[32minfo[39m]: [0mPOST /marcas [32m201[0m 116.690 ms - 143[0m
+2024-10-23T14:08:30.451Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T14:08:30.515Z [[32minfo[39m]: Registro creado en Marca con ID: undefined
+2024-10-23T14:08:30.525Z [[32minfo[39m]: Acción registrada: CREAR en Marca por German Luis Ojeda
+2024-10-23T14:08:30.576Z [[32minfo[39m]: Marca creado con ID: 439c55da-851a-43a1-9e09-607d559a4316 por German Luis Ojeda
+2024-10-23T14:08:30.577Z [[32minfo[39m]: [0mPOST /marcas [32m201[0m 126.446 ms - 152[0m
+2024-10-23T14:08:38.478Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T14:08:38.496Z [[32minfo[39m]: Registro creado en Marca con ID: undefined
+2024-10-23T14:08:38.508Z [[32minfo[39m]: Acción registrada: CREAR en Marca por German Luis Ojeda
+2024-10-23T14:08:38.558Z [[32minfo[39m]: Marca creado con ID: b1167afc-c8ea-4aa1-8e74-a37defd65c87 por German Luis Ojeda
+2024-10-23T14:08:38.559Z [[32minfo[39m]: [0mPOST /marcas [32m201[0m 81.135 ms - 150[0m
+2024-10-23T14:08:43.258Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T14:08:43.282Z [[32minfo[39m]: Obtenidos 6 registros de Marca
+2024-10-23T14:08:43.282Z [[32minfo[39m]: Listado de 6 marcas obtenido por German Luis Ojeda
+2024-10-23T14:08:43.283Z [[32minfo[39m]: [0mGET /marcas [32m200[0m 25.385 ms - 890[0m
+2024-10-23T14:09:03.348Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T14:09:03.348Z [[31merror[39m]: Error obteniendo registros: Cannot read properties of undefined (reading 'findAll')
+2024-10-23T14:09:03.349Z [[31merror[39m]: Error listando tipos de articulos: Cannot read properties of undefined (reading 'findAll')
+2024-10-23T14:09:03.350Z [[32minfo[39m]: [0mGET /tipo-articulo [31m500[0m 3.169 ms - 48[0m
+2024-10-23T14:11:23.983Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T14:11:23.993Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T14:11:24.114Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T14:13:04.149Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T14:13:04.160Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T14:13:04.275Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T14:13:24.166Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T14:13:24.176Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T14:13:24.297Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T14:13:31.825Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T14:13:31.837Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T14:13:31.964Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T14:13:44.273Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T14:13:44.274Z [[31merror[39m]: Error obteniendo registros: Cannot read properties of undefined (reading 'findAll')
+2024-10-23T14:13:44.274Z [[31merror[39m]: Error listando tipos de articulos: Cannot read properties of undefined (reading 'findAll')
+2024-10-23T14:13:44.277Z [[32minfo[39m]: [0mGET /tipo-articulo [31m500[0m 6.089 ms - 48[0m
+2024-10-23T14:18:52.761Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T14:18:52.774Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T14:18:52.898Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T14:18:59.624Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T14:18:59.624Z [[31merror[39m]: Error obteniendo registros: Cannot read properties of undefined (reading 'findAll')
+2024-10-23T14:18:59.624Z [[31merror[39m]: Error listando tipos de artículos: Cannot read properties of undefined (reading 'findAll')
+2024-10-23T14:18:59.627Z [[32minfo[39m]: [0mGET /tipo-articulo [31m500[0m 5.945 ms - 49[0m
+2024-10-23T14:19:53.126Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T14:19:53.136Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T14:19:53.254Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T14:20:00.117Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T14:20:00.117Z [[31merror[39m]: Error obteniendo registros: Cannot read properties of undefined (reading 'findAll')
+2024-10-23T14:20:00.118Z [[31merror[39m]: Error listando tipos de artículos: Cannot read properties of undefined (reading 'findAll')
+2024-10-23T14:20:00.121Z [[32minfo[39m]: [0mGET /tipo-articulo [31m500[0m 6.110 ms - 49[0m
+2024-10-23T14:24:39.768Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T14:24:39.778Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T14:24:39.889Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T14:24:59.766Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T14:24:59.776Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T14:24:59.883Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T14:25:10.221Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T14:25:10.325Z [[32minfo[39m]: Obtenidos 0 registros de TipoArticulo
+2024-10-23T14:25:10.325Z [[32minfo[39m]: Listado de 0 tipos de artículos obtenido por German Luis Ojeda
+2024-10-23T14:25:10.330Z [[32minfo[39m]: [0mGET /tipo-articulo [32m200[0m 111.390 ms - 2[0m
+2024-10-23T14:25:20.414Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T14:25:20.427Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T14:25:20.558Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T14:25:25.787Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T14:25:25.812Z [[32minfo[39m]: Registro creado en TipoArticulo con ID: undefined
+2024-10-23T14:25:25.825Z [[32minfo[39m]: Acción registrada: CREAR en TipoArticulo por German Luis Ojeda
+2024-10-23T14:25:25.887Z [[32minfo[39m]: Tipo de artículo creado con ID: 3825d7f8-88fc-4af5-8e7f-d0de200a980d por German Luis Ojeda
+2024-10-23T14:25:25.890Z [[32minfo[39m]: [0mPOST /tipo-articulo [32m201[0m 106.547 ms - 151[0m
+2024-10-23T14:25:33.186Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T14:25:33.206Z [[32minfo[39m]: Registro creado en TipoArticulo con ID: undefined
+2024-10-23T14:25:33.216Z [[32minfo[39m]: Acción registrada: CREAR en TipoArticulo por German Luis Ojeda
+2024-10-23T14:25:33.271Z [[32minfo[39m]: Tipo de artículo creado con ID: 6391aa5d-bb6b-4d90-9164-6ba828633117 por German Luis Ojeda
+2024-10-23T14:25:33.272Z [[32minfo[39m]: [0mPOST /tipo-articulo [32m201[0m 86.565 ms - 157[0m
+2024-10-23T14:25:42.755Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T14:25:42.775Z [[32minfo[39m]: Registro creado en TipoArticulo con ID: undefined
+2024-10-23T14:25:42.785Z [[32minfo[39m]: Acción registrada: CREAR en TipoArticulo por German Luis Ojeda
+2024-10-23T14:25:42.830Z [[32minfo[39m]: Tipo de artículo creado con ID: b4405350-b57f-405c-9bff-11d47db3c58b por German Luis Ojeda
+2024-10-23T14:25:42.831Z [[32minfo[39m]: [0mPOST /tipo-articulo [32m201[0m 76.571 ms - 155[0m
+2024-10-23T14:25:47.407Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T14:25:47.425Z [[32minfo[39m]: Registro creado en TipoArticulo con ID: undefined
+2024-10-23T14:25:47.434Z [[32minfo[39m]: Acción registrada: CREAR en TipoArticulo por German Luis Ojeda
+2024-10-23T14:25:47.481Z [[32minfo[39m]: Tipo de artículo creado con ID: f7896028-42e0-4203-ba2f-be31f9594591 por German Luis Ojeda
+2024-10-23T14:25:47.482Z [[32minfo[39m]: [0mPOST /tipo-articulo [32m201[0m 76.443 ms - 154[0m
+2024-10-23T14:25:54.534Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T14:25:54.553Z [[32minfo[39m]: Registro creado en TipoArticulo con ID: undefined
+2024-10-23T14:25:54.562Z [[32minfo[39m]: Acción registrada: CREAR en TipoArticulo por German Luis Ojeda
+2024-10-23T14:25:54.616Z [[32minfo[39m]: Tipo de artículo creado con ID: 90e3e965-834f-4bd8-81bc-95ffe3c26a0b por German Luis Ojeda
+2024-10-23T14:25:54.617Z [[32minfo[39m]: [0mPOST /tipo-articulo [32m201[0m 83.515 ms - 156[0m
+2024-10-23T14:26:00.498Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T14:26:00.512Z [[32minfo[39m]: Obtenidos 5 registros de TipoArticulo
+2024-10-23T14:26:00.512Z [[32minfo[39m]: Listado de 5 tipos de artículos obtenido por German Luis Ojeda
+2024-10-23T14:26:00.513Z [[32minfo[39m]: [0mGET /tipo-articulo [32m200[0m 16.302 ms - 874[0m
+2024-10-23T14:41:36.479Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T14:41:36.648Z [[32minfo[39m]: Obtenidos 0 registros de Rol
+2024-10-23T14:41:36.648Z [[32minfo[39m]: Listado de 0 roles obtenido por German Luis Ojeda
+2024-10-23T14:41:36.648Z [[32minfo[39m]: [0mGET /roles [32m200[0m 170.241 ms - 2[0m
+2024-10-23T14:41:49.443Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T14:41:49.523Z [[32minfo[39m]: Registro creado en Rol con ID: undefined
+2024-10-23T14:41:49.532Z [[32minfo[39m]: Acción registrada: CREAR en Rol por German Luis Ojeda
+2024-10-23T14:41:49.569Z [[32minfo[39m]: Rol creado con ID: 7d43b6ef-c7ee-4c24-a73a-147cb52925c6 por German Luis Ojeda
+2024-10-23T14:41:49.570Z [[32minfo[39m]: [0mPOST /roles [32m201[0m 128.033 ms - 158[0m
+2024-10-23T14:41:58.627Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T14:41:58.643Z [[32minfo[39m]: Registro creado en Rol con ID: undefined
+2024-10-23T14:41:58.652Z [[32minfo[39m]: Acción registrada: CREAR en Rol por German Luis Ojeda
+2024-10-23T14:41:58.697Z [[32minfo[39m]: Rol creado con ID: 23b277b3-ef1f-4f45-b955-f79c70f74913 por German Luis Ojeda
+2024-10-23T14:41:58.698Z [[32minfo[39m]: [0mPOST /roles [32m201[0m 72.039 ms - 156[0m
+2024-10-23T14:42:29.258Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T14:42:29.329Z [[32minfo[39m]: Registro creado en Rol con ID: undefined
+2024-10-23T14:42:29.338Z [[32minfo[39m]: Acción registrada: CREAR en Rol por German Luis Ojeda
+2024-10-23T14:42:29.384Z [[32minfo[39m]: Rol creado con ID: ad9016b6-9d72-4fe3-8d98-8c27ef21d68a por German Luis Ojeda
+2024-10-23T14:42:29.385Z [[32minfo[39m]: [0mPOST /roles [32m201[0m 127.898 ms - 158[0m
+2024-10-23T14:42:41.661Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T14:42:41.729Z [[32minfo[39m]: Registro creado en Rol con ID: undefined
+2024-10-23T14:42:41.739Z [[32minfo[39m]: Acción registrada: CREAR en Rol por German Luis Ojeda
+2024-10-23T14:42:41.787Z [[32minfo[39m]: Rol creado con ID: 5f368f14-15e2-4bf5-8708-4d446c147625 por German Luis Ojeda
+2024-10-23T14:42:41.788Z [[32minfo[39m]: [0mPOST /roles [32m201[0m 127.308 ms - 160[0m
+2024-10-23T14:42:54.835Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T14:42:54.933Z [[32minfo[39m]: Registro creado en Rol con ID: undefined
+2024-10-23T14:42:55.033Z [[32minfo[39m]: Acción registrada: CREAR en Rol por German Luis Ojeda
+2024-10-23T14:42:55.109Z [[32minfo[39m]: Rol creado con ID: 1eab4918-9da8-4d16-b30d-44a50ac97895 por German Luis Ojeda
+2024-10-23T14:42:55.110Z [[32minfo[39m]: [0mPOST /roles [32m201[0m 275.603 ms - 162[0m
+2024-10-23T14:43:07.748Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T14:43:07.820Z [[32minfo[39m]: Registro creado en Rol con ID: undefined
+2024-10-23T14:43:07.829Z [[32minfo[39m]: Acción registrada: CREAR en Rol por German Luis Ojeda
+2024-10-23T14:43:07.873Z [[32minfo[39m]: Rol creado con ID: 9650a6bc-78cc-47dd-bd23-57f5efcae8b2 por German Luis Ojeda
+2024-10-23T14:43:07.874Z [[32minfo[39m]: [0mPOST /roles [32m201[0m 126.986 ms - 147[0m
+2024-10-23T14:43:30.360Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T14:43:30.436Z [[32minfo[39m]: Registro creado en Rol con ID: undefined
+2024-10-23T14:43:30.446Z [[32minfo[39m]: Acción registrada: CREAR en Rol por German Luis Ojeda
+2024-10-23T14:43:30.486Z [[32minfo[39m]: Rol creado con ID: 4b7cdb8b-994e-42c4-8439-5f4174074180 por German Luis Ojeda
+2024-10-23T14:43:30.487Z [[32minfo[39m]: [0mPOST /roles [32m201[0m 128.253 ms - 160[0m
+2024-10-23T14:43:34.845Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T14:43:34.854Z [[32minfo[39m]: Obtenidos 7 registros de Rol
+2024-10-23T14:43:34.854Z [[32minfo[39m]: Listado de 7 roles obtenido por German Luis Ojeda
+2024-10-23T14:43:34.855Z [[32minfo[39m]: [0mGET /roles [32m200[0m 10.842 ms - 1109[0m
+2024-10-23T14:53:05.934Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T14:53:05.944Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T14:53:06.069Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T14:53:07.386Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T14:53:07.396Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T14:53:07.528Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T14:53:33.280Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T14:53:33.290Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T14:53:33.450Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T14:53:35.518Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T14:53:35.530Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T14:53:35.651Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T14:53:45.695Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T14:53:45.704Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T14:53:45.860Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T14:54:51.855Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T14:54:51.866Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T14:54:52.236Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T14:54:55.122Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T14:54:55.169Z [[32minfo[39m]: Obtenidos 0 registros de Persona
+2024-10-23T14:54:55.170Z [[32minfo[39m]: Listado de 0 personas obtenido por German Luis Ojeda
+2024-10-23T14:54:55.173Z [[32minfo[39m]: [0mGET /persona [32m200[0m 52.441 ms - 2[0m
+2024-10-23T14:56:39.681Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T14:56:39.866Z [[32minfo[39m]: Obtenidos 0 registros de Persona
+2024-10-23T14:56:39.867Z [[32minfo[39m]: Listado de 0 personas obtenido por German Luis Ojeda
+2024-10-23T14:56:39.867Z [[32minfo[39m]: [0mGET /persona [32m200[0m 187.633 ms - 2[0m
+2024-10-23T14:56:44.406Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T14:56:44.442Z [[31merror[39m]: Error creando registro: (conn:515978, no: 1364, SQLState: HY000) Field 'apellido' doesn't have a default value
+sql: INSERT INTO `personas` (`id_persona`,`nombre`,`email`,`telefono`,`createdAt`,`updatedAt`) VALUES (?,?,?,?,?,?); - parameters:['f6971644-231f-4f67-9bb1-ba3879ef9100','Marina','msocolovsky@megatlon.com.ar','15-5705-2411','2024-10-23 14:56:44.418','2024-10-23...
+2024-10-23T14:56:44.454Z [[31merror[39m]: Error creando persona: (conn:515978, no: 1364, SQLState: HY000) Field 'apellido' doesn't have a default value
+sql: INSERT INTO `personas` (`id_persona`,`nombre`,`email`,`telefono`,`createdAt`,`updatedAt`) VALUES (?,?,?,?,?,?); - parameters:['f6971644-231f-4f67-9bb1-ba3879ef9100','Marina','msocolovsky@megatlon.com.ar','15-5705-2411','2024-10-23 14:56:44.418','2024-10-23...
+2024-10-23T14:56:44.455Z [[32minfo[39m]: [0mPOST /persona [31m500[0m 49.079 ms - 36[0m
+2024-10-23T14:57:32.134Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T14:57:32.145Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T14:57:32.278Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T14:57:35.267Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T14:57:35.290Z [[32minfo[39m]: Registro creado en Persona con ID: undefined
+2024-10-23T14:57:35.300Z [[32minfo[39m]: Acción registrada: CREAR en Persona por German Luis Ojeda
+2024-10-23T14:57:35.441Z [[32minfo[39m]: Persona creada con ID: 0de68ecd-0a99-4847-a561-4416aa54ad3a por German Luis Ojeda
+2024-10-23T14:57:35.445Z [[32minfo[39m]: [0mPOST /persona [32m201[0m 179.580 ms - 237[0m
+2024-10-23T14:58:33.764Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T14:58:33.901Z [[32minfo[39m]: Registro creado en Persona con ID: undefined
+2024-10-23T14:58:34.058Z [[32minfo[39m]: Acción registrada: CREAR en Persona por German Luis Ojeda
+2024-10-23T14:58:34.159Z [[32minfo[39m]: Persona creada con ID: 74e4f06b-72af-40cf-9afa-05ee1e6781d3 por German Luis Ojeda
+2024-10-23T14:58:34.159Z [[32minfo[39m]: [0mPOST /persona [32m201[0m 396.283 ms - 231[0m
+2024-10-23T14:59:26.745Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T14:59:26.828Z [[32minfo[39m]: Registro creado en Persona con ID: undefined
+2024-10-23T14:59:26.839Z [[32minfo[39m]: Acción registrada: CREAR en Persona por German Luis Ojeda
+2024-10-23T14:59:26.895Z [[32minfo[39m]: Persona creada con ID: 777eb9a5-2733-46cd-bdc9-421ac5bcfcc9 por German Luis Ojeda
+2024-10-23T14:59:26.896Z [[32minfo[39m]: [0mPOST /persona [32m201[0m 152.705 ms - 237[0m
+2024-10-23T15:00:11.652Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T15:00:11.726Z [[32minfo[39m]: Registro creado en Persona con ID: undefined
+2024-10-23T15:00:11.736Z [[32minfo[39m]: Acción registrada: CREAR en Persona por German Luis Ojeda
+2024-10-23T15:00:11.798Z [[32minfo[39m]: Persona creada con ID: f793ad72-edea-4446-9b1e-64fd4628eed3 por German Luis Ojeda
+2024-10-23T15:00:11.799Z [[32minfo[39m]: [0mPOST /persona [32m201[0m 147.357 ms - 227[0m
+2024-10-23T15:00:18.637Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T15:00:18.650Z [[32minfo[39m]: Obtenidos 4 registros de Persona
+2024-10-23T15:00:18.651Z [[32minfo[39m]: Listado de 4 personas obtenido por German Luis Ojeda
+2024-10-23T15:00:18.651Z [[32minfo[39m]: [0mGET /persona [32m200[0m 15.785 ms - 937[0m
+2024-10-23T15:04:50.879Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T15:04:50.889Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T15:04:51.024Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T15:04:53.225Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T15:04:53.236Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T15:04:53.361Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T15:05:33.655Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T15:05:33.666Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T15:05:34.724Z [[31merror[39m]: Error al conectar la base de datos: (conn:-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1001ms
+2024-10-23T15:05:35.270Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T15:05:35.280Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T15:05:35.404Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T15:06:22.435Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T15:06:22.445Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T15:06:22.598Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T15:12:09.296Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T15:12:09.307Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T15:12:09.557Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T15:12:53.143Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T15:12:53.154Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T15:12:53.296Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T15:13:23.524Z [[32minfo[39m]: [0mGET /dedicated [33m404[0m 3.853 ms - 148[0m
+2024-10-23T15:13:31.024Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T15:13:31.092Z [[32minfo[39m]: Obtenidos 4 registros de Sede
+2024-10-23T15:13:31.092Z [[32minfo[39m]: Listado de 4 sedes obtenido por German Luis Ojeda
+2024-10-23T15:13:31.094Z [[32minfo[39m]: [0mGET /sedes [32m200[0m 72.550 ms - 1567[0m
+2024-10-23T15:13:41.882Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T15:13:41.883Z [[31merror[39m]: Error obteniendo sede: Persona is not defined
+2024-10-23T15:13:41.884Z [[32minfo[39m]: [0mGET /sedes/5bfba948-987a-44ab-bf10-19598eaec0a8 [31m500[0m 2.390 ms - 35[0m
+2024-10-23T15:14:39.580Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T15:14:39.591Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T15:14:39.714Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T15:14:44.073Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T15:14:44.076Z [[31merror[39m]: Error obteniendo registro por ID: Persona is not associated to Sede!
+2024-10-23T15:14:44.076Z [[31merror[39m]: Error obteniendo sede: Persona is not associated to Sede!
+2024-10-23T15:14:44.079Z [[32minfo[39m]: [0mGET /sedes/5bfba948-987a-44ab-bf10-19598eaec0a8 [31m500[0m 7.742 ms - 35[0m
+2024-10-23T15:17:19.643Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T15:17:19.653Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T15:17:19.804Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T15:17:28.379Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T15:17:28.383Z [[31merror[39m]: Error obteniendo registro por ID: Rol is not associated to Persona!
+2024-10-23T15:17:28.384Z [[31merror[39m]: Error obteniendo sede: Rol is not associated to Persona!
+2024-10-23T15:17:28.387Z [[32minfo[39m]: [0mGET /sedes/5bfba948-987a-44ab-bf10-19598eaec0a8 [31m500[0m 10.012 ms - 35[0m
+2024-10-23T15:19:07.327Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T15:19:07.337Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T15:19:07.461Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T15:19:24.360Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T15:19:24.370Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T15:19:24.496Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T15:19:30.939Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T15:19:30.939Z [[31merror[39m]: Error obteniendo sede: SedePersona is not defined
+2024-10-23T15:19:30.942Z [[32minfo[39m]: [0mGET /sedes/5bfba948-987a-44ab-bf10-19598eaec0a8 [31m500[0m 5.447 ms - 35[0m
+2024-10-23T15:19:45.871Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T15:19:45.881Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T15:19:46.014Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T15:19:47.876Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T15:19:47.879Z [[31merror[39m]: Error obteniendo registro por ID: sede_persona is not associated to Persona!
+2024-10-23T15:19:47.880Z [[31merror[39m]: Error obteniendo sede: sede_persona is not associated to Persona!
+2024-10-23T15:19:47.883Z [[32minfo[39m]: [0mGET /sedes/5bfba948-987a-44ab-bf10-19598eaec0a8 [31m500[0m 8.913 ms - 35[0m
+2024-10-23T15:20:39.183Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T15:20:39.194Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T15:20:39.324Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T15:20:48.230Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T15:20:48.250Z [[32minfo[39m]: Registro encontrado en Sede con ID: 5bfba948-987a-44ab-bf10-19598eaec0a8
+2024-10-23T15:20:48.250Z [[32minfo[39m]: Sede obtenida con ID: 5bfba948-987a-44ab-bf10-19598eaec0a8 por German Luis Ojeda
+2024-10-23T15:20:48.254Z [[32minfo[39m]: [0mGET /sedes/5bfba948-987a-44ab-bf10-19598eaec0a8 [32m200[0m 25.751 ms - 403[0m
+2024-10-23T15:22:00.300Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T15:22:00.369Z [[32minfo[39m]: Obtenidos 7 registros de Rol
+2024-10-23T15:22:00.370Z [[32minfo[39m]: Listado de 7 roles obtenido por German Luis Ojeda
+2024-10-23T15:22:00.370Z [[32minfo[39m]: [0mGET /roles [32m200[0m 71.284 ms - 1109[0m
+2024-10-23T15:22:44.160Z [[32minfo[39m]: [0mGET /personas [33m404[0m 0.982 ms - 147[0m
+2024-10-23T15:22:47.991Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T15:22:48.053Z [[32minfo[39m]: Obtenidos 4 registros de Persona
+2024-10-23T15:22:48.054Z [[32minfo[39m]: Listado de 4 personas obtenido por German Luis Ojeda
+2024-10-23T15:22:48.054Z [[32minfo[39m]: [0mGET /persona [32m200[0m 63.578 ms - 937[0m
+2024-10-23T15:24:29.435Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T15:24:29.445Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T15:24:29.588Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T15:24:33.143Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T15:24:33.154Z [[31merror[39m]: Error creando registro: Cannot read properties of undefined (reading 'create')
+2024-10-23T15:24:33.163Z [[31merror[39m]: Error creando asignación: Cannot read properties of undefined (reading 'create')
+2024-10-23T15:24:33.166Z [[32minfo[39m]: [0mPOST /sede-persona [31m500[0m 25.256 ms - 40[0m
+2024-10-23T15:25:01.955Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T15:25:01.966Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T15:25:02.137Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T15:25:06.010Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T15:25:06.035Z [[32minfo[39m]: Registro creado en SedePersona con ID: undefined
+2024-10-23T15:25:06.046Z [[32minfo[39m]: Acción registrada: CREAR en SedePersona por German Luis Ojeda
+2024-10-23T15:25:06.087Z [[32minfo[39m]: Asignación creada con ID: cbd4b35c-811d-4dc5-ac2d-de8202fe5620 por German Luis Ojeda
+2024-10-23T15:25:06.091Z [[32minfo[39m]: [0mPOST /sede-persona [32m201[0m 84.577 ms - 284[0m
+2024-10-23T15:25:25.444Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T15:25:25.446Z [[32minfo[39m]: [0mPOST /sedes/5bfba948-987a-44ab-bf10-19598eaec0a8 [33m404[0m 2.469 ms - 182[0m
+2024-10-23T15:25:35.266Z [[32minfo[39m]: [0mPOST /sede/5bfba948-987a-44ab-bf10-19598eaec0a8 [33m404[0m 0.525 ms - 181[0m
+2024-10-23T15:25:44.007Z [[32minfo[39m]: [0mGET /sede/5bfba948-987a-44ab-bf10-19598eaec0a8 [33m404[0m 0.713 ms - 180[0m
+2024-10-23T15:25:50.402Z [[32minfo[39m]: [0mGET /sede/5bfba948-987a-44ab-bf10-19598eaec0a8 [33m404[0m 0.476 ms - 180[0m
+2024-10-23T15:26:39.414Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T15:26:39.479Z [[32minfo[39m]: Obtenidos 4 registros de Sede
+2024-10-23T15:26:39.479Z [[32minfo[39m]: Listado de 4 sedes obtenido por German Luis Ojeda
+2024-10-23T15:26:39.480Z [[32minfo[39m]: [0mGET /sedes [32m200[0m 66.690 ms - 1567[0m
+2024-10-23T15:26:46.782Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T15:26:46.802Z [[32minfo[39m]: Registro encontrado en Sede con ID: 5bfba948-987a-44ab-bf10-19598eaec0a8
+2024-10-23T15:26:46.803Z [[32minfo[39m]: Sede obtenida con ID: 5bfba948-987a-44ab-bf10-19598eaec0a8 por German Luis Ojeda
+2024-10-23T15:26:46.803Z [[32minfo[39m]: [0mGET /sedes/5bfba948-987a-44ab-bf10-19598eaec0a8 [32m200[0m 21.659 ms - 1105[0m
+2024-10-23T15:29:02.584Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T15:29:02.595Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T15:29:02.780Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T15:29:15.743Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T15:29:15.813Z [[32minfo[39m]: Registro encontrado en Sede con ID: 5bfba948-987a-44ab-bf10-19598eaec0a8
+2024-10-23T15:29:15.813Z [[31merror[39m]: Error obteniendo sede: Cannot read properties of undefined (reading '0')
+2024-10-23T15:29:15.818Z [[32minfo[39m]: [0mGET /sedes/5bfba948-987a-44ab-bf10-19598eaec0a8 [31m500[0m 76.379 ms - 35[0m
+2024-10-23T15:29:31.951Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T15:29:32.018Z [[32minfo[39m]: Registro encontrado en Sede con ID: 5bfba948-987a-44ab-bf10-19598eaec0a8
+2024-10-23T15:29:32.018Z [[31merror[39m]: Error obteniendo sede: Cannot read properties of undefined (reading '0')
+2024-10-23T15:29:32.019Z [[32minfo[39m]: [0mGET /sedes/5bfba948-987a-44ab-bf10-19598eaec0a8 [31m500[0m 69.689 ms - 35[0m
+2024-10-23T15:30:04.309Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T15:30:04.319Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T15:30:04.444Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T15:30:08.037Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T15:30:08.057Z [[32minfo[39m]: Registro encontrado en Sede con ID: 5bfba948-987a-44ab-bf10-19598eaec0a8
+2024-10-23T15:30:08.058Z [[32minfo[39m]: Sede obtenida con ID: 5bfba948-987a-44ab-bf10-19598eaec0a8 por German Luis Ojeda
+2024-10-23T15:30:08.060Z [[32minfo[39m]: [0mGET /sedes/5bfba948-987a-44ab-bf10-19598eaec0a8 [32m200[0m 26.511 ms - 588[0m
+2024-10-23T15:35:46.595Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T15:35:46.605Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T15:35:46.727Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T15:36:01.271Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T15:36:01.271Z [[31merror[39m]: Error obteniendo persona: Sede is not defined
+2024-10-23T15:36:01.275Z [[32minfo[39m]: [0mGET /persona/0de68ecd-0a99-4847-a561-4416aa54ad3a [31m500[0m 6.358 ms - 38[0m
+2024-10-23T15:36:22.553Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T15:36:22.563Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T15:36:22.691Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T15:36:24.547Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T15:36:24.548Z [[31merror[39m]: Error obteniendo persona: SedePersona is not defined
+2024-10-23T15:36:24.551Z [[32minfo[39m]: [0mGET /persona/0de68ecd-0a99-4847-a561-4416aa54ad3a [31m500[0m 5.517 ms - 38[0m
+2024-10-23T15:36:25.504Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T15:36:25.505Z [[31merror[39m]: Error obteniendo persona: SedePersona is not defined
+2024-10-23T15:36:25.505Z [[32minfo[39m]: [0mGET /persona/0de68ecd-0a99-4847-a561-4416aa54ad3a [31m500[0m 1.887 ms - 38[0m
+2024-10-23T15:36:39.422Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T15:36:39.433Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T15:36:39.634Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T15:36:41.046Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T15:36:41.065Z [[32minfo[39m]: Registro encontrado en Persona con ID: 0de68ecd-0a99-4847-a561-4416aa54ad3a
+2024-10-23T15:36:41.066Z [[32minfo[39m]: Persona obtenida con ID: 0de68ecd-0a99-4847-a561-4416aa54ad3a por German Luis Ojeda
+2024-10-23T15:36:41.069Z [[32minfo[39m]: [0mGET /persona/0de68ecd-0a99-4847-a561-4416aa54ad3a [32m200[0m 25.154 ms - 270[0m

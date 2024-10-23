@@ -25,3 +25,39 @@ sql: SELECT `id_empresa`, `nombre`, `createdAt`, `updatedAt` FROM `Empresas` AS 
 2024-10-23T10:34:26.732Z [[31merror[39m]: Error en la autenticación:
 2024-10-23T10:34:43.076Z [[31merror[39m]: Error en la autenticación:
 2024-10-23T10:35:07.275Z [[31merror[39m]: Error en la autenticación:
+2024-10-23T12:39:30.010Z [[31merror[39m]: Error creando registro: notNull Violation: Sede.localidad cannot be null,
+notNull Violation: Sede.ip_asignada cannot be null
+2024-10-23T12:39:30.020Z [[31merror[39m]: Error creando sede: notNull Violation: Sede.localidad cannot be null,
+notNull Violation: Sede.ip_asignada cannot be null
+2024-10-23T12:40:42.647Z [[31merror[39m]: Error creando registro: (conn:512776, no: 1054, SQLState: 42S22) Unknown column 'id_empresa' in 'field list'
+sql: INSERT INTO `sedes` (`id_sede`,`id_empresa`,`nombre`,`direccion`,`localidad`,`provincia`,`pais`,`telefono`,`email`,`ip_asignada`,`createdAt`,`updatedAt`) VALUES (?,?,?,?,?,?,?,?,?,?,?,?); - parameters:['e8a13b22-5361-4c1c-9c8b-58f3fa7df05c','1a9bf1ea-ecea-...
+2024-10-23T12:40:42.657Z [[31merror[39m]: Error creando sede: (conn:512776, no: 1054, SQLState: 42S22) Unknown column 'id_empresa' in 'field list'
+sql: INSERT INTO `sedes` (`id_sede`,`id_empresa`,`nombre`,`direccion`,`localidad`,`provincia`,`pais`,`telefono`,`email`,`ip_asignada`,`createdAt`,`updatedAt`) VALUES (?,?,?,?,?,?,?,?,?,?,?,?); - parameters:['e8a13b22-5361-4c1c-9c8b-58f3fa7df05c','1a9bf1ea-ecea-...
+2024-10-23T14:09:03.348Z [[31merror[39m]: Error obteniendo registros: Cannot read properties of undefined (reading 'findAll')
+2024-10-23T14:09:03.349Z [[31merror[39m]: Error listando tipos de articulos: Cannot read properties of undefined (reading 'findAll')
+2024-10-23T14:13:44.274Z [[31merror[39m]: Error obteniendo registros: Cannot read properties of undefined (reading 'findAll')
+2024-10-23T14:13:44.274Z [[31merror[39m]: Error listando tipos de articulos: Cannot read properties of undefined (reading 'findAll')
+2024-10-23T14:18:59.624Z [[31merror[39m]: Error obteniendo registros: Cannot read properties of undefined (reading 'findAll')
+2024-10-23T14:18:59.624Z [[31merror[39m]: Error listando tipos de artículos: Cannot read properties of undefined (reading 'findAll')
+2024-10-23T14:20:00.117Z [[31merror[39m]: Error obteniendo registros: Cannot read properties of undefined (reading 'findAll')
+2024-10-23T14:20:00.118Z [[31merror[39m]: Error listando tipos de artículos: Cannot read properties of undefined (reading 'findAll')
+2024-10-23T14:56:44.442Z [[31merror[39m]: Error creando registro: (conn:515978, no: 1364, SQLState: HY000) Field 'apellido' doesn't have a default value
+sql: INSERT INTO `personas` (`id_persona`,`nombre`,`email`,`telefono`,`createdAt`,`updatedAt`) VALUES (?,?,?,?,?,?); - parameters:['f6971644-231f-4f67-9bb1-ba3879ef9100','Marina','msocolovsky@megatlon.com.ar','15-5705-2411','2024-10-23 14:56:44.418','2024-10-23...
+2024-10-23T14:56:44.454Z [[31merror[39m]: Error creando persona: (conn:515978, no: 1364, SQLState: HY000) Field 'apellido' doesn't have a default value
+sql: INSERT INTO `personas` (`id_persona`,`nombre`,`email`,`telefono`,`createdAt`,`updatedAt`) VALUES (?,?,?,?,?,?); - parameters:['f6971644-231f-4f67-9bb1-ba3879ef9100','Marina','msocolovsky@megatlon.com.ar','15-5705-2411','2024-10-23 14:56:44.418','2024-10-23...
+2024-10-23T15:05:34.724Z [[31merror[39m]: Error al conectar la base de datos: (conn:-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1001ms
+2024-10-23T15:13:41.883Z [[31merror[39m]: Error obteniendo sede: Persona is not defined
+2024-10-23T15:14:44.076Z [[31merror[39m]: Error obteniendo registro por ID: Persona is not associated to Sede!
+2024-10-23T15:14:44.076Z [[31merror[39m]: Error obteniendo sede: Persona is not associated to Sede!
+2024-10-23T15:17:28.383Z [[31merror[39m]: Error obteniendo registro por ID: Rol is not associated to Persona!
+2024-10-23T15:17:28.384Z [[31merror[39m]: Error obteniendo sede: Rol is not associated to Persona!
+2024-10-23T15:19:30.939Z [[31merror[39m]: Error obteniendo sede: SedePersona is not defined
+2024-10-23T15:19:47.879Z [[31merror[39m]: Error obteniendo registro por ID: sede_persona is not associated to Persona!
+2024-10-23T15:19:47.880Z [[31merror[39m]: Error obteniendo sede: sede_persona is not associated to Persona!
+2024-10-23T15:24:33.154Z [[31merror[39m]: Error creando registro: Cannot read properties of undefined (reading 'create')
+2024-10-23T15:24:33.163Z [[31merror[39m]: Error creando asignación: Cannot read properties of undefined (reading 'create')
+2024-10-23T15:29:15.813Z [[31merror[39m]: Error obteniendo sede: Cannot read properties of undefined (reading '0')
+2024-10-23T15:29:32.018Z [[31merror[39m]: Error obteniendo sede: Cannot read properties of undefined (reading '0')
+2024-10-23T15:36:01.271Z [[31merror[39m]: Error obteniendo persona: Sede is not defined
+2024-10-23T15:36:24.548Z [[31merror[39m]: Error obteniendo persona: SedePersona is not defined
+2024-10-23T15:36:25.505Z [[31merror[39m]: Error obteniendo persona: SedePersona is not defined

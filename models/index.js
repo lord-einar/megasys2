@@ -5,6 +5,7 @@ const path = require('path');
 const sequelize = require('../config/dbConnect'); // Instancia de Sequelize
 const Sequelize = require('sequelize'); // Opcional: si necesitas los tipos
 const basename = path.basename(__filename);
+const { applyAssociations } = require('../config/associations');
 const db = {};
 
 // Cargar y registrar los modelos dinámicamente
@@ -40,6 +41,9 @@ Object.keys(db).forEach((modelName) => {
     db[modelName].associate(db);
   }
 });
+
+applyAssociations();
+
 
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;

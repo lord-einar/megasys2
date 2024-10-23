@@ -39,12 +39,4 @@ RemitoInventario.init({
   tableName: 'remito_inventario'
 });
 
-// En tu archivo de asociaciones
-Inventario.hasMany(RemitoInventario, { foreignKey: 'id_inventario' });
-RemitoInventario.belongsTo(Inventario, { foreignKey: 'id_inventario' });
-
-// Remito tiene muchos RemitoInventario
-Remito.hasMany(RemitoInventario, { foreignKey: 'id_remito' });
-RemitoInventario.belongsTo(Remito, { foreignKey: 'id_remito' });
-
 module.exports = RemitoInventario;

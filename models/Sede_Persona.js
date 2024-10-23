@@ -36,7 +36,7 @@ SedePersona.init({
   }
 }, {
   sequelize,
-  modelName: 'sede_persona',
+  modelName: 'SedePersona',
   tableName: 'sede_persona'
 });
 

@@ -13,12 +13,15 @@ TipoArticulo.init(
     nombre: {
       type: DataTypes.STRING,
       allowNull: false,
+    },
+    descripcion: {
+      type: DataTypes.STRING,
     }
   },
   {
     sequelize,
-    modelName: "tipo_articulo",
-    tableName: "tipo_articulo"
+    modelName: "TipoArticulo",
+    tableName: "tipo_articulos"
   }
 );
 
