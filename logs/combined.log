@@ -1472,3 +1472,128 @@ sql: INSERT INTO `personas` (`id_persona`,`nombre`,`email`,`telefono`,`createdAt
 2024-10-23T15:36:41.065Z [[32minfo[39m]: Registro encontrado en Persona con ID: 0de68ecd-0a99-4847-a561-4416aa54ad3a
 2024-10-23T15:36:41.066Z [[32minfo[39m]: Persona obtenida con ID: 0de68ecd-0a99-4847-a561-4416aa54ad3a por German Luis Ojeda
 2024-10-23T15:36:41.069Z [[32minfo[39m]: [0mGET /persona/0de68ecd-0a99-4847-a561-4416aa54ad3a [32m200[0m 25.154 ms - 270[0m
+2024-10-23T16:26:44.908Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T16:26:45.091Z [[32minfo[39m]: Obtenidos 4 registros de Sede
+2024-10-23T16:26:45.091Z [[32minfo[39m]: Listado de 4 sedes obtenido por German Luis Ojeda
+2024-10-23T16:26:45.092Z [[32minfo[39m]: [0mGET /sedes [32m200[0m 185.203 ms - 1567[0m
+2024-10-23T16:29:03.219Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T16:29:03.229Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T16:29:03.371Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T16:36:44.474Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T16:36:44.485Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T16:36:44.619Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T16:36:47.053Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T16:36:47.065Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T16:36:47.199Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T16:37:33.543Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T16:37:33.553Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T16:37:33.692Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T16:38:24.836Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T16:38:24.845Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T16:38:25.022Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T16:38:28.771Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T16:38:28.790Z [[32minfo[39m]: [0mGET /inventario [32m200[0m 20.637 ms - 2[0m
+2024-10-23T16:42:58.457Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T16:42:58.467Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T16:42:58.710Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T17:01:55.060Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T17:01:55.069Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T17:01:55.266Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T17:38:32.419Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T17:38:32.619Z [[32minfo[39m]: [0mGET /inventario [32m200[0m 204.219 ms - 2[0m
+2024-10-23T17:39:08.005Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T17:39:08.078Z [[32minfo[39m]: Obtenidos 6 registros de Marca
+2024-10-23T17:39:08.079Z [[32minfo[39m]: Listado de 6 marcas obtenido por German Luis Ojeda
+2024-10-23T17:39:08.079Z [[32minfo[39m]: [0mGET /marcas [32m200[0m 74.841 ms - 890[0m
+2024-10-23T17:39:49.006Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T17:39:49.107Z [[32minfo[39m]: Obtenidos 5 registros de TipoArticulo
+2024-10-23T17:39:49.107Z [[32minfo[39m]: Listado de 5 tipos de artículos obtenido por German Luis Ojeda
+2024-10-23T17:39:49.108Z [[32minfo[39m]: [0mGET /tipo-articulo [32m200[0m 103.166 ms - 874[0m
+2024-10-23T17:41:35.132Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T17:41:35.196Z [[31merror[39m]: Error creando registro: notNull Violation: TipoArticulo.nombre cannot be null
+2024-10-23T17:41:35.204Z [[31merror[39m]: Error creando tipo de artículo: notNull Violation: TipoArticulo.nombre cannot be null
+2024-10-23T17:41:35.205Z [[32minfo[39m]: [0mPOST /tipo-articulo [31m500[0m 74.010 ms - 46[0m
+2024-10-23T17:44:06.336Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T17:44:27.391Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T17:44:27.401Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T17:44:28.139Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T17:44:33.222Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T17:44:33.235Z [[31merror[39m]: Error creando registro: notNull Violation: Inventario.id_sede cannot be null
+2024-10-23T17:44:33.244Z [[31merror[39m]: Error creando artículo: notNull Violation: Inventario.id_sede cannot be null
+2024-10-23T17:44:33.247Z [[32minfo[39m]: [0mPOST /inventario [31m500[0m 26.660 ms - 38[0m
+2024-10-23T17:44:55.615Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T17:44:55.625Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T17:44:55.812Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T17:45:15.747Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T17:45:15.756Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T17:45:15.909Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T17:45:19.055Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T17:45:19.090Z [[31merror[39m]: Error creando registro: (conn:521607, no: 1364, SQLState: HY000) Field 'id_sede' doesn't have a default value
+sql: INSERT INTO `inventarios` (`id_inventario`,`id_marca`,`modelo`,`id_tipo_articulo`,`service_tag`,`activo`,`createdAt`,`updatedAt`) VALUES (?,?,?,?,?,?,?,?); - parameters:['b9be5e7d-92b4-4595-a41e-35ade406d5e0','b1167afc-c8ea-4aa1-8e74-a37defd65c87','AEDQSE'...
+2024-10-23T17:45:19.100Z [[31merror[39m]: Error creando artículo: (conn:521607, no: 1364, SQLState: HY000) Field 'id_sede' doesn't have a default value
+sql: INSERT INTO `inventarios` (`id_inventario`,`id_marca`,`modelo`,`id_tipo_articulo`,`service_tag`,`activo`,`createdAt`,`updatedAt`) VALUES (?,?,?,?,?,?,?,?); - parameters:['b9be5e7d-92b4-4595-a41e-35ade406d5e0','b1167afc-c8ea-4aa1-8e74-a37defd65c87','AEDQSE'...
+2024-10-23T17:45:19.102Z [[32minfo[39m]: [0mPOST /inventario [31m500[0m 49.662 ms - 38[0m
+2024-10-23T17:49:31.446Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T17:49:31.457Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T17:49:31.614Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T17:49:34.789Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T17:49:34.800Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T17:49:34.927Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T17:49:42.949Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T17:49:42.975Z [[32minfo[39m]: Registro creado en Inventario con ID: undefined
+2024-10-23T17:49:42.985Z [[31merror[39m]: Error registrando movimiento: (conn:521679, no: 1054, SQLState: 42S22) Unknown column 'id_sede' in 'field list'
+sql: INSERT INTO `historico_inventario` (`id_historico`,`id_inventario`,`id_sede`,`id_remito`,`fecha_movimiento`,`createdAt`,`updatedAt`) VALUES (?,?,?,?,?,?,?); - parameters:['ab4758a5-4331-4a0e-9485-8beec388ad39','972707e2-d977-4d65-a064-20f0ebf574d2','274f9d...
+2024-10-23T17:49:43.066Z [[31merror[39m]: Error creando artículo: (conn:521679, no: 1054, SQLState: 42S22) Unknown column 'id_sede' in 'field list'
+sql: INSERT INTO `historico_inventario` (`id_historico`,`id_inventario`,`id_sede`,`id_remito`,`fecha_movimiento`,`createdAt`,`updatedAt`) VALUES (?,?,?,?,?,?,?); - parameters:['ab4758a5-4331-4a0e-9485-8beec388ad39','972707e2-d977-4d65-a064-20f0ebf574d2','274f9d...
+2024-10-23T17:49:43.069Z [[32minfo[39m]: [0mPOST /inventario [31m500[0m 122.310 ms - 38[0m
+2024-10-23T17:52:29.886Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T17:52:29.896Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T17:52:30.065Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T17:53:08.702Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T17:53:08.767Z [[31merror[39m]: Error creando registro: notNull Violation: Inventario.id_sede cannot be null
+2024-10-23T17:53:08.777Z [[31merror[39m]: Error creando artículo: notNull Violation: Inventario.id_sede cannot be null
+2024-10-23T17:53:08.781Z [[32minfo[39m]: [0mPOST /inventario [31m500[0m 81.644 ms - 38[0m
+2024-10-23T17:53:57.832Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T17:53:57.842Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T17:53:58.070Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T17:55:22.528Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T17:55:22.538Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T17:55:22.974Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T17:55:25.169Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T17:55:25.200Z [[32minfo[39m]: Registro creado en Inventario con ID: undefined
+2024-10-23T17:55:25.212Z [[31merror[39m]: Error registrando movimiento: (conn:521835, no: 1054, SQLState: 42S22) Unknown column 'id_sede' in 'field list'
+sql: INSERT INTO `historico_inventario` (`id_historico`,`id_inventario`,`id_sede_origen`,`id_sede_destino`,`id_remito`,`fecha_movimiento`,`createdAt`,`updatedAt`,`id_sede`) VALUES (?,?,?,?,?,?,?,?,?); - parameters:['a7b81c00-0dd1-4c9d-bcde-8f04be212491','d5f37d...
+2024-10-23T17:55:25.272Z [[31merror[39m]: Error creando artículo: (conn:521835, no: 1054, SQLState: 42S22) Unknown column 'id_sede' in 'field list'
+sql: INSERT INTO `historico_inventario` (`id_historico`,`id_inventario`,`id_sede_origen`,`id_sede_destino`,`id_remito`,`fecha_movimiento`,`createdAt`,`updatedAt`,`id_sede`) VALUES (?,?,?,?,?,?,?,?,?); - parameters:['a7b81c00-0dd1-4c9d-bcde-8f04be212491','d5f37d...
+2024-10-23T17:55:25.275Z [[32minfo[39m]: [0mPOST /inventario [31m500[0m 108.336 ms - 38[0m
+2024-10-23T17:55:40.300Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T17:55:40.309Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T17:55:40.734Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T17:55:43.081Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T17:55:43.107Z [[32minfo[39m]: Registro creado en Inventario con ID: undefined
+2024-10-23T17:55:43.118Z [[31merror[39m]: Error registrando movimiento: (conn:521840, no: 1054, SQLState: 42S22) Unknown column 'id_sede' in 'field list'
+sql: INSERT INTO `historico_inventario` (`id_historico`,`id_inventario`,`id_sede_origen`,`id_sede_destino`,`id_remito`,`fecha_movimiento`,`createdAt`,`updatedAt`,`id_sede`) VALUES (?,?,?,?,?,?,?,?,?); - parameters:['9abf4cea-fb83-4522-8a9c-392e18708ae5','e7c26c...
+2024-10-23T17:55:43.165Z [[31merror[39m]: Error creando artículo: (conn:521840, no: 1054, SQLState: 42S22) Unknown column 'id_sede' in 'field list'
+sql: INSERT INTO `historico_inventario` (`id_historico`,`id_inventario`,`id_sede_origen`,`id_sede_destino`,`id_remito`,`fecha_movimiento`,`createdAt`,`updatedAt`,`id_sede`) VALUES (?,?,?,?,?,?,?,?,?); - parameters:['9abf4cea-fb83-4522-8a9c-392e18708ae5','e7c26c...
+2024-10-23T17:55:43.169Z [[32minfo[39m]: [0mPOST /inventario [31m500[0m 89.653 ms - 38[0m
+2024-10-23T17:56:52.507Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T17:56:52.583Z [[32minfo[39m]: Registro creado en Inventario con ID: undefined
+2024-10-23T17:56:52.593Z [[31merror[39m]: Error registrando movimiento: (conn:521899, no: 1054, SQLState: 42S22) Unknown column 'id_sede' in 'field list'
+sql: INSERT INTO `historico_inventario` (`id_historico`,`id_inventario`,`id_sede_origen`,`id_sede_destino`,`id_remito`,`fecha_movimiento`,`createdAt`,`updatedAt`,`id_sede`) VALUES (?,?,?,?,?,?,?,?,?); - parameters:['1006545a-2984-4e5e-8028-4f4d526c27ad','dfa66f...
+2024-10-23T17:56:52.644Z [[31merror[39m]: Error creando artículo: (conn:521899, no: 1054, SQLState: 42S22) Unknown column 'id_sede' in 'field list'
+sql: INSERT INTO `historico_inventario` (`id_historico`,`id_inventario`,`id_sede_origen`,`id_sede_destino`,`id_remito`,`fecha_movimiento`,`createdAt`,`updatedAt`,`id_sede`) VALUES (?,?,?,?,?,?,?,?,?); - parameters:['1006545a-2984-4e5e-8028-4f4d526c27ad','dfa66f...
+2024-10-23T17:56:52.645Z [[32minfo[39m]: [0mPOST /inventario [31m500[0m 138.690 ms - 38[0m
+2024-10-23T18:00:19.735Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T18:00:19.745Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T18:00:19.910Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T18:00:32.333Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T18:00:32.343Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T18:00:32.494Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-23T18:00:43.545Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T18:00:43.624Z [[32minfo[39m]: Registro creado en Inventario con ID: undefined
+2024-10-23T18:00:43.635Z [[32minfo[39m]: Movimiento registrado para inventario: 78a90057-cc10-49ee-a555-121236f5ed3b
+2024-10-23T18:00:43.646Z [[32minfo[39m]: Acción registrada: CREAR en Inventario por German Luis Ojeda
+2024-10-23T18:00:43.706Z [[32minfo[39m]: Artículo creado con ID: 78a90057-cc10-49ee-a555-121236f5ed3b
+2024-10-23T18:00:43.710Z [[32minfo[39m]: [0mPOST /inventario [32m201[0m 167.672 ms - 314[0m
+2024-10-23T18:01:00.103Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-23T18:01:00.208Z [[32minfo[39m]: [0mGET /inventario [32m200[0m 106.908 ms - 402[0m

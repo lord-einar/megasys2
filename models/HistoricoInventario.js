@@ -21,7 +21,16 @@ HistoricoInventario.init({
       key: 'id_inventario'
     }
   },
-  id_sede: {
+  id_sede_origen: {
+    type: DataTypes.UUID,
+    defaultValue: DataTypes.UUIDV4,
+    allowNull: false,
+    references: {
+      model: 'Sedes',
+      key: 'id_sede'
+    }
+  },
+  id_sede_destino: {
     type: DataTypes.UUID,
     defaultValue: DataTypes.UUIDV4,
     allowNull: false,

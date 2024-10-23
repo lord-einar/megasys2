@@ -1,7 +1,5 @@
 const { DataTypes, Model } = require("sequelize");
 const sequelize = require("../config/dbConnect");
-const Inventario = require("./Inventario");
-const Remito = require("./Remito");
 
 class RemitoInventario extends Model {}
 

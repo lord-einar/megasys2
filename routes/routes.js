@@ -7,6 +7,8 @@ const tipoArticuloRoutes = require('./tipoArticulo')
 const marcasRoutes = require('./marcas')
 const personaRoutes = require('./persona');
 const sedePersonaRoutes = require('./sedePersona')
+const inventarioRoutes = require('./inventario');
+
 
 // Add other route imports here...
 
@@ -20,6 +22,8 @@ function initializeRoutes(app) {
   app.use('/marcas', marcasRoutes);
   app.use('/persona', personaRoutes);
   app.use('/sede-persona', sedePersonaRoutes);
+  app.use('/inventario', inventarioRoutes);
+
   
 
   // Manejo centralizado de errores

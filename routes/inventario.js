@@ -10,6 +10,7 @@ router.use(capturarUsuario);
 
 router.post('/', inventarioController.crearArticulo);
 router.get('/', inventarioController.listarArticulos);
+router.get('/:id', inventarioController.obtenerArticulo);
 router.put('/:id', inventarioController.actualizarArticulo);
 router.delete('/:id', inventarioController.eliminarArticulo);
 

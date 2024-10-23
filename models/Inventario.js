@@ -12,6 +12,7 @@ Inventario.init({
   id_sede: {
     type: DataTypes.UUID,
     allowNull: false,
+    defaultValue: '274f9dd7-777a-45ab-a9a2-667ab9c9b4e6',
     references: {
       model: 'Sedes',
       key: 'id_sede'
