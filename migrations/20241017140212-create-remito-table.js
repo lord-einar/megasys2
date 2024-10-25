@@ -1,50 +1,62 @@
 'use strict';
 
-/** @type {import('sequelize-cli').Migration} */
 module.exports = {
-  up: async (queryInterface, Sequelize) => {
+  async up(queryInterface, Sequelize) {
     await queryInterface.createTable('remitos', {
       id_remito: {
-        type: Sequelize.UUID,
-        defaultValue: Sequelize.UUIDV4,
+        type: Sequelize.INTEGER,
+        autoIncrement: true,
         primaryKey: true,
       },
-      id_sede_origen: {
+      id_sede: {
         type: Sequelize.UUID,
         allowNull: false,
+        references: {
+          model: 'sedes',
+          key: 'id_sede',
+        },
+        onDelete: 'CASCADE',
+        onUpdate: 'CASCADE',
       },
-      id_sede_destino: {
+      id_persona: {
         type: Sequelize.UUID,
-        allowNull: false,
+        allowNull: true,
+        references: {
+          model: 'personas',
+          key: 'id_persona',
+        },
+        onDelete: 'SET NULL',
+        onUpdate: 'CASCADE',
       },
-      id_usuario: {
+      id_user: {
         type: Sequelize.UUID,
-        allowNull: false,
+        allowNull: true,
+        references: {
+          model: 'users',
+          key: 'id_user',
+        },
+        onDelete: 'SET NULL',
+        onUpdate: 'CASCADE',
       },
-      id_tecnico: {
-        type: Sequelize.UUID,
-        allowNull: false,
-      },
-      fecha: {
+      fecha_remito: {
         type: Sequelize.DATE,
-        defaultValue: Sequelize.NOW,
         allowNull: false,
-      },
-      observaciones: {
-        type: Sequelize.STRING,
+        defaultValue: Sequelize.NOW,
       },
       createdAt: {
         type: Sequelize.DATE,
         allowNull: false,
+        defaultValue: Sequelize.NOW,
       },
       updatedAt: {
         type: Sequelize.DATE,
         allowNull: false,
+        defaultValue: Sequelize.NOW,
       },
     });
   },
 
-  down: async (queryInterface, Sequelize) => {
-    await queryInterface.dropTable('personas');
+  async down(queryInterface) {
+    await queryInterface.dropTable('remitos');
   },
 };

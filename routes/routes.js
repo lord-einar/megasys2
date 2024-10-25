@@ -1,4 +1,3 @@
-const userRoutes = require('./users');
 const authRoutes = require('./auth');
 const empresaRoutes = require('./empresas')
 const sedesRoutes = require('./sedes')
@@ -8,7 +7,8 @@ const marcasRoutes = require('./marcas')
 const personaRoutes = require('./persona');
 const sedePersonaRoutes = require('./sedePersona')
 const inventarioRoutes = require('./inventario');
-
+const userRoutes = require('./users');
+const remitoRoutes = require('./remito');
 
 // Add other route imports here...
 
@@ -23,6 +23,8 @@ function initializeRoutes(app) {
   app.use('/persona', personaRoutes);
   app.use('/sede-persona', sedePersonaRoutes);
   app.use('/inventario', inventarioRoutes);
+  app.use('/users', userRoutes);
+  app.use('/remitos', remitoRoutes);
 
   
 

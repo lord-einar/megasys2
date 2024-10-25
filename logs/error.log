@@ -87,3 +87,40 @@ sql: INSERT INTO `historico_inventario` (`id_historico`,`id_inventario`,`id_sede
 sql: INSERT INTO `historico_inventario` (`id_historico`,`id_inventario`,`id_sede_origen`,`id_sede_destino`,`id_remito`,`fecha_movimiento`,`createdAt`,`updatedAt`,`id_sede`) VALUES (?,?,?,?,?,?,?,?,?); - parameters:['1006545a-2984-4e5e-8028-4f4d526c27ad','dfa66f...
 2024-10-23T17:56:52.644Z [[31merror[39m]: Error creando artículo: (conn:521899, no: 1054, SQLState: 42S22) Unknown column 'id_sede' in 'field list'
 sql: INSERT INTO `historico_inventario` (`id_historico`,`id_inventario`,`id_sede_origen`,`id_sede_destino`,`id_remito`,`fecha_movimiento`,`createdAt`,`updatedAt`,`id_sede`) VALUES (?,?,?,?,?,?,?,?,?); - parameters:['1006545a-2984-4e5e-8028-4f4d526c27ad','dfa66f...
+2024-10-25T11:31:31.476Z [[31merror[39m]: Error al conectar la base de datos: (conn:-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1002ms
+2024-10-25T18:01:48.759Z [[31merror[39m]: Error creando remito: (conn:645583, no: 1452, SQLState: 23000) Cannot add or update a child row: a foreign key constraint fails (`megasys2`.`remitos`, CONSTRAINT `remitos_ibfk_1` FOREIGN KEY (`id_sede`) REFERENCES `sedes` (`id_sede`) ON DELETE CASCADE ON UPDATE CASCADE)
+sql: INSERT INTO `remitos` (`id_remito`,`id_sede`,`id_persona`,`id_user`,`fecha_remito`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?,?); - parameters:['1a9bf1ea-ecea-4765-a144-b289f4928d10','777eb9a5-2733-46cd-bdc9-421ac5bcfcc9','42fa6c79-8ae1-4a59-a0c9-1...
+2024-10-25T18:01:48.760Z [[31merror[39m]: Error creando remito: (conn:645583, no: 1452, SQLState: 23000) Cannot add or update a child row: a foreign key constraint fails (`megasys2`.`remitos`, CONSTRAINT `remitos_ibfk_1` FOREIGN KEY (`id_sede`) REFERENCES `sedes` (`id_sede`) ON DELETE CASCADE ON UPDATE CASCADE)
+sql: INSERT INTO `remitos` (`id_remito`,`id_sede`,`id_persona`,`id_user`,`fecha_remito`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?,?); - parameters:['1a9bf1ea-ecea-4765-a144-b289f4928d10','777eb9a5-2733-46cd-bdc9-421ac5bcfcc9','42fa6c79-8ae1-4a59-a0c9-1...
+2024-10-25T18:03:11.307Z [[31merror[39m]: Error creando registro: notNull Violation: Sede.id_empresa cannot be null,
+notNull Violation: Sede.nombre cannot be null,
+notNull Violation: Sede.direccion cannot be null,
+notNull Violation: Sede.localidad cannot be null,
+notNull Violation: Sede.provincia cannot be null,
+notNull Violation: Sede.pais cannot be null,
+notNull Violation: Sede.telefono cannot be null,
+notNull Violation: Sede.email cannot be null,
+notNull Violation: Sede.ip_asignada cannot be null
+2024-10-25T18:03:11.317Z [[31merror[39m]: Error creando sede: notNull Violation: Sede.id_empresa cannot be null,
+notNull Violation: Sede.nombre cannot be null,
+notNull Violation: Sede.direccion cannot be null,
+notNull Violation: Sede.localidad cannot be null,
+notNull Violation: Sede.provincia cannot be null,
+notNull Violation: Sede.pais cannot be null,
+notNull Violation: Sede.telefono cannot be null,
+notNull Violation: Sede.email cannot be null,
+notNull Violation: Sede.ip_asignada cannot be null
+2024-10-25T18:04:01.757Z [[31merror[39m]: Error creando remito: articulos is not iterable
+2024-10-25T18:04:01.757Z [[31merror[39m]: Error creando remito: articulos is not iterable
+2024-10-25T18:05:07.648Z [[31merror[39m]: Error creando remito: (conn:645635, no: 1364, SQLState: HY000) Field 'id_remito_inventario' doesn't have a default value
+sql: INSERT INTO `remito_inventario` (`id_remito`,`id_inventario`,`es_prestamo`,`fecha_devolucion`,`devuelto`,`createdAt`,`updatedAt`) VALUES (?,?,?,?,?,?,?); - parameters:[3,'78a90057-cc10-49ee-a555-121236f5ed3b',false,null,false,'2024-10-25 18:05:07.576','202...
+2024-10-25T18:05:07.648Z [[31merror[39m]: Error creando remito: (conn:645635, no: 1364, SQLState: HY000) Field 'id_remito_inventario' doesn't have a default value
+sql: INSERT INTO `remito_inventario` (`id_remito`,`id_inventario`,`es_prestamo`,`fecha_devolucion`,`devuelto`,`createdAt`,`updatedAt`) VALUES (?,?,?,?,?,?,?); - parameters:[3,'78a90057-cc10-49ee-a555-121236f5ed3b',false,null,false,'2024-10-25 18:05:07.576','202...
+2024-10-25T18:08:10.114Z [[31merror[39m]: Error listando remitos: Sede is not defined
+2024-10-25T18:08:10.114Z [[31merror[39m]: Error listando remitos: Sede is not defined
+2024-10-25T18:09:04.133Z [[31merror[39m]: Error obteniendo remito: RemitoInventario is not associated to Remito!
+2024-10-25T18:09:04.134Z [[31merror[39m]: Error obteniendo remito: RemitoInventario is not associated to Remito!
+2024-10-25T18:11:10.174Z [[31merror[39m]: Error obteniendo remito: RemitoInventario is not associated to Remito!
+2024-10-25T18:11:10.174Z [[31merror[39m]: Error obteniendo remito: RemitoInventario is not associated to Remito!
+2024-10-25T18:11:47.848Z [[31merror[39m]: Error obteniendo remito: RemitoInventario is not associated to Remito!
+2024-10-25T18:11:47.849Z [[31merror[39m]: Error obteniendo remito: RemitoInventario is not associated to Remito!

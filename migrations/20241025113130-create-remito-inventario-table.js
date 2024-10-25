@@ -1,8 +1,7 @@
 'use strict';
 
-/** @type {import('sequelize-cli').Migration} */
 module.exports = {
-  up: async (queryInterface, Sequelize) => {
+  async up(queryInterface, Sequelize) {
     await queryInterface.createTable('remito_inventario', {
       id_remito_inventario: {
         type: Sequelize.UUID,
@@ -10,14 +9,14 @@ module.exports = {
         primaryKey: true,
       },
       id_remito: {
-        type: Sequelize.UUID,
+        type: Sequelize.INTEGER,
         allowNull: false,
         references: {
           model: 'remitos',
           key: 'id_remito',
         },
-        onUpdate: 'CASCADE',
         onDelete: 'CASCADE',
+        onUpdate: 'CASCADE',
       },
       id_inventario: {
         type: Sequelize.UUID,
@@ -26,25 +25,37 @@ module.exports = {
           model: 'inventarios',
           key: 'id_inventario',
         },
-        onUpdate: 'CASCADE',
         onDelete: 'CASCADE',
+        onUpdate: 'CASCADE',
       },
-      cantidad: {
-        type: Sequelize.INTEGER,
-        allowNull: false,
+      es_prestamo: {
+        type: Sequelize.BOOLEAN,
+        defaultValue: false,
+      },
+      fecha_devolucion: {
+        type: Sequelize.DATE,
+      },
+      devuelto: {
+        type: Sequelize.BOOLEAN,
+        defaultValue: false,
+      },
+      observaciones: {
+        type: Sequelize.STRING,
       },
       createdAt: {
         type: Sequelize.DATE,
         allowNull: false,
+        defaultValue: Sequelize.NOW,
       },
       updatedAt: {
         type: Sequelize.DATE,
         allowNull: false,
+        defaultValue: Sequelize.NOW,
       },
     });
   },
 
-  down: async (queryInterface, Sequelize) => {
+  async down(queryInterface) {
     await queryInterface.dropTable('remito_inventario');
   },
 };

@@ -1600,3 +1600,229 @@ sql: INSERT INTO `historico_inventario` (`id_historico`,`id_inventario`,`id_sede
 2024-10-23T19:44:24.290Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
 2024-10-23T19:44:24.300Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
 2024-10-23T19:44:24.496Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T10:46:51.638Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T10:46:51.649Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T10:46:51.961Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T10:48:17.048Z [[32minfo[39m]: [0mGET /favicon.ico [33m404[0m 4.870 ms - 150[0m
+2024-10-25T11:05:59.437Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T11:05:59.447Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T11:05:59.723Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T11:06:20.637Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T11:06:20.647Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T11:06:20.761Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T11:09:34.920Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T11:09:34.931Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T11:09:35.088Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T11:10:00.942Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T11:10:00.954Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T11:10:01.067Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T11:10:14.776Z [[33mwarn[39m]: Token inválido: jwt expired
+2024-10-25T11:10:14.779Z [[32minfo[39m]: [0mGET /users [33m403[0m 6.389 ms - 41[0m
+2024-10-25T11:10:28.615Z [[32minfo[39m]: [0mGET /auth/login [36m302[0m 673.045 ms - 0[0m
+2024-10-25T11:10:29.554Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda
+2024-10-25T11:10:29.555Z [[32minfo[39m]: [0mPOST /auth/openid/return [32m200[0m 336.101 ms - 2498[0m
+2024-10-25T11:11:21.806Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T11:11:21.898Z [[32minfo[39m]: Obtenidos 0 registros de User
+2024-10-25T11:11:21.898Z [[32minfo[39m]: Listado de usuarios obtenido por German Luis Ojeda
+2024-10-25T11:11:21.899Z [[32minfo[39m]: [0mGET /users [32m200[0m 93.925 ms - 2[0m
+2024-10-25T11:13:46.833Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T11:13:46.930Z [[32minfo[39m]: Registro creado en User con ID: undefined
+2024-10-25T11:13:46.963Z [[32minfo[39m]: Acción registrada: CREAR en User por German Luis Ojeda
+2024-10-25T11:13:47.007Z [[32minfo[39m]: Usuario creado con ID: 42fa6c79-8ae1-4a59-a0c9-1af2056b0e8b
+2024-10-25T11:13:47.008Z [[32minfo[39m]: [0mPOST /users [32m201[0m 175.058 ms - 229[0m
+2024-10-25T11:14:44.857Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T11:14:45.237Z [[32minfo[39m]: Registro creado en User con ID: undefined
+2024-10-25T11:14:45.247Z [[32minfo[39m]: Acción registrada: CREAR en User por German Luis Ojeda
+2024-10-25T11:14:45.334Z [[32minfo[39m]: Usuario creado con ID: 7e95d427-3b4d-4677-bcc3-8922226e214d
+2024-10-25T11:14:45.335Z [[32minfo[39m]: [0mPOST /users [32m201[0m 478.527 ms - 232[0m
+2024-10-25T11:31:30.467Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T11:31:30.479Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T11:31:31.476Z [[31merror[39m]: Error al conectar la base de datos: (conn:-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1002ms
+2024-10-25T11:31:39.565Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T11:31:39.577Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T11:31:39.741Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T11:35:59.585Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T11:35:59.594Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T11:35:59.709Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T11:36:56.289Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T11:36:56.298Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T11:36:56.448Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T11:39:14.735Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T11:39:14.745Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T11:39:14.881Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T11:44:52.461Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T11:44:52.470Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T11:44:52.636Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T11:45:28.692Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T11:45:28.702Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T11:45:29.127Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T11:46:08.311Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T11:46:08.321Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T11:46:08.460Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T11:49:04.037Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T11:49:04.046Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T11:49:04.234Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T11:50:17.559Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T11:50:17.571Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T11:50:17.685Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T11:57:59.132Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T11:57:59.143Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T11:57:59.276Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T11:59:48.985Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T11:59:48.994Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T11:59:49.134Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T12:02:09.383Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T12:02:09.392Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T12:02:09.504Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T12:03:10.269Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T12:03:10.279Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T12:03:10.389Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T12:05:50.960Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T12:05:50.971Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T12:05:51.145Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T12:05:52.848Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T12:05:52.858Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T12:05:52.976Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T12:07:42.339Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T12:07:42.349Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T12:07:42.460Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T12:31:00.412Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T12:31:00.422Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T12:31:00.585Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T12:33:34.180Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T12:33:34.189Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T12:33:34.340Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T12:33:48.507Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T12:33:48.518Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T12:33:48.635Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T12:34:22.801Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T12:34:22.811Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T12:34:22.918Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T12:35:12.440Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T12:35:12.451Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T12:35:12.562Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T13:30:21.487Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T13:30:21.780Z [[32minfo[39m]: Obtenidos 4 registros de Sede
+2024-10-25T13:30:21.780Z [[32minfo[39m]: Listado de 4 sedes obtenido por German Luis Ojeda
+2024-10-25T13:30:21.784Z [[32minfo[39m]: [0mGET /sedes [32m200[0m 299.331 ms - 1567[0m
+2024-10-25T13:41:49.298Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T13:41:49.308Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T13:41:49.490Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T13:42:05.452Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T13:42:05.463Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T13:42:05.640Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T13:45:42.807Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T13:45:42.817Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T13:45:42.958Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T17:53:09.035Z [[32minfo[39m]: [0mGET /person [33m404[0m 2.979 ms - 145[0m
+2024-10-25T17:53:11.284Z [[32minfo[39m]: [0mGET /personas [33m404[0m 1.246 ms - 147[0m
+2024-10-25T17:53:15.623Z [[32minfo[39m]: [0mGET /personas [33m404[0m 0.481 ms - 147[0m
+2024-10-25T17:53:21.959Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T17:53:22.083Z [[32minfo[39m]: Obtenidos 4 registros de Persona
+2024-10-25T17:53:22.083Z [[32minfo[39m]: Listado de 4 personas obtenido por German Luis Ojeda
+2024-10-25T17:53:22.085Z [[32minfo[39m]: [0mGET /persona [32m200[0m 127.036 ms - 937[0m
+2024-10-25T17:53:46.778Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T17:53:46.845Z [[32minfo[39m]: Obtenidos 2 registros de User
+2024-10-25T17:53:46.845Z [[32minfo[39m]: Listado de usuarios obtenido por German Luis Ojeda
+2024-10-25T17:53:46.846Z [[32minfo[39m]: [0mGET /users [32m200[0m 68.350 ms - 464[0m
+2024-10-25T17:54:42.171Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T17:54:42.256Z [[32minfo[39m]: [0mGET /inventario [32m200[0m 86.094 ms - 402[0m
+2024-10-25T17:55:44.497Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T17:55:44.507Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T17:55:44.828Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T17:58:42.704Z [[32minfo[39m]: [0mPOST /remito [33m404[0m 2.909 ms - 146[0m
+2024-10-25T18:00:11.591Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T18:00:11.602Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T18:00:11.776Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T18:00:44.504Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T18:00:44.514Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T18:00:44.635Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T18:01:21.820Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T18:01:21.831Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T18:01:22.253Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T18:01:29.332Z [[32minfo[39m]: [0mPOST /remito [33m404[0m 2.771 ms - 146[0m
+2024-10-25T18:01:48.618Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T18:01:48.759Z [[31merror[39m]: Error creando remito: (conn:645583, no: 1452, SQLState: 23000) Cannot add or update a child row: a foreign key constraint fails (`megasys2`.`remitos`, CONSTRAINT `remitos_ibfk_1` FOREIGN KEY (`id_sede`) REFERENCES `sedes` (`id_sede`) ON DELETE CASCADE ON UPDATE CASCADE)
+sql: INSERT INTO `remitos` (`id_remito`,`id_sede`,`id_persona`,`id_user`,`fecha_remito`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?,?); - parameters:['1a9bf1ea-ecea-4765-a144-b289f4928d10','777eb9a5-2733-46cd-bdc9-421ac5bcfcc9','42fa6c79-8ae1-4a59-a0c9-1...
+2024-10-25T18:01:48.760Z [[31merror[39m]: Error creando remito: (conn:645583, no: 1452, SQLState: 23000) Cannot add or update a child row: a foreign key constraint fails (`megasys2`.`remitos`, CONSTRAINT `remitos_ibfk_1` FOREIGN KEY (`id_sede`) REFERENCES `sedes` (`id_sede`) ON DELETE CASCADE ON UPDATE CASCADE)
+sql: INSERT INTO `remitos` (`id_remito`,`id_sede`,`id_persona`,`id_user`,`fecha_remito`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?,?,?); - parameters:['1a9bf1ea-ecea-4765-a144-b289f4928d10','777eb9a5-2733-46cd-bdc9-421ac5bcfcc9','42fa6c79-8ae1-4a59-a0c9-1...
+2024-10-25T18:01:48.761Z [[32minfo[39m]: [0mPOST /remitos [31m500[0m 145.846 ms - 35[0m
+2024-10-25T18:03:11.242Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T18:03:11.307Z [[31merror[39m]: Error creando registro: notNull Violation: Sede.id_empresa cannot be null,
+notNull Violation: Sede.nombre cannot be null,
+notNull Violation: Sede.direccion cannot be null,
+notNull Violation: Sede.localidad cannot be null,
+notNull Violation: Sede.provincia cannot be null,
+notNull Violation: Sede.pais cannot be null,
+notNull Violation: Sede.telefono cannot be null,
+notNull Violation: Sede.email cannot be null,
+notNull Violation: Sede.ip_asignada cannot be null
+2024-10-25T18:03:11.317Z [[31merror[39m]: Error creando sede: notNull Violation: Sede.id_empresa cannot be null,
+notNull Violation: Sede.nombre cannot be null,
+notNull Violation: Sede.direccion cannot be null,
+notNull Violation: Sede.localidad cannot be null,
+notNull Violation: Sede.provincia cannot be null,
+notNull Violation: Sede.pais cannot be null,
+notNull Violation: Sede.telefono cannot be null,
+notNull Violation: Sede.email cannot be null,
+notNull Violation: Sede.ip_asignada cannot be null
+2024-10-25T18:03:11.318Z [[32minfo[39m]: [0mPOST /sedes [31m500[0m 77.267 ms - 33[0m
+2024-10-25T18:03:24.611Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T18:03:24.701Z [[32minfo[39m]: Obtenidos 4 registros de Sede
+2024-10-25T18:03:24.701Z [[32minfo[39m]: Listado de 4 sedes obtenido por German Luis Ojeda
+2024-10-25T18:03:24.702Z [[32minfo[39m]: [0mGET /sedes [32m200[0m 92.403 ms - 1567[0m
+2024-10-25T18:04:01.641Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T18:04:01.757Z [[31merror[39m]: Error creando remito: articulos is not iterable
+2024-10-25T18:04:01.757Z [[31merror[39m]: Error creando remito: articulos is not iterable
+2024-10-25T18:04:01.758Z [[32minfo[39m]: [0mPOST /remitos [31m500[0m 118.863 ms - 35[0m
+2024-10-25T18:05:07.493Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T18:05:07.648Z [[31merror[39m]: Error creando remito: (conn:645635, no: 1364, SQLState: HY000) Field 'id_remito_inventario' doesn't have a default value
+sql: INSERT INTO `remito_inventario` (`id_remito`,`id_inventario`,`es_prestamo`,`fecha_devolucion`,`devuelto`,`createdAt`,`updatedAt`) VALUES (?,?,?,?,?,?,?); - parameters:[3,'78a90057-cc10-49ee-a555-121236f5ed3b',false,null,false,'2024-10-25 18:05:07.576','202...
+2024-10-25T18:05:07.648Z [[31merror[39m]: Error creando remito: (conn:645635, no: 1364, SQLState: HY000) Field 'id_remito_inventario' doesn't have a default value
+sql: INSERT INTO `remito_inventario` (`id_remito`,`id_inventario`,`es_prestamo`,`fecha_devolucion`,`devuelto`,`createdAt`,`updatedAt`) VALUES (?,?,?,?,?,?,?); - parameters:[3,'78a90057-cc10-49ee-a555-121236f5ed3b',false,null,false,'2024-10-25 18:05:07.576','202...
+2024-10-25T18:05:07.649Z [[32minfo[39m]: [0mPOST /remitos [31m500[0m 157.045 ms - 35[0m
+2024-10-25T18:07:48.950Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T18:07:48.960Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T18:07:49.094Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T18:07:52.466Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T18:07:52.537Z [[32minfo[39m]: Movimiento registrado para inventario: 78a90057-cc10-49ee-a555-121236f5ed3b
+2024-10-25T18:07:52.624Z [[32minfo[39m]: Remito creado con ID: 4
+2024-10-25T18:07:52.711Z [[32minfo[39m]: Acción registrada: CREAR en Remito por German Luis Ojeda
+2024-10-25T18:07:52.714Z [[32minfo[39m]: [0mPOST /remitos [32m201[0m 250.617 ms - 285[0m
+2024-10-25T18:08:10.113Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T18:08:10.114Z [[31merror[39m]: Error listando remitos: Sede is not defined
+2024-10-25T18:08:10.114Z [[31merror[39m]: Error listando remitos: Sede is not defined
+2024-10-25T18:08:10.115Z [[32minfo[39m]: [0mGET /remitos [31m500[0m 2.646 ms - 37[0m
+2024-10-25T18:08:51.000Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T18:08:51.011Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T18:08:51.211Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T18:08:54.689Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T18:08:54.708Z [[32minfo[39m]: [0mGET /remitos [32m200[0m 20.929 ms - 315[0m
+2024-10-25T18:09:04.131Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T18:09:04.133Z [[31merror[39m]: Error obteniendo remito: RemitoInventario is not associated to Remito!
+2024-10-25T18:09:04.134Z [[31merror[39m]: Error obteniendo remito: RemitoInventario is not associated to Remito!
+2024-10-25T18:09:04.135Z [[32minfo[39m]: [0mGET /remitos/4 [31m500[0m 5.131 ms - 37[0m
+2024-10-25T18:10:59.990Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T18:11:00.000Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T18:11:00.153Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T18:11:10.171Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T18:11:10.174Z [[31merror[39m]: Error obteniendo remito: RemitoInventario is not associated to Remito!
+2024-10-25T18:11:10.174Z [[31merror[39m]: Error obteniendo remito: RemitoInventario is not associated to Remito!
+2024-10-25T18:11:10.177Z [[32minfo[39m]: [0mGET /remitos/4 [31m500[0m 8.629 ms - 37[0m
+2024-10-25T18:11:20.783Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T18:11:20.792Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T18:11:20.942Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T18:11:47.844Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T18:11:47.848Z [[31merror[39m]: Error obteniendo remito: RemitoInventario is not associated to Remito!
+2024-10-25T18:11:47.849Z [[31merror[39m]: Error obteniendo remito: RemitoInventario is not associated to Remito!
+2024-10-25T18:11:47.853Z [[32minfo[39m]: [0mGET /remitos/4 [31m500[0m 12.222 ms - 37[0m
+2024-10-25T18:17:02.534Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T18:17:02.543Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T18:17:02.677Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T18:17:20.201Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T18:17:20.296Z [[32minfo[39m]: [0mGET /remitos/4 [32m200[0m 97.160 ms - 670[0m
+2024-10-25T18:18:22.276Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T18:18:22.286Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T18:18:22.423Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T18:18:24.134Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T18:18:24.162Z [[32minfo[39m]: [0mGET /remitos/4 [32m200[0m 31.044 ms - 693[0m

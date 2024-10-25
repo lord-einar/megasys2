@@ -4,6 +4,11 @@ const sequelize = require("../config/dbConnect");
 class RemitoInventario extends Model {}
 
 RemitoInventario.init({
+  id_remito_inventario: {
+    type: DataTypes.UUID,
+    defaultValue: DataTypes.UUIDV4,
+    primaryKey: true,
+  },
   id_remito: {
     type: DataTypes.INTEGER,
     allowNull: false,

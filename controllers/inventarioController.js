@@ -79,7 +79,6 @@ async function obtenerArticulo(req, res) {
 }
 
 // Actualizar un artículo existente
-// Actualizar un artículo existente
 async function actualizarArticulo(req, res) {
     const transaction = await sequelize.transaction();
     try {
