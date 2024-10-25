@@ -1597,3 +1597,6 @@ sql: INSERT INTO `historico_inventario` (`id_historico`,`id_inventario`,`id_sede
 2024-10-23T18:00:43.710Z [[32minfo[39m]: [0mPOST /inventario [32m201[0m 167.672 ms - 314[0m
 2024-10-23T18:01:00.103Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
 2024-10-23T18:01:00.208Z [[32minfo[39m]: [0mGET /inventario [32m200[0m 106.908 ms - 402[0m
+2024-10-23T19:44:24.290Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-23T19:44:24.300Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-23T19:44:24.496Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
