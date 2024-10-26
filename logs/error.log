@@ -124,3 +124,164 @@ sql: INSERT INTO `remito_inventario` (`id_remito`,`id_inventario`,`es_prestamo`,
 2024-10-25T18:11:10.174Z [[31merror[39m]: Error obteniendo remito: RemitoInventario is not associated to Remito!
 2024-10-25T18:11:47.848Z [[31merror[39m]: Error obteniendo remito: RemitoInventario is not associated to Remito!
 2024-10-25T18:11:47.849Z [[31merror[39m]: Error obteniendo remito: RemitoInventario is not associated to Remito!
+2024-10-25T21:55:10.187Z [[31merror[39m]: Error creando remito: Transaction cannot be rolled back because it has been finished with state: commit
+2024-10-25T21:59:05.040Z [[31merror[39m]: Error generando PDF: /media/einar/Nuevo vol/Programacion/Megasys/megasys2/views/remitoTemplate.ejs:67
+    65|       <div>
+    66|         <strong>Remito ID:</strong> <%= remito.id_remito %><br>
+ >> 67|         <strong>Persona:</strong> <%= persona.nombre %> <br>
+    68|         <strong>Sede:</strong> <%= sede.nombre %>
+    69|       </div>
+    70|       <div>
+
+persona is not defined
+2024-10-25T21:59:05.115Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T21:59:05.115Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T22:03:52.194Z [[31merror[39m]: Error generando PDF: /media/einar/Nuevo vol/Programacion/Megasys/megasys2/views/remitoTemplate.ejs:71
+    69|       </div>
+    70|       <div>
+ >> 71|         <strong>Usuario:</strong> <%= user.nombre %>
+    72|       </div>
+    73|     </div>
+    74| 
+
+user is not defined
+2024-10-25T22:03:52.337Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T22:03:52.337Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T22:05:38.932Z [[31merror[39m]: Error generando PDF: ENOENT: no such file or directory, open '/media/einar/Nuevo vol/Programacion/Megasys/remitos/remito_8.pdf'
+2024-10-25T22:05:39.005Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T22:05:39.005Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T22:06:06.857Z [[31merror[39m]: Error generando PDF: ENOENT: no such file or directory, open '/media/einar/Nuevo vol/Programacion/Megasys/remitos/remito_9.pdf'
+2024-10-25T22:06:06.902Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T22:06:06.902Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T22:06:31.592Z [[31merror[39m]: Error generando PDF: ENOENT: no such file or directory, open '/media/einar/Nuevo vol/Programacion/Megasys/remitos/remito_10.pdf'
+2024-10-25T22:06:31.645Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T22:06:31.645Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T22:09:46.095Z [[31merror[39m]: Error registrando acción en histórico: notNull Violation: Historico.id_entidad cannot be null
+2024-10-25T22:09:46.096Z [[31merror[39m]: Error creando remito: notNull Violation: Historico.id_entidad cannot be null
+2024-10-25T22:18:46.834Z [[31merror[39m]: Error registrando acción en histórico: notNull Violation: Historico.id_entidad cannot be null
+2024-10-25T22:18:46.834Z [[31merror[39m]: Error creando remito: notNull Violation: Historico.id_entidad cannot be null
+2024-10-25T22:31:07.771Z [[31merror[39m]: Error generando PDF: (conn:-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1001ms
+2024-10-25T22:31:07.821Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T22:31:07.821Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T23:13:18.578Z [[31merror[39m]: Error generando PDF: /media/einar/Nuevo vol/Programacion/Megasys/megasys2/views/remitoTemplate.ejs:130
+    128|             <tr>
+    129|               <td><%= index + 1 %></td>
+ >> 130|               <td><%= articulo.Inventario.modelo %></td>
+    131|               <td><%= articulo.Inventario.service_tag || 'N/A' %></td>
+    132|               <td><%= articulo.Inventario.num_serie || 'N/A' %></td>
+    133|               <td><%= articulo.es_prestamo ? 'Sí' : 'No' %></td>
+
+Cannot read properties of undefined (reading 'modelo')
+2024-10-25T23:13:18.619Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T23:13:18.619Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T23:17:47.098Z [[31merror[39m]: Error generando PDF: /media/einar/Nuevo vol/Programacion/Megasys/megasys2/views/remitoTemplate.ejs:127
+    125|         </thead>
+    126|         <tbody>
+ >> 127|           <% articulos.forEach((articulo, index) => { %>
+    128|             <tr>
+    129|               <td><%= index + 1 %></td>
+    130|               <td><%= articulo.Inventario.modelo %></td>
+
+articulos is not defined
+2024-10-25T23:17:47.174Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T23:17:47.175Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T23:48:42.580Z [[31merror[39m]: Error generando PDF: /media/einar/Nuevo vol/Programacion/Megasys/megasys2/views/remitoTemplate.ejs:127
+    125|         </thead>
+    126|         <tbody>
+ >> 127|           <% Inventario.forEach((articulo, index) => { %>
+    128|             <tr>
+    129|               <td><%= index + 1 %></td>
+    130|               <td><%= articulo.Inventario.modelo %></td>
+
+Inventario is not defined
+2024-10-25T23:48:42.838Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T23:48:42.838Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T23:49:28.841Z [[31merror[39m]: Error generando PDF: /media/einar/Nuevo vol/Programacion/Megasys/megasys2/views/remitoTemplate.ejs:127
+    125|         </thead>
+    126|         <tbody>
+ >> 127|           <% Inventario.forEach((articulo, index) => { %>
+    128|             <tr>
+    129|               <td><%= index + 1 %></td>
+    130|               <td><%= articulo.Inventario.modelo %></td>
+
+Inventario is not defined
+2024-10-25T23:49:29.018Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T23:49:29.019Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T23:49:56.490Z [[31merror[39m]: Error al conectar la base de datos: (conn:-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1000ms
+2024-10-25T23:50:10.564Z [[31merror[39m]: Error generando PDF: /media/einar/Nuevo vol/Programacion/Megasys/megasys2/views/remitoTemplate.ejs:127
+    125|         </thead>
+    126|         <tbody>
+ >> 127|           <% Inventario.forEach((articulo, index) => { %>
+    128|             <tr>
+    129|               <td><%= index + 1 %></td>
+    130|               <td><%= articulo.Inventario.modelo %></td>
+
+Inventario is not defined
+2024-10-25T23:50:10.619Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T23:50:10.619Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T23:50:34.327Z [[31merror[39m]: Error generando PDF: /media/einar/Nuevo vol/Programacion/Megasys/megasys2/views/remitoTemplate.ejs:127
+    125|         </thead>
+    126|         <tbody>
+ >> 127|           <% Inventario.forEach((articulo, index) => { %>
+    128|             <tr>
+    129|               <td><%= index + 1 %></td>
+    130|               <td><%= articulo.Inventario.modelo %></td>
+
+Inventario is not defined
+2024-10-25T23:50:34.505Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T23:50:34.506Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T23:51:04.368Z [[31merror[39m]: Error generando PDF: /media/einar/Nuevo vol/Programacion/Megasys/megasys2/views/remitoTemplate.ejs:127
+    125|         </thead>
+    126|         <tbody>
+ >> 127|           <% Inventario.forEach((articulo, index) => { %>
+    128|             <tr>
+    129|               <td><%= index + 1 %></td>
+    130|               <td><%= articulo.Inventario.modelo %></td>
+
+Inventario is not defined
+2024-10-25T23:51:04.440Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T23:51:04.441Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T23:51:45.260Z [[31merror[39m]: Error generando PDF: /media/einar/Nuevo vol/Programacion/Megasys/megasys2/views/remitoTemplate.ejs:127
+    125|         </thead>
+    126|         <tbody>
+ >> 127|           <% Inventario.forEach((articulo, index) => { %>
+    128|             <tr>
+    129|               <td><%= index + 1 %></td>
+    130|               <td><%= articulo.Inventario.modelo %></td>
+
+Inventario is not defined
+2024-10-25T23:51:45.349Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T23:51:45.349Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T23:52:29.984Z [[31merror[39m]: Error generando PDF: /media/einar/Nuevo vol/Programacion/Megasys/megasys2/views/remitoTemplate.ejs:130
+    128|             <tr>
+    129|               <td><%= index + 1 %></td>
+ >> 130|               <td><%= articulo.Inventario.modelo %></td>
+    131|               <td><%= articulo.Inventario.service_tag || 'N/A' %></td>
+    132|               <td><%= articulo.Inventario.num_serie || 'N/A' %></td>
+    133|               <td><%= articulo.es_prestamo ? 'Sí' : 'No' %></td>
+
+Cannot read properties of undefined (reading 'modelo')
+2024-10-25T23:52:30.515Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T23:52:30.516Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T23:54:38.078Z [[31merror[39m]: Error creando remito: (conn:-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1001ms
+2024-10-25T23:57:31.090Z [[31merror[39m]: Error generando PDF: /media/einar/Nuevo vol/Programacion/Megasys/megasys2/views/remitoTemplate.ejs:127
+    125|         </thead>
+    126|         <tbody>
+ >> 127|           <% inventario.forEach((articulo, index) => { %>
+    128|             <tr>
+    129|               <td><%= index + 1 %></td>
+    130|               <td><%= articulo.modelo %></td>
+
+inventario is not defined
+2024-10-25T23:57:31.818Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T23:57:31.818Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-26T00:11:52.363Z [[31merror[39m]: Error generando PDF: Cannot find module '../models/TipoArticulo'
+Require stack:
+- /media/einar/Nuevo vol/Programacion/Megasys/megasys2/services/RemitoService.js
+- /media/einar/Nuevo vol/Programacion/Megasys/megasys2/controllers/remitoController.js
+- /media/einar/Nuevo vol/Programacion/Megasys/megasys2/routes/remito.js
+- /media/einar/Nuevo vol/Programacion/Megasys/megasys2/routes/routes.js
+- /media/einar/Nuevo vol/Programacion/Megasys/megasys2/models/server.js
+- /media/einar/Nuevo vol/Programacion/Megasys/megasys2/app.js
+2024-10-26T00:11:52.413Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-26T00:11:52.414Z [[31merror[39m]: Error creando remito: Error generando PDF del remito

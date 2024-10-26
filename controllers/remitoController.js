@@ -6,12 +6,14 @@ const logger = require('../config/logger');
 async function crearRemito(req, res) {
   try {
     const nuevoRemito = await RemitoService.crearRemitoConArticulos(req.body);
+    const idRemito = nuevoRemito.remito.dataValues.id_remito;
+
 
     // Registrar auditoría
     await AuditoriaService.registrar(
       'Remito',
       'CREAR',
-      nuevoRemito.id_remito,
+      idRemito,
       req.user.displayName
     );
 

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Remito <%= remito.id_remito %></title>
+  <style>
+      html {
+  -webkit-print-color-adjust: exact;
+}
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    /* Encabezado en rojo con elementos geométricos */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: linear-gradient(45deg, #d32f2f, #f44336);
+      color: white;
+      padding: 20px;
+    }
+    .header h1 {
+      margin: 0;
+      font-size: 32px;
+      font-weight: bold;
+    }
+    .header .details {
+      text-align: right;
+    }
+    .details p {
+      margin: 0;
+    }
+    .content {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+    }
+    .content .left, .content .right {
+      width: 48%;
+    }
+    .left p, .right p {
+      margin: 5px 0;
+    }
+    .table-container {
+      margin: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+    thead {
+      background-color: #d32f2f;
+      color: white;
+    }
+    th, td {
+      padding: 10px;
+      text-align: center;
+      border: 1px solid #ddd;
+    }
+    tbody tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    .footer {
+      text-align: right;
+      padding: 10px 20px;
+      background-color: #f5f5f5;
+      font-size: 14px;
+      color: #555;
+    }
+    .footer strong {
+      display: block;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Encabezado -->
+    <div class="header">
+      <h1>REMITO</h1>
+      <div class="details">
+        <p>Fecha: <%= new Date().toLocaleDateString() %></p>
+        <p>Hora: <%= new Date().toLocaleTimeString() %></p>
+      </div>
+    </div>
+
+    <!-- Información del Remito -->
+    <div class="content">
+      <div class="left">
+        <p><strong>Remito ID:</strong> <%= remito.id_remito %></p>
+        <p><strong>Persona:</strong> <%= persona.nombre %> <%= persona.apellido %></p>
+        <p><strong>Sede:</strong> <%= sede.nombre %></p>
+      </div>
+      <div class="right">
+        <p><strong>Usuario:</strong> <%= user.nombre %></p>
+        <p><strong>Observaciones:</strong> Lorem ipsum dolor sit amet.</p>
+      </div>
+    </div>
+
+    <!-- Tabla de Artículos -->
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Modelo</th>
+            <th>Marca</th>
+            <th>Tipo Artículo</th>
+            <th>Service Tag</th>
+            <th>Número de Serie</th>
+            <th>Es Préstamo</th>
+            <th>Fecha Devolución</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% inventarios.forEach((articulo, index) => { %>
+            <tr>
+              <td><%= index + 1 %></td>
+              <td><%= articulo.modelo %></td>
+              <td><%= articulo.Marca.nombre %></td>
+              <td><%= articulo.TipoArticulo.nombre %></td>
+              <td><%= articulo.service_tag || 'N/A' %></td>
+              <td><%= articulo.num_serie || 'N/A' %></td>
+              <td><%= articulo.es_prestamo ? 'Sí' : 'No' %></td>
+              <td><%= articulo.fecha_devolucion || 'N/A' %></td>
+            </tr>
+          <% }) %>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Pie de Página -->
+    <div class="footer">
+      <p>Gracias por su negocio</p>
+      <strong>Firma Autorizada</strong>
+    </div>
+  </div>
+</body>
+</html>

@@ -1826,3 +1826,514 @@ sql: INSERT INTO `remito_inventario` (`id_remito`,`id_inventario`,`es_prestamo`,
 2024-10-25T18:18:22.423Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
 2024-10-25T18:18:24.134Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
 2024-10-25T18:18:24.162Z [[32minfo[39m]: [0mGET /remitos/4 [32m200[0m 31.044 ms - 693[0m
+2024-10-25T21:42:24.716Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T21:42:24.726Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T21:42:25.050Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T21:48:53.417Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T21:48:53.427Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T21:48:53.585Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T21:50:04.204Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T21:50:04.213Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T21:50:04.377Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T21:51:22.224Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T21:51:22.322Z [[32minfo[39m]: [0mGET /inventario [32m200[0m 101.996 ms - 432[0m
+2024-10-25T21:53:14.502Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T21:53:14.626Z [[32minfo[39m]: Registro creado en Inventario con ID: undefined
+2024-10-25T21:53:14.653Z [[32minfo[39m]: Movimiento registrado para inventario: d1024269-62a8-449c-896f-1dc0fe669e5e
+2024-10-25T21:53:14.667Z [[32minfo[39m]: Acción registrada: CREAR en Inventario por German Luis Ojeda
+2024-10-25T21:53:14.761Z [[32minfo[39m]: Artículo creado con ID: d1024269-62a8-449c-896f-1dc0fe669e5e
+2024-10-25T21:53:14.762Z [[32minfo[39m]: [0mPOST /inventario [32m201[0m 261.013 ms - 343[0m
+2024-10-25T21:53:58.626Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T21:53:58.766Z [[32minfo[39m]: Obtenidos 4 registros de Sede
+2024-10-25T21:53:58.766Z [[32minfo[39m]: Listado de 4 sedes obtenido por German Luis Ojeda
+2024-10-25T21:53:58.767Z [[32minfo[39m]: [0mGET /sedes [32m200[0m 141.861 ms - 1567[0m
+2024-10-25T21:54:44.648Z [[32minfo[39m]: [0mGET /personas [33m404[0m 0.944 ms - 147[0m
+2024-10-25T21:54:48.166Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T21:54:48.263Z [[32minfo[39m]: Obtenidos 4 registros de Persona
+2024-10-25T21:54:48.263Z [[32minfo[39m]: Listado de 4 personas obtenido por German Luis Ojeda
+2024-10-25T21:54:48.264Z [[32minfo[39m]: [0mGET /persona [32m200[0m 98.993 ms - 937[0m
+2024-10-25T21:55:09.825Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T21:55:10.042Z [[32minfo[39m]: Movimiento registrado para inventario: d1024269-62a8-449c-896f-1dc0fe669e5e
+2024-10-25T21:55:10.151Z [[32minfo[39m]: Remito creado con ID: 5
+2024-10-25T21:55:10.187Z [[31merror[39m]: Error creando remito: Transaction cannot be rolled back because it has been finished with state: commit
+2024-10-25T21:55:10.188Z [[32minfo[39m]: [0mPOST /remitos/ [31m500[0m 364.910 ms - 35[0m
+2024-10-25T21:55:33.962Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T21:55:34.034Z [[32minfo[39m]: [0mGET /remitos/ [32m200[0m 73.049 ms - 630[0m
+2024-10-25T21:58:15.567Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T21:58:15.576Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T21:58:15.779Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T21:58:33.884Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T21:58:33.991Z [[32minfo[39m]: Registro creado en Inventario con ID: undefined
+2024-10-25T21:58:34.002Z [[32minfo[39m]: Movimiento registrado para inventario: 1925b78c-294d-4689-8634-3507c6b64e03
+2024-10-25T21:58:34.014Z [[32minfo[39m]: Acción registrada: CREAR en Inventario por German Luis Ojeda
+2024-10-25T21:58:34.074Z [[32minfo[39m]: Artículo creado con ID: 1925b78c-294d-4689-8634-3507c6b64e03
+2024-10-25T21:58:34.077Z [[32minfo[39m]: [0mPOST /inventario [32m201[0m 194.913 ms - 343[0m
+2024-10-25T21:58:55.482Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T21:58:55.565Z [[32minfo[39m]: [0mGET /remitos/ [32m200[0m 83.797 ms - 630[0m
+2024-10-25T21:59:04.960Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T21:59:05.017Z [[32minfo[39m]: Movimiento registrado para inventario: 1925b78c-294d-4689-8634-3507c6b64e03
+2024-10-25T21:59:05.040Z [[31merror[39m]: Error generando PDF: /media/einar/Nuevo vol/Programacion/Megasys/megasys2/views/remitoTemplate.ejs:67
+    65|       <div>
+    66|         <strong>Remito ID:</strong> <%= remito.id_remito %><br>
+ >> 67|         <strong>Persona:</strong> <%= persona.nombre %> <br>
+    68|         <strong>Sede:</strong> <%= sede.nombre %>
+    69|       </div>
+    70|       <div>
+
+persona is not defined
+2024-10-25T21:59:05.115Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T21:59:05.115Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T21:59:05.116Z [[32minfo[39m]: [0mPOST /remitos/ [31m500[0m 156.289 ms - 35[0m
+2024-10-25T22:03:08.500Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T22:03:08.509Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T22:03:08.636Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T22:03:45.615Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T22:03:45.710Z [[32minfo[39m]: [0mGET /remitos/ [32m200[0m 98.896 ms - 630[0m
+2024-10-25T22:03:52.027Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T22:03:52.089Z [[32minfo[39m]: Movimiento registrado para inventario: 1925b78c-294d-4689-8634-3507c6b64e03
+2024-10-25T22:03:52.194Z [[31merror[39m]: Error generando PDF: /media/einar/Nuevo vol/Programacion/Megasys/megasys2/views/remitoTemplate.ejs:71
+    69|       </div>
+    70|       <div>
+ >> 71|         <strong>Usuario:</strong> <%= user.nombre %>
+    72|       </div>
+    73|     </div>
+    74| 
+
+user is not defined
+2024-10-25T22:03:52.337Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T22:03:52.337Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T22:03:52.338Z [[32minfo[39m]: [0mPOST /remitos/ [31m500[0m 312.700 ms - 35[0m
+2024-10-25T22:04:44.386Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T22:04:44.395Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T22:04:44.587Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T22:05:37.527Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T22:05:37.652Z [[32minfo[39m]: Movimiento registrado para inventario: 1925b78c-294d-4689-8634-3507c6b64e03
+2024-10-25T22:05:38.932Z [[31merror[39m]: Error generando PDF: ENOENT: no such file or directory, open '/media/einar/Nuevo vol/Programacion/Megasys/remitos/remito_8.pdf'
+2024-10-25T22:05:39.005Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T22:05:39.005Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T22:05:39.008Z [[32minfo[39m]: [0mPOST /remitos/ [31m500[0m 1483.916 ms - 35[0m
+2024-10-25T22:06:05.420Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T22:06:05.556Z [[32minfo[39m]: Movimiento registrado para inventario: 1925b78c-294d-4689-8634-3507c6b64e03
+2024-10-25T22:06:06.857Z [[31merror[39m]: Error generando PDF: ENOENT: no such file or directory, open '/media/einar/Nuevo vol/Programacion/Megasys/remitos/remito_9.pdf'
+2024-10-25T22:06:06.902Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T22:06:06.902Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T22:06:06.903Z [[32minfo[39m]: [0mPOST /remitos/ [31m500[0m 1483.668 ms - 35[0m
+2024-10-25T22:06:30.165Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T22:06:30.312Z [[32minfo[39m]: Movimiento registrado para inventario: 1925b78c-294d-4689-8634-3507c6b64e03
+2024-10-25T22:06:31.592Z [[31merror[39m]: Error generando PDF: ENOENT: no such file or directory, open '/media/einar/Nuevo vol/Programacion/Megasys/remitos/remito_10.pdf'
+2024-10-25T22:06:31.645Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T22:06:31.645Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T22:06:31.646Z [[32minfo[39m]: [0mPOST /remitos/ [31m500[0m 1482.140 ms - 35[0m
+2024-10-25T22:09:39.880Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T22:09:39.889Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T22:09:40.038Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T22:09:44.611Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T22:09:44.675Z [[32minfo[39m]: Movimiento registrado para inventario: 1925b78c-294d-4689-8634-3507c6b64e03
+2024-10-25T22:09:44.686Z [[32minfo[39m]: Carpeta creada en: /media/einar/Nuevo vol/Programacion/Megasys/remitos
+2024-10-25T22:09:46.001Z [[32minfo[39m]: PDF generado en: /media/einar/Nuevo vol/Programacion/Megasys/remitos/remito_11.pdf
+2024-10-25T22:09:46.094Z [[32minfo[39m]: Remito creado con ID: 11
+2024-10-25T22:09:46.095Z [[31merror[39m]: Error registrando acción en histórico: notNull Violation: Historico.id_entidad cannot be null
+2024-10-25T22:09:46.096Z [[31merror[39m]: Error creando remito: notNull Violation: Historico.id_entidad cannot be null
+2024-10-25T22:09:46.098Z [[32minfo[39m]: [0mPOST /remitos/ [31m500[0m 1490.719 ms - 35[0m
+2024-10-25T22:15:02.068Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T22:15:02.077Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T22:15:02.310Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T22:15:04.126Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T22:15:04.147Z [[32minfo[39m]: [0mGET /remitos/ [32m200[0m 23.759 ms - 946[0m
+2024-10-25T22:18:24.126Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T22:18:24.136Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T22:18:24.440Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T22:18:39.481Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T22:18:39.592Z [[32minfo[39m]: [0mGET /remitos/ [32m200[0m 113.286 ms - 946[0m
+2024-10-25T22:18:45.390Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T22:18:45.451Z [[32minfo[39m]: Movimiento registrado para inventario: 1925b78c-294d-4689-8634-3507c6b64e03
+2024-10-25T22:18:46.766Z [[32minfo[39m]: PDF generado en: /media/einar/Nuevo vol/Programacion/Megasys/remitos/remito_12.pdf
+2024-10-25T22:18:46.833Z [[32minfo[39m]: Remito creado con ID: 12
+2024-10-25T22:18:46.834Z [[31merror[39m]: Error registrando acción en histórico: notNull Violation: Historico.id_entidad cannot be null
+2024-10-25T22:18:46.834Z [[31merror[39m]: Error creando remito: notNull Violation: Historico.id_entidad cannot be null
+2024-10-25T22:18:46.835Z [[32minfo[39m]: [0mPOST /remitos/ [31m500[0m 1446.705 ms - 35[0m
+2024-10-25T22:21:19.574Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T22:21:19.583Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T22:21:19.946Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T22:21:30.880Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T22:21:31.079Z [[32minfo[39m]: Movimiento registrado para inventario: 1925b78c-294d-4689-8634-3507c6b64e03
+2024-10-25T22:21:32.427Z [[32minfo[39m]: PDF generado en: /media/einar/Nuevo vol/Programacion/Megasys/remitos/remito_13.pdf
+2024-10-25T22:21:32.469Z [[32minfo[39m]: Remito creado con ID: 13
+2024-10-25T22:21:32.519Z [[32minfo[39m]: Acción registrada: CREAR en Remito por German Luis Ojeda
+2024-10-25T22:21:32.522Z [[32minfo[39m]: [0mPOST /remitos/ [32m201[0m 1643.907 ms - 375[0m
+2024-10-25T22:24:18.483Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T22:24:18.648Z [[32minfo[39m]: Movimiento registrado para inventario: 1925b78c-294d-4689-8634-3507c6b64e03
+2024-10-25T22:24:19.981Z [[32minfo[39m]: PDF generado en: /media/einar/Nuevo vol/Programacion/Megasys/remitos/remito_14.pdf
+2024-10-25T22:24:20.083Z [[32minfo[39m]: Remito creado con ID: 14
+2024-10-25T22:24:20.132Z [[32minfo[39m]: Acción registrada: CREAR en Remito por German Luis Ojeda
+2024-10-25T22:24:20.133Z [[32minfo[39m]: [0mPOST /remitos/ [32m201[0m 1650.718 ms - 375[0m
+2024-10-25T22:25:53.099Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T22:25:53.204Z [[32minfo[39m]: Movimiento registrado para inventario: 1925b78c-294d-4689-8634-3507c6b64e03
+2024-10-25T22:25:54.501Z [[32minfo[39m]: PDF generado en: /media/einar/Nuevo vol/Programacion/Megasys/remitos/remito_15.pdf
+2024-10-25T22:25:54.612Z [[32minfo[39m]: Remito creado con ID: 15
+2024-10-25T22:25:54.662Z [[32minfo[39m]: Acción registrada: CREAR en Remito por German Luis Ojeda
+2024-10-25T22:25:54.663Z [[32minfo[39m]: [0mPOST /remitos/ [32m201[0m 1564.925 ms - 375[0m
+2024-10-25T22:28:43.174Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T22:28:43.271Z [[32minfo[39m]: Movimiento registrado para inventario: 1925b78c-294d-4689-8634-3507c6b64e03
+2024-10-25T22:28:44.597Z [[32minfo[39m]: PDF generado en: /media/einar/Nuevo vol/Programacion/Megasys/remitos/remito_16.pdf
+2024-10-25T22:28:44.653Z [[32minfo[39m]: Remito creado con ID: 16
+2024-10-25T22:28:44.703Z [[32minfo[39m]: Acción registrada: CREAR en Remito por German Luis Ojeda
+2024-10-25T22:28:44.704Z [[32minfo[39m]: [0mPOST /remitos/ [32m201[0m 1530.878 ms - 375[0m
+2024-10-25T22:31:00.912Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T22:31:00.922Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T22:31:01.107Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T22:31:06.493Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T22:31:06.766Z [[32minfo[39m]: Movimiento registrado para inventario: 1925b78c-294d-4689-8634-3507c6b64e03
+2024-10-25T22:31:07.771Z [[31merror[39m]: Error generando PDF: (conn:-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1001ms
+2024-10-25T22:31:07.821Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T22:31:07.821Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T22:31:07.824Z [[32minfo[39m]: [0mPOST /remitos/ [31m500[0m 1333.478 ms - 35[0m
+2024-10-25T22:31:26.080Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T22:31:26.089Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T22:31:26.427Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T22:31:29.562Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T22:31:36.274Z [[32minfo[39m]: Movimiento registrado para inventario: 1925b78c-294d-4689-8634-3507c6b64e03
+2024-10-25T22:31:37.617Z [[32minfo[39m]: PDF generado en: /media/einar/Nuevo vol/Programacion/Megasys/remitos/remito_18.pdf
+2024-10-25T22:31:37.673Z [[32minfo[39m]: Remito creado con ID: 18
+2024-10-25T22:31:37.714Z [[32minfo[39m]: Acción registrada: CREAR en Remito por German Luis Ojeda
+2024-10-25T22:31:37.717Z [[32minfo[39m]: [0mPOST /remitos/ [32m201[0m 8161.487 ms - 375[0m
+2024-10-25T22:32:51.350Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T22:32:51.360Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T22:32:51.556Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T22:32:57.050Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T22:32:57.123Z [[32minfo[39m]: Movimiento registrado para inventario: 1925b78c-294d-4689-8634-3507c6b64e03
+2024-10-25T22:32:58.651Z [[32minfo[39m]: PDF generado en: /media/einar/Nuevo vol/Programacion/Megasys/remitos/remito_19.pdf
+2024-10-25T22:32:58.728Z [[32minfo[39m]: Remito creado con ID: 19
+2024-10-25T22:32:58.778Z [[32minfo[39m]: Acción registrada: CREAR en Remito por German Luis Ojeda
+2024-10-25T22:32:58.781Z [[32minfo[39m]: [0mPOST /remitos/ [32m201[0m 1732.720 ms - 375[0m
+2024-10-25T22:34:18.606Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T22:34:18.615Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T22:34:18.739Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T22:34:24.136Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T22:34:24.193Z [[32minfo[39m]: Movimiento registrado para inventario: 1925b78c-294d-4689-8634-3507c6b64e03
+2024-10-25T22:34:25.754Z [[32minfo[39m]: PDF generado en: /media/einar/Nuevo vol/Programacion/Megasys/remitos/remito_20.pdf
+2024-10-25T22:34:26.012Z [[32minfo[39m]: Remito creado con ID: 20
+2024-10-25T22:34:26.061Z [[32minfo[39m]: Acción registrada: CREAR en Remito por German Luis Ojeda
+2024-10-25T22:34:26.064Z [[32minfo[39m]: [0mPOST /remitos/ [32m201[0m 1931.152 ms - 375[0m
+2024-10-25T22:36:51.991Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T22:36:52.001Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T22:36:52.180Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T22:36:59.853Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T22:37:00.631Z [[32minfo[39m]: Movimiento registrado para inventario: 1925b78c-294d-4689-8634-3507c6b64e03
+2024-10-25T22:37:01.971Z [[32minfo[39m]: PDF generado en: /media/einar/Nuevo vol/Programacion/Megasys/remitos/remito_21.pdf
+2024-10-25T22:37:02.015Z [[32minfo[39m]: Remito creado con ID: 21
+2024-10-25T22:37:02.057Z [[32minfo[39m]: Acción registrada: CREAR en Remito por German Luis Ojeda
+2024-10-25T22:37:02.060Z [[32minfo[39m]: [0mPOST /remitos/ [32m201[0m 2209.998 ms - 375[0m
+2024-10-25T22:37:24.926Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T22:37:24.935Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T22:37:25.060Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T22:37:33.590Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T22:37:33.647Z [[32minfo[39m]: Movimiento registrado para inventario: 1925b78c-294d-4689-8634-3507c6b64e03
+2024-10-25T22:37:34.991Z [[32minfo[39m]: PDF generado en: /media/einar/Nuevo vol/Programacion/Megasys/remitos/remito_22.pdf
+2024-10-25T22:37:35.066Z [[32minfo[39m]: Remito creado con ID: 22
+2024-10-25T22:37:35.107Z [[32minfo[39m]: Acción registrada: CREAR en Remito por German Luis Ojeda
+2024-10-25T22:37:35.110Z [[32minfo[39m]: [0mPOST /remitos/ [32m201[0m 1522.893 ms - 375[0m
+2024-10-25T23:06:06.695Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T23:06:06.705Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T23:06:06.872Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T23:06:44.785Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T23:06:44.795Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T23:06:44.918Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T23:06:51.370Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T23:06:51.425Z [[32minfo[39m]: Movimiento registrado para inventario: 1925b78c-294d-4689-8634-3507c6b64e03
+2024-10-25T23:06:52.745Z [[32minfo[39m]: PDF generado en: /media/einar/Nuevo vol/Programacion/Megasys/remitos/remito_23.pdf
+2024-10-25T23:06:52.796Z [[32minfo[39m]: Remito creado con ID: 23
+2024-10-25T23:06:52.838Z [[32minfo[39m]: Acción registrada: CREAR en Remito por German Luis Ojeda
+2024-10-25T23:06:52.841Z [[32minfo[39m]: [0mPOST /remitos/ [32m201[0m 1473.219 ms - 375[0m
+2024-10-25T23:12:22.412Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T23:12:22.422Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T23:12:22.545Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T23:12:29.022Z [[33mwarn[39m]: Token inválido: jwt expired
+2024-10-25T23:12:29.025Z [[32minfo[39m]: [0mPOST /remitos/ [33m403[0m 5.184 ms - 41[0m
+2024-10-25T23:12:49.778Z [[32minfo[39m]: [0mGET /auth/login [36m302[0m 728.284 ms - 0[0m
+2024-10-25T23:12:50.766Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda
+2024-10-25T23:12:50.767Z [[32minfo[39m]: [0mPOST /auth/openid/return [32m200[0m 336.264 ms - 2498[0m
+2024-10-25T23:13:18.124Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T23:13:18.256Z [[32minfo[39m]: Movimiento registrado para inventario: 1925b78c-294d-4689-8634-3507c6b64e03
+2024-10-25T23:13:18.578Z [[31merror[39m]: Error generando PDF: /media/einar/Nuevo vol/Programacion/Megasys/megasys2/views/remitoTemplate.ejs:130
+    128|             <tr>
+    129|               <td><%= index + 1 %></td>
+ >> 130|               <td><%= articulo.Inventario.modelo %></td>
+    131|               <td><%= articulo.Inventario.service_tag || 'N/A' %></td>
+    132|               <td><%= articulo.Inventario.num_serie || 'N/A' %></td>
+    133|               <td><%= articulo.es_prestamo ? 'Sí' : 'No' %></td>
+
+Cannot read properties of undefined (reading 'modelo')
+2024-10-25T23:13:18.619Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T23:13:18.619Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T23:13:18.620Z [[32minfo[39m]: [0mPOST /remitos/ [31m500[0m 496.564 ms - 35[0m
+2024-10-25T23:17:41.840Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T23:17:41.849Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T23:17:41.993Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T23:17:46.875Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T23:17:46.987Z [[32minfo[39m]: Movimiento registrado para inventario: 1925b78c-294d-4689-8634-3507c6b64e03
+2024-10-25T23:17:47.098Z [[31merror[39m]: Error generando PDF: /media/einar/Nuevo vol/Programacion/Megasys/megasys2/views/remitoTemplate.ejs:127
+    125|         </thead>
+    126|         <tbody>
+ >> 127|           <% articulos.forEach((articulo, index) => { %>
+    128|             <tr>
+    129|               <td><%= index + 1 %></td>
+    130|               <td><%= articulo.Inventario.modelo %></td>
+
+articulos is not defined
+2024-10-25T23:17:47.174Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T23:17:47.175Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T23:17:47.178Z [[32minfo[39m]: [0mPOST /remitos/ [31m500[0m 306.318 ms - 35[0m
+2024-10-25T23:18:11.780Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T23:18:11.940Z [[32minfo[39m]: Movimiento registrado para inventario: 1925b78c-294d-4689-8634-3507c6b64e03
+2024-10-25T23:18:13.486Z [[32minfo[39m]: PDF generado en: /media/einar/Nuevo vol/Programacion/Megasys/remitos/remito_26.pdf
+2024-10-25T23:18:13.552Z [[32minfo[39m]: Remito creado con ID: 26
+2024-10-25T23:18:13.594Z [[32minfo[39m]: Acción registrada: CREAR en Remito por German Luis Ojeda
+2024-10-25T23:18:13.595Z [[32minfo[39m]: [0mPOST /remitos/ [32m201[0m 1816.305 ms - 375[0m
+2024-10-25T23:22:06.662Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T23:22:06.671Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T23:22:06.839Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T23:22:14.396Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T23:22:14.463Z [[32minfo[39m]: Movimiento registrado para inventario: 1925b78c-294d-4689-8634-3507c6b64e03
+2024-10-25T23:22:15.837Z [[32minfo[39m]: PDF generado en: /media/einar/Nuevo vol/Programacion/Megasys/remitos/remito_27.pdf
+2024-10-25T23:22:15.886Z [[32minfo[39m]: Remito creado con ID: 27
+2024-10-25T23:22:15.936Z [[32minfo[39m]: Acción registrada: CREAR en Remito por German Luis Ojeda
+2024-10-25T23:22:15.939Z [[32minfo[39m]: [0mPOST /remitos/ [32m201[0m 1545.159 ms - 375[0m
+2024-10-25T23:38:49.911Z [[33mwarn[39m]: Token inválido: jwt expired
+2024-10-25T23:38:49.912Z [[32minfo[39m]: [0mGET /inventario [33m403[0m 1.868 ms - 41[0m
+2024-10-25T23:39:14.246Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T23:39:14.643Z [[32minfo[39m]: [0mGET /inventario [32m200[0m 397.725 ms - 1292[0m
+2024-10-25T23:48:16.005Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T23:48:16.014Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T23:48:16.348Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T23:48:42.111Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T23:48:42.433Z [[32minfo[39m]: Movimiento registrado para inventario: 1925b78c-294d-4689-8634-3507c6b64e03
+2024-10-25T23:48:42.465Z [[32minfo[39m]: Movimiento registrado para inventario: 78a90057-cc10-49ee-a555-121236f5ed3b
+2024-10-25T23:48:42.580Z [[31merror[39m]: Error generando PDF: /media/einar/Nuevo vol/Programacion/Megasys/megasys2/views/remitoTemplate.ejs:127
+    125|         </thead>
+    126|         <tbody>
+ >> 127|           <% Inventario.forEach((articulo, index) => { %>
+    128|             <tr>
+    129|               <td><%= index + 1 %></td>
+    130|               <td><%= articulo.Inventario.modelo %></td>
+
+Inventario is not defined
+2024-10-25T23:48:42.838Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T23:48:42.838Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T23:48:42.841Z [[32minfo[39m]: [0mPOST /remitos/ [31m500[0m 733.141 ms - 35[0m
+2024-10-25T23:49:24.596Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T23:49:24.605Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T23:49:24.725Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T23:49:28.621Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T23:49:28.676Z [[32minfo[39m]: Movimiento registrado para inventario: 1925b78c-294d-4689-8634-3507c6b64e03
+2024-10-25T23:49:28.705Z [[32minfo[39m]: Movimiento registrado para inventario: 78a90057-cc10-49ee-a555-121236f5ed3b
+2024-10-25T23:49:28.841Z [[31merror[39m]: Error generando PDF: /media/einar/Nuevo vol/Programacion/Megasys/megasys2/views/remitoTemplate.ejs:127
+    125|         </thead>
+    126|         <tbody>
+ >> 127|           <% Inventario.forEach((articulo, index) => { %>
+    128|             <tr>
+    129|               <td><%= index + 1 %></td>
+    130|               <td><%= articulo.Inventario.modelo %></td>
+
+Inventario is not defined
+2024-10-25T23:49:29.018Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T23:49:29.019Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T23:49:29.023Z [[32minfo[39m]: [0mPOST /remitos/ [31m500[0m 403.415 ms - 35[0m
+2024-10-25T23:49:55.422Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T23:49:55.432Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T23:49:56.490Z [[31merror[39m]: Error al conectar la base de datos: (conn:-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1000ms
+2024-10-25T23:50:07.881Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T23:50:07.891Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T23:50:08.012Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T23:50:10.362Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T23:50:10.418Z [[32minfo[39m]: Movimiento registrado para inventario: 1925b78c-294d-4689-8634-3507c6b64e03
+2024-10-25T23:50:10.449Z [[32minfo[39m]: Movimiento registrado para inventario: 78a90057-cc10-49ee-a555-121236f5ed3b
+2024-10-25T23:50:10.564Z [[31merror[39m]: Error generando PDF: /media/einar/Nuevo vol/Programacion/Megasys/megasys2/views/remitoTemplate.ejs:127
+    125|         </thead>
+    126|         <tbody>
+ >> 127|           <% Inventario.forEach((articulo, index) => { %>
+    128|             <tr>
+    129|               <td><%= index + 1 %></td>
+    130|               <td><%= articulo.Inventario.modelo %></td>
+
+Inventario is not defined
+2024-10-25T23:50:10.619Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T23:50:10.619Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T23:50:10.622Z [[32minfo[39m]: [0mPOST /remitos/ [31m500[0m 263.045 ms - 35[0m
+2024-10-25T23:50:27.871Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T23:50:27.880Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T23:50:27.998Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T23:50:34.086Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T23:50:34.140Z [[32minfo[39m]: Movimiento registrado para inventario: 1925b78c-294d-4689-8634-3507c6b64e03
+2024-10-25T23:50:34.192Z [[32minfo[39m]: Movimiento registrado para inventario: 78a90057-cc10-49ee-a555-121236f5ed3b
+2024-10-25T23:50:34.327Z [[31merror[39m]: Error generando PDF: /media/einar/Nuevo vol/Programacion/Megasys/megasys2/views/remitoTemplate.ejs:127
+    125|         </thead>
+    126|         <tbody>
+ >> 127|           <% Inventario.forEach((articulo, index) => { %>
+    128|             <tr>
+    129|               <td><%= index + 1 %></td>
+    130|               <td><%= articulo.Inventario.modelo %></td>
+
+Inventario is not defined
+2024-10-25T23:50:34.505Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T23:50:34.506Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T23:50:34.509Z [[32minfo[39m]: [0mPOST /remitos/ [31m500[0m 424.962 ms - 35[0m
+2024-10-25T23:50:54.278Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T23:50:54.289Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T23:50:54.412Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T23:51:00.814Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T23:51:00.823Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T23:51:00.940Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T23:51:04.164Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T23:51:04.230Z [[32minfo[39m]: Movimiento registrado para inventario: 1925b78c-294d-4689-8634-3507c6b64e03
+2024-10-25T23:51:04.260Z [[32minfo[39m]: Movimiento registrado para inventario: 78a90057-cc10-49ee-a555-121236f5ed3b
+2024-10-25T23:51:04.368Z [[31merror[39m]: Error generando PDF: /media/einar/Nuevo vol/Programacion/Megasys/megasys2/views/remitoTemplate.ejs:127
+    125|         </thead>
+    126|         <tbody>
+ >> 127|           <% Inventario.forEach((articulo, index) => { %>
+    128|             <tr>
+    129|               <td><%= index + 1 %></td>
+    130|               <td><%= articulo.Inventario.modelo %></td>
+
+Inventario is not defined
+2024-10-25T23:51:04.440Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T23:51:04.441Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T23:51:04.444Z [[32minfo[39m]: [0mPOST /remitos/ [31m500[0m 282.160 ms - 35[0m
+2024-10-25T23:51:38.361Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T23:51:38.370Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T23:51:38.705Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T23:51:43.977Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T23:51:44.035Z [[32minfo[39m]: Movimiento registrado para inventario: 1925b78c-294d-4689-8634-3507c6b64e03
+2024-10-25T23:51:44.703Z [[32minfo[39m]: Movimiento registrado para inventario: 78a90057-cc10-49ee-a555-121236f5ed3b
+2024-10-25T23:51:45.260Z [[31merror[39m]: Error generando PDF: /media/einar/Nuevo vol/Programacion/Megasys/megasys2/views/remitoTemplate.ejs:127
+    125|         </thead>
+    126|         <tbody>
+ >> 127|           <% Inventario.forEach((articulo, index) => { %>
+    128|             <tr>
+    129|               <td><%= index + 1 %></td>
+    130|               <td><%= articulo.Inventario.modelo %></td>
+
+Inventario is not defined
+2024-10-25T23:51:45.349Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T23:51:45.349Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T23:51:45.352Z [[32minfo[39m]: [0mPOST /remitos/ [31m500[0m 1377.341 ms - 35[0m
+2024-10-25T23:52:29.330Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T23:52:29.608Z [[32minfo[39m]: Movimiento registrado para inventario: 1925b78c-294d-4689-8634-3507c6b64e03
+2024-10-25T23:52:29.867Z [[32minfo[39m]: Movimiento registrado para inventario: 78a90057-cc10-49ee-a555-121236f5ed3b
+2024-10-25T23:52:29.984Z [[31merror[39m]: Error generando PDF: /media/einar/Nuevo vol/Programacion/Megasys/megasys2/views/remitoTemplate.ejs:130
+    128|             <tr>
+    129|               <td><%= index + 1 %></td>
+ >> 130|               <td><%= articulo.Inventario.modelo %></td>
+    131|               <td><%= articulo.Inventario.service_tag || 'N/A' %></td>
+    132|               <td><%= articulo.Inventario.num_serie || 'N/A' %></td>
+    133|               <td><%= articulo.es_prestamo ? 'Sí' : 'No' %></td>
+
+Cannot read properties of undefined (reading 'modelo')
+2024-10-25T23:52:30.515Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T23:52:30.516Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T23:52:30.517Z [[32minfo[39m]: [0mPOST /remitos/ [31m500[0m 1187.905 ms - 35[0m
+2024-10-25T23:53:21.896Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T23:53:22.626Z [[32minfo[39m]: Movimiento registrado para inventario: 1925b78c-294d-4689-8634-3507c6b64e03
+2024-10-25T23:53:22.654Z [[32minfo[39m]: Movimiento registrado para inventario: 78a90057-cc10-49ee-a555-121236f5ed3b
+2024-10-25T23:53:23.780Z [[32minfo[39m]: PDF generado en: /media/einar/Nuevo vol/Programacion/Megasys/remitos/remito_35.pdf
+2024-10-25T23:53:23.824Z [[32minfo[39m]: Remito creado con ID: 35
+2024-10-25T23:53:23.874Z [[32minfo[39m]: Acción registrada: CREAR en Remito por German Luis Ojeda
+2024-10-25T23:53:23.875Z [[32minfo[39m]: [0mPOST /remitos/ [32m201[0m 1980.073 ms - 375[0m
+2024-10-25T23:54:04.568Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T23:54:04.577Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T23:54:04.757Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T23:54:08.084Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T23:54:08.141Z [[32minfo[39m]: Movimiento registrado para inventario: 1925b78c-294d-4689-8634-3507c6b64e03
+2024-10-25T23:54:08.382Z [[32minfo[39m]: Movimiento registrado para inventario: 78a90057-cc10-49ee-a555-121236f5ed3b
+2024-10-25T23:54:09.711Z [[32minfo[39m]: PDF generado en: /media/einar/Nuevo vol/Programacion/Megasys/remitos/remito_36.pdf
+2024-10-25T23:54:09.761Z [[32minfo[39m]: Remito creado con ID: 36
+2024-10-25T23:54:09.803Z [[32minfo[39m]: Acción registrada: CREAR en Remito por German Luis Ojeda
+2024-10-25T23:54:09.806Z [[32minfo[39m]: [0mPOST /remitos/ [32m201[0m 1724.213 ms - 375[0m
+2024-10-25T23:54:22.115Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T23:54:22.125Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T23:54:22.293Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T23:54:37.075Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T23:54:38.078Z [[31merror[39m]: Error creando remito: (conn:-1, no: 45012, SQLState: 08S01) Connection timeout: failed to create socket after 1001ms
+2024-10-25T23:54:38.083Z [[32minfo[39m]: [0mPOST /remitos/ [31m500[0m 1009.505 ms - 35[0m
+2024-10-25T23:54:46.400Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T23:54:46.526Z [[32minfo[39m]: Movimiento registrado para inventario: 1925b78c-294d-4689-8634-3507c6b64e03
+2024-10-25T23:54:46.556Z [[32minfo[39m]: Movimiento registrado para inventario: 78a90057-cc10-49ee-a555-121236f5ed3b
+2024-10-25T23:54:47.880Z [[32minfo[39m]: PDF generado en: /media/einar/Nuevo vol/Programacion/Megasys/remitos/remito_37.pdf
+2024-10-25T23:54:47.938Z [[32minfo[39m]: Remito creado con ID: 37
+2024-10-25T23:54:47.980Z [[32minfo[39m]: Acción registrada: CREAR en Remito por German Luis Ojeda
+2024-10-25T23:54:47.981Z [[32minfo[39m]: [0mPOST /remitos/ [32m201[0m 1581.664 ms - 375[0m
+2024-10-25T23:55:06.009Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T23:55:06.018Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T23:55:06.152Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T23:57:22.751Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-25T23:57:22.760Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-25T23:57:22.889Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-25T23:57:30.907Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T23:57:30.965Z [[32minfo[39m]: Movimiento registrado para inventario: 1925b78c-294d-4689-8634-3507c6b64e03
+2024-10-25T23:57:30.966Z [[32minfo[39m]: Movimiento registrado para inventario: 78a90057-cc10-49ee-a555-121236f5ed3b
+2024-10-25T23:57:31.090Z [[31merror[39m]: Error generando PDF: /media/einar/Nuevo vol/Programacion/Megasys/megasys2/views/remitoTemplate.ejs:127
+    125|         </thead>
+    126|         <tbody>
+ >> 127|           <% inventario.forEach((articulo, index) => { %>
+    128|             <tr>
+    129|               <td><%= index + 1 %></td>
+    130|               <td><%= articulo.modelo %></td>
+
+inventario is not defined
+2024-10-25T23:57:31.818Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T23:57:31.818Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-25T23:57:31.822Z [[32minfo[39m]: [0mPOST /remitos/ [31m500[0m 916.718 ms - 35[0m
+2024-10-25T23:58:06.277Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-25T23:58:06.587Z [[32minfo[39m]: Movimiento registrado para inventario: 1925b78c-294d-4689-8634-3507c6b64e03
+2024-10-25T23:58:06.587Z [[32minfo[39m]: Movimiento registrado para inventario: 78a90057-cc10-49ee-a555-121236f5ed3b
+2024-10-25T23:58:09.363Z [[32minfo[39m]: PDF generado en: /media/einar/Nuevo vol/Programacion/Megasys/remitos/remito_39.pdf
+2024-10-25T23:58:09.456Z [[32minfo[39m]: Remito creado con ID: 39
+2024-10-25T23:58:09.498Z [[32minfo[39m]: Acción registrada: CREAR en Remito por German Luis Ojeda
+2024-10-25T23:58:09.500Z [[32minfo[39m]: [0mPOST /remitos/ [32m201[0m 3222.865 ms - 375[0m
+2024-10-26T00:08:25.041Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-26T00:08:25.050Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-26T00:08:25.175Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-26T00:08:33.195Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-26T00:08:39.979Z [[32minfo[39m]: Movimiento registrado para inventario: 1925b78c-294d-4689-8634-3507c6b64e03
+2024-10-26T00:08:39.989Z [[32minfo[39m]: Movimiento registrado para inventario: 78a90057-cc10-49ee-a555-121236f5ed3b
+2024-10-26T00:08:41.483Z [[32minfo[39m]: PDF generado en: /media/einar/Nuevo vol/Programacion/Megasys/remitos/remito_40.pdf
+2024-10-26T00:08:41.593Z [[32minfo[39m]: Remito creado con ID: 40
+2024-10-26T00:08:41.635Z [[32minfo[39m]: Acción registrada: CREAR en Remito por German Luis Ojeda
+2024-10-26T00:08:41.638Z [[32minfo[39m]: [0mPOST /remitos/ [32m201[0m 8445.618 ms - 375[0m
+2024-10-26T00:10:47.197Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-26T00:10:47.206Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-26T00:10:47.585Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-26T00:11:51.117Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-26T00:11:52.277Z [[32minfo[39m]: Movimiento registrado para inventario: 1925b78c-294d-4689-8634-3507c6b64e03
+2024-10-26T00:11:52.288Z [[32minfo[39m]: Movimiento registrado para inventario: 78a90057-cc10-49ee-a555-121236f5ed3b
+2024-10-26T00:11:52.363Z [[31merror[39m]: Error generando PDF: Cannot find module '../models/TipoArticulo'
+Require stack:
+- /media/einar/Nuevo vol/Programacion/Megasys/megasys2/services/RemitoService.js
+- /media/einar/Nuevo vol/Programacion/Megasys/megasys2/controllers/remitoController.js
+- /media/einar/Nuevo vol/Programacion/Megasys/megasys2/routes/remito.js
+- /media/einar/Nuevo vol/Programacion/Megasys/megasys2/routes/routes.js
+- /media/einar/Nuevo vol/Programacion/Megasys/megasys2/models/server.js
+- /media/einar/Nuevo vol/Programacion/Megasys/megasys2/app.js
+2024-10-26T00:11:52.413Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-26T00:11:52.414Z [[31merror[39m]: Error creando remito: Error generando PDF del remito
+2024-10-26T00:11:52.418Z [[32minfo[39m]: [0mPOST /remitos/ [31m500[0m 1302.571 ms - 35[0m
+2024-10-26T00:12:55.790Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-26T00:12:55.801Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-26T00:12:55.916Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-26T00:13:00.639Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-26T00:13:14.209Z [[32minfo[39m]: Movimiento registrado para inventario: 1925b78c-294d-4689-8634-3507c6b64e03
+2024-10-26T00:13:14.218Z [[32minfo[39m]: Movimiento registrado para inventario: 78a90057-cc10-49ee-a555-121236f5ed3b
+2024-10-26T00:13:16.126Z [[32minfo[39m]: PDF generado en: /media/einar/Nuevo vol/Programacion/Megasys/remitos/remito_42.pdf
+2024-10-26T00:13:17.161Z [[32minfo[39m]: Remito creado con ID: 42
+2024-10-26T00:13:17.394Z [[32minfo[39m]: Acción registrada: CREAR en Remito por German Luis Ojeda
+2024-10-26T00:13:17.396Z [[32minfo[39m]: [0mPOST /remitos/ [32m201[0m 16760.069 ms - 375[0m
+2024-10-26T00:15:02.602Z [[32minfo[39m]: Inicialización del servidor completada correctamente.
+2024-10-26T00:15:02.612Z [[32minfo[39m]: Servidor escuchando en http://localhost:9090
+2024-10-26T00:15:02.813Z [[32minfo[39m]: Conexión a la base de datos establecida con éxito
+2024-10-26T00:15:14.205Z [[32minfo[39m]: Usuario autenticado: German Luis Ojeda (9e89f97f-0c22-438f-8847-61b260aaa9a1)
+2024-10-26T00:15:14.322Z [[32minfo[39m]: Movimiento registrado para inventario: 1925b78c-294d-4689-8634-3507c6b64e03
+2024-10-26T00:15:14.323Z [[32minfo[39m]: Movimiento registrado para inventario: 78a90057-cc10-49ee-a555-121236f5ed3b
+2024-10-26T00:15:15.615Z [[32minfo[39m]: PDF generado en: /media/einar/Nuevo vol/Programacion/Megasys/remitos/remito_43.pdf
+2024-10-26T00:15:15.715Z [[32minfo[39m]: Remito creado con ID: 43
+2024-10-26T00:15:15.756Z [[32minfo[39m]: Acción registrada: CREAR en Remito por German Luis Ojeda
+2024-10-26T00:15:15.760Z [[32minfo[39m]: [0mPOST /remitos/ [32m201[0m 1559.010 ms - 375[0m
